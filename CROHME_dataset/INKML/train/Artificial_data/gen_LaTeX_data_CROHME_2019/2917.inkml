@@ -1,0 +1,42 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">-\cos x</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+2 163, 2 163, 2 163, 2 163, 4 158, 4 158, 19 154, 29 150, 43 148, 58 144, 71 140, 84 136, 95 134, 101 129
+</trace>
+<trace id="1">
+255 9, 236 27, 216 53, 193 78, 177 107, 164 135, 161 160, 164 185, 171 208, 180 229, 196 244, 219 256, 219 256, 219 256, 219 256, 219 256, 219 256
+</trace>
+<trace id="2">
+375 176, 375 202, 389 225, 415 239, 444 235, 483 222, 519 200, 542 179, 561 157, 564 137, 558 124, 538 113, 512 103, 483 103, 454 111, 437 118, 437 118, 437 118, 437 118, 437 118, 437 118
+</trace>
+<trace id="3">
+704 2, 682 15, 659 40, 633 61, 617 78, 610 90, 617 101, 626 114, 655 120, 685 124, 717 129, 744 133, 760 143, 766 151, 763 159, 750 174, 724 191, 694 204, 694 204, 694 204, 694 204, 694 204, 694 204, 694 204
+</trace>
+<trace id="4">
+830 60, 835 51, 971 47, 980 60, 994 83, 1007 106, 1034 142, 1039 160, 1053 174, 1062 192, 1075 210, 1080 224, 1093 242, 1098 246, 1102 251, 1102 256
+</trace>
+<trace id="5">
+1107 6, 1093 15, 898 246, 898 251
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

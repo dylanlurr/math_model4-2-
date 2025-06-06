@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">b^{2}=0</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+38 10, 34 5, 32 3, 32 3, 31 5, 31 9, 30 15, 29 24, 29 36, 28 51, 27 69, 25 88, 23 110, 21 133, 19 155, 16 176, 14 195, 12 211, 10 226, 9 237, 8 245, 7 251, 7 254, 6 256, 6 256, 5 254, 5 249, 4 244, 3 237, 3 227, 3 215, 5 202, 7 189, 10 175, 13 162, 18 150, 23 140, 29 132, 35 125, 42 120, 49 116, 57 113, 64 112, 70 112, 76 113, 82 114, 86 117, 90 120, 92 124, 93 128, 93 134, 92 140, 90 148, 86 156, 82 165, 77 175, 71 185, 65 194, 59 202, 54 209, 49 215, 45 220, 42 223, 39 225, 38 226, 38 226, 38 226, 38 226, 42 223, 45 221
+</trace>
+<trace id="1">
+179 3, 209 3, 227 3, 249 3, 266 12, 284 25, 292 38, 296 55, 296 68, 288 81, 271 94, 253 107, 231 116, 209 125, 188 125, 170 129, 162 129, 153 129, 157 129, 166 129, 188 125, 214 125, 253 125, 292 125, 336 125, 375 125
+</trace>
+<trace id="2">
+436 150, 434 148, 443 141, 456 137, 477 134, 496 128, 511 130
+</trace>
+<trace id="3">
+443 203, 450 205, 463 206, 486 203, 511 196, 534 180
+</trace>
+<trace id="4">
+602 162, 602 128, 602 112, 610 86, 627 69, 644 44, 669 27, 695 18, 720 10, 746 10, 779 10, 805 27, 856 95, 864 120, 856 145, 847 179, 830 205, 805 230, 779 247, 746 256, 720 256, 703 239, 678 222, 669 205, 669 179, 678 162, 678 145
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

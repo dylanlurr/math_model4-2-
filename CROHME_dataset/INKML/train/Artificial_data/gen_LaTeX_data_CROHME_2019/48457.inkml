@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">{\sigma_{S}^{P}}=0</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+125 15, 127 10, 127 5, 128 2, 131 2, 130 3, 131 9, 130 15, 131 28, 131 39, 131 56, 130 72, 130 90, 127 105, 126 119, 123 134, 118 148, 113 159, 106 167, 97 171, 88 171, 75 171, 62 168, 50 156, 37 144, 25 127, 15 111, 8 95, 2 80, 2 65, 4 52, 13 41, 24 32, 40 27, 61 22, 84 20, 112 18, 143 17, 177 18, 211 20, 245 21, 278 23, 309 24, 337 27, 359 28, 377 29, 390 28, 399 31, 404 34, 402 34, 396 38
+</trace>
+<trace id="1">
+466 118, 462 115, 461 116, 459 117, 457 117, 456 118, 454 119, 453 120, 450 121, 449 123, 448 124, 447 125, 445 126, 445 128, 444 129, 444 130, 444 132, 444 133, 444 135, 445 136, 447 138, 448 140, 450 141, 452 142, 455 143, 457 145, 460 146, 462 148, 464 149, 466 151, 467 152, 468 154, 468 156, 468 158, 468 159, 468 161, 467 163, 467 164, 466 165, 466 166, 465 168, 464 168, 462 169, 461 170, 460 170, 459 170, 457 171, 456 171, 454 171, 453 171, 451 171
+</trace>
+<trace id="2">
+450 4, 450 7, 450 9, 450 11, 450 14, 450 17, 450 20, 450 23, 450 26, 450 30, 450 34, 450 38, 450 41, 450 44, 450 47, 450 51, 450 53, 450 55, 450 57, 450 58
+</trace>
+<trace id="3">
+444 4, 452 2, 453 2, 455 2, 457 3, 459 4, 461 6, 462 7, 463 9, 464 11, 465 13, 465 15, 465 18, 465 20, 464 23, 463 24, 461 26, 459 28, 457 29, 454 30, 452 30, 451 30, 449 31, 448 31, 448 31
+</trace>
+<trace id="4">
+512 88, 510 88, 514 88, 522 88, 562 92, 564 92, 566 92, 567 92, 569 92, 567 94
+</trace>
+<trace id="5">
+520 120, 518 120, 556 120, 573 120, 575 120
+</trace>
+<trace id="6">
+661 103, 631 156, 627 173, 622 186, 620 202, 617 214, 617 226, 617 237, 620 244, 622 249, 627 253, 631 256, 636 253, 645 251, 652 244, 659 235, 670 223, 682 207, 693 191, 700 175, 707 159, 712 143, 714 129, 714 117, 712 108, 707 99, 703 92, 698 90, 689 87, 682 90, 675 94, 668 101, 661 113, 652 124, 647 129
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\sigma</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">P</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="105">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

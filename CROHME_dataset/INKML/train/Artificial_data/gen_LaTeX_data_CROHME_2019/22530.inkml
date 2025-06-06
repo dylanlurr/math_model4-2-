@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">f^{\prime}(a)</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+85 19, 62 3, 59 10, 54 19, 51 30, 48 43, 45 59, 42 77, 40 94, 39 111, 37 128, 36 145, 34 159, 33 174, 31 186, 28 199, 25 209, 22 220, 20 229, 17 237, 14 243, 13 249, 10 252, 5 256, 3 256
+</trace>
+<trace id="1">
+13 125, 37 122, 43 120, 50 119, 56 117, 60 116, 63 114, 66 114, 68 114
+</trace>
+<trace id="2">
+209 5, 203 5, 203 10, 197 16, 192 22, 192 27, 192 39, 186 44, 180 50, 180 61, 175 73, 163 78, 163 95, 158 101, 158 112, 152 118, 152 123, 146 123, 146 129
+</trace>
+<trace id="3">
+330 1, 330 1, 318 3, 303 13, 292 35, 275 65, 268 110, 268 155, 277 190, 297 222, 323 245, 358 256
+</trace>
+<trace id="4">
+442 136, 458 131, 473 131, 487 136, 495 147, 503 160, 505 171, 508 179, 508 184, 508 189, 500 189, 487 189, 468 189, 452 197, 442 205, 429 221, 421 232, 421 240, 421 248, 426 253, 436 256, 450 256, 460 256, 473 256, 481 256, 487 250, 492 248
+</trace>
+<trace id="5">
+568 5, 568 3, 568 2, 569 2, 571 3, 574 4, 578 8, 582 12, 588 21, 594 30, 601 44, 608 62, 614 83, 618 106, 621 131, 621 156, 619 180, 615 204, 609 225, 601 239, 595 250, 589 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">M</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

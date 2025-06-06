@@ -1,0 +1,42 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sum{{{x}_{n}}}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+13 9, 5 5, 71 25, 132 32, 140 32, 144 32, 148 32, 152 32, 155 32, 152 32, 148 28, 144 28, 140 28
+</trace>
+<trace id="1">
+13 17, 17 25, 40 48, 86 86, 125 148, 125 152, 125 155, 121 163, 117 167, 109 171, 105 175, 98 182, 86 186, 78 190, 67 194, 59 202, 48 205, 40 209, 32 213, 25 221, 17 225, 13 232, 9 236, 9 240, 9 244, 9 248, 13 252, 17 256, 21 256, 28 256, 40 256, 52 256, 63 256, 75 256, 86 256, 98 256, 109 256, 121 256, 132 256, 144 256, 152 256, 159 256, 167 256, 171 256, 179 256, 182 256, 186 256, 182 252, 179 248
+</trace>
+<trace id="2">
+247 95, 247 88, 283 73, 298 66, 319 66, 334 73, 349 73, 371 80, 385 95, 400 110, 429 139, 429 153, 436 175, 429 190, 422 204, 414 219, 400 234, 378 241, 356 248, 334 248, 312 248, 290 256, 276 256, 261 256, 254 248, 254 256
+</trace>
+<trace id="3">
+495 88, 487 88, 458 88, 444 95, 414 124, 407 139, 407 153, 414 168, 422 183, 429 197, 436 204, 444 204, 495 234, 509 234, 531 241
+</trace>
+<trace id="4">
+576 192, 582 233, 576 238, 576 244, 576 250
+</trace>
+<trace id="5">
+588 204, 662 198, 662 204, 668 210, 674 215, 674 221, 674 227, 674 233, 680 238, 680 250, 680 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\sum</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

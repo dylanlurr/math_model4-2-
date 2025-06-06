@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\log_{2}i</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+20 3, 20 14, 20 25, 14 36, 9 62, 3 68, 3 84, 3 89, 3 95, 3 100, 3 105, 3 111, 3 116, 3 121, 3 127, 3 132, 3 138
+</trace>
+<trace id="1">
+68 79, 68 84, 62 89, 62 95, 62 100, 57 105, 57 111, 57 116, 57 121, 57 127, 62 127, 68 127, 73 127, 79 127, 84 127, 89 127, 95 127, 100 127, 105 127, 111 121, 111 116, 111 111, 116 111, 116 105, 116 100, 116 95, 116 89, 116 84, 116 79, 111 73, 105 73, 100 73, 95 73, 89 73, 84 73, 79 73, 73 73
+</trace>
+<trace id="2">
+191 68, 186 68, 180 68, 175 68, 170 68, 164 73, 159 73, 154 79, 154 89, 148 89, 148 95, 148 100, 148 105, 148 111, 148 116, 154 116, 154 121, 159 121, 164 121, 170 121, 170 127, 175 127, 180 127, 186 127, 191 127, 191 121, 191 116, 197 111, 197 100, 202 100, 202 95, 202 89, 202 84, 202 79, 207 79, 207 84, 207 95, 207 105, 207 132, 207 138, 207 148, 207 175, 202 186, 197 207, 197 213, 191 229, 186 229, 186 239, 186 245, 159 256, 154 256, 143 256, 138 256, 132 256, 132 245, 132 239, 132 229, 132 223, 132 213, 132 207, 143 202, 148 191, 159 186, 164 186, 170 180, 186 175, 191 159, 202 154, 218 143, 229 138, 239 127, 250 121, 261 111, 266 111, 266 105
+</trace>
+<trace id="3">
+326 186
+</trace>
+<trace id="4">
+326 186, 326 179, 326 172, 333 172, 340 172, 347 172, 354 172, 368 172, 375 172, 382 172, 389 172, 396 172, 403 179, 410 186, 410 193, 403 200, 403 207, 396 214, 389 221, 382 228, 375 235, 375 242, 368 242, 361 249, 368 249, 375 249, 382 249, 396 256, 403 256, 410 256, 424 256, 431 256, 438 256, 445 256, 452 256, 459 256
+</trace>
+<trace id="5">
+523 224, 527 224, 537 242, 564 251, 586 251, 586 256, 591 256, 605 233, 614 224, 618 210, 627 197, 632 183, 636 169, 641 138, 641 119, 645 106, 645 92, 645 83, 645 74, 645 65, 641 60, 641 56, 641 60, 641 65, 636 97, 636 115, 636 151, 641 169, 645 192, 650 210, 659 228, 664 242, 686 256, 723 251, 732 246, 732 242
+</trace>
+<trace id="6">
+641 6
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\log</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

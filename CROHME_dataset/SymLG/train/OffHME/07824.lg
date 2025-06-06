@@ -1,0 +1,41 @@
+# IUD, Formula00_11985_tru_norm
+# Objects(11):
+O, 0_2, 0, 1.0, O
+O, \leq_3, \leq, 1.0, OR
+O, y_5, y, 1.0, ORR
+O, 4_6, 4, 1.0, ORRSub
+O, \lt_7, \lt, 1.0, ORRR
+O, n_9, n, 1.0, ORRRR
+O, i_11, i, 1.0, ORRRRSub
+O, COMMA_12, COMMA, 1.0, ORRRRSubR
+O, j_13, j, 1.0, ORRRRSubRR
+O, COMMA_14, COMMA, 1.0, ORRRRSubRRR
+O, k_15, k, 1.0, ORRRRSubRRRR
+
+
+# Relations from SRT:
+R, 0_2, \leq_3, Right, 1.0
+R, COMMA_12, j_13, Right, 1.0
+R, COMMA_14, k_15, Right, 1.0
+R, \leq_3, y_5, Right, 1.0
+R, \lt_7, n_9, Right, 1.0
+R, i_11, COMMA_12, Right, 1.0
+R, j_13, COMMA_14, Right, 1.0
+R, n_9, i_11, Sub, 1.0
+R, y_5, 4_6, Sub, 1.0
+R, y_5, \lt_7, Right, 1.0
+
+# Bounding boxes
+BB, 0_2, 16.2304, 52.9948, 77.4869, 151.9476
+BB, \leq_3, 114.6597, 42.0000, 174.8691, 128.3874
+BB, y_5, 229.3194, 12.6806, 293.1937, 171.3194
+BB, 4_6, 300.0000, 77.6021, 364.3979, 166.6073
+BB, \lt_7, 421.4660, 38.3351, 474.3455, 96.4503
+BB, n_9, 506.8063, 42.0000, 570.1571, 117.9162
+BB, i_11, 571.7277, 56.6597, 603.1414, 141.4764
+BB, COMMA_12, 590.0524, 102.2094, 626.7016, 179.6963
+BB, j_13, 644.5026, 29.9581, 692.6702, 145.6649
+BB, COMMA_14, 688.4817, 109.0157, 710.4712, 146.7120
+BB, k_15, 746.0733, 41.4764, 814.6597, 166.0838
+
+# LaTeX, $0 \leq y _ { 4 } < n _ { i , j , k }$

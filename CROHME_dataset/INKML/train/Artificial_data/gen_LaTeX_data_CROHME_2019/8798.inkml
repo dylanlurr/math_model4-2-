@@ -1,0 +1,73 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">y=f(x,u)</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+31 102, 33 97, 35 94, 37 92, 37 91, 39 92, 42 92, 48 94, 53 96, 57 97, 61 101, 63 105, 63 114, 63 124, 63 132, 66 141, 71 148, 80 151, 90 151, 105 148, 120 140, 135 131, 149 122, 161 111, 172 100, 177 91, 180 87, 180 86, 179 86, 177 90, 176 96, 172 103, 169 111, 163 122, 157 136, 148 153, 138 170, 125 188, 114 203, 98 219, 83 231, 65 242, 48 250, 32 254, 16 256, 6 253, 1 247, 2 237, 9 226, 23 212, 40 200, 63 187, 87 176, 113 165, 134 157, 134 157, 134 157, 134 157, 134 157, 134 157
+</trace>
+<trace id="1">
+223 89, 226 89, 229 89, 235 89, 238 89, 244 89, 247 89, 253 89, 256 89, 259 89, 265 89, 268 89, 274 92, 277 95, 283 95, 286 95, 286 98
+</trace>
+<trace id="2">
+229 119, 235 119, 238 119, 241 119, 244 119, 250 119, 253 119, 259 119, 262 119, 265 119, 268 119, 271 119, 274 119, 277 119, 280 119
+</trace>
+<trace id="3">
+386 54, 384 54, 383 55, 384 55, 388 55, 396 54, 406 49, 416 41, 426 29, 429 19, 429 9, 425 2, 419 1, 411 6, 401 16, 394 34, 384 56, 379 79, 368 103, 359 126, 347 146, 335 162, 329 170, 327 171, 327 170, 326 168, 326 164, 329 156
+</trace>
+<trace id="4">
+505 5, 504 2, 502 1, 501 3, 499 6, 497 18, 492 41, 483 71, 469 100, 470 127, 473 144, 476 156, 484 165, 489 171
+</trace>
+<trace id="5">
+563 49, 612 13, 624 13, 636 7, 648 7, 660 13, 673 13, 679 19, 685 25, 685 37, 691 49, 691 61, 685 80, 679 98, 673 110, 660 128, 648 140, 636 146, 624 159, 606 165, 594 165, 582 171, 576 171, 563 171, 557 171, 551 171
+</trace>
+<trace id="6">
+739 61, 685 55, 679 55, 673 61, 667 68, 660 68, 660 74, 654 86, 654 98, 654 110, 654 122, 660 134, 667 146, 673 152, 691 159, 709 159, 727 152, 751 140, 776 122, 800 104, 812 92
+</trace>
+<trace id="7">
+866 155, 855 172, 853 174
+</trace>
+<trace id="8">
+919 24, 916 22, 911 14, 911 11, 909 11, 909 17, 906 30, 906 48, 911 77, 919 103, 935 129, 948 147, 963 158, 979 163, 997 163, 1010 152, 1021 129, 1023 100, 1021 56, 1013 22, 1010 1, 1013 1, 1013 9, 1016 32, 1023 64, 1029 90, 1031 108, 1039 131, 1052 147, 1076 163, 1097 171, 1102 168, 1120 163, 1133 147, 1138 134, 1136 131, 1133 131, 1136 142, 1138 165
+</trace>
+<trace id="9">
+1178 1, 1179 3, 1183 14, 1192 38, 1196 69, 1197 100, 1197 126, 1193 150, 1180 171
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="105">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+	<traceGroup xml:id="106">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+	</traceGroup>
+	<traceGroup xml:id="107">
+		<annotation type="truth">\prime</annotation>
+		<traceView traceDataRef="9"/>
+	</traceGroup>
+</traceGroup>
+</ink>

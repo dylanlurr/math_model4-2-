@@ -1,0 +1,38 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sqrt{-A}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+2 161, 2 160, 3 164, 3 169, 5 176, 6 186, 8 197, 11 209, 13 220, 16 231, 19 240, 22 248, 25 253, 28 256, 31 255, 34 252, 38 247, 41 238, 43 227, 46 215, 47 201, 48 186, 48 171, 48 155, 47 140, 45 126, 43 112, 42 100, 41 89, 40 80, 42 72, 44 65, 49 60, 56 55, 65 51, 77 48, 92 44, 108 40, 127 35, 149 31, 172 26, 195 21, 219 17, 243 14, 266 10, 288 7, 308 6, 325 4, 339 4, 348 3, 348 3, 348 2, 348 2, 348 2, 348 2, 348 2, 348 2, 348 3, 348 4, 348 6, 348 10, 348 15, 348 22, 348 31, 348 43, 348 55, 348 68, 348 82, 348 95
+</trace>
+<trace id="1">
+86 164, 86 164, 89 164, 91 164, 95 164, 99 164, 105 163, 111 163, 118 162, 125 161, 131 161, 137 160, 143 160, 148 159, 152 159, 154 159
+</trace>
+<trace id="2">
+264 71, 264 71, 264 71, 264 71, 264 71, 264 71, 264 71, 264 71, 264 71, 264 75, 262 79, 260 84, 257 91, 253 101, 248 112, 242 125, 236 139, 229 154, 222 169, 216 183, 210 197, 205 210, 201 221, 198 232, 196 239, 195 246
+</trace>
+<trace id="3">
+265 96, 265 96, 265 96, 263 95, 263 95, 261 98, 260 100, 261 105, 262 110, 264 118, 265 127, 267 138, 270 150, 272 163, 274 175, 276 187, 278 198, 279 208, 281 217, 282 223, 284 228, 286 232, 286 232, 289 235
+</trace>
+<trace id="4">
+231 193, 231 193, 231 193, 231 193, 229 194, 229 194, 229 194, 233 194, 236 194, 240 194, 245 194, 252 194, 257 193, 263 193
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">A</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

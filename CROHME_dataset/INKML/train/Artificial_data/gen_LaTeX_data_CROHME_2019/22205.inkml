@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">F_{e}=0</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+123 20, 128 19, 131 17, 133 14, 131 12, 128 8, 121 6, 111 4, 99 3, 86 3, 72 5, 58 6, 46 8, 35 11, 27 13, 21 17, 18 21, 16 26, 16 34, 16 44, 16 56, 16 70, 16 88, 16 107, 15 129, 15 152, 16 174, 15 195, 16 214, 16 230, 17 242, 18 251, 18 256, 18 256, 18 256, 21 251, 25 245
+</trace>
+<trace id="1">
+104 128, 104 128, 97 125, 91 122, 83 122, 72 122, 60 124, 47 125, 34 126, 22 127, 12 129, 3 131
+</trace>
+<trace id="2">
+192 190, 224 209, 231 209, 237 209, 244 208, 250 205, 254 202, 258 199, 262 197, 265 192, 268 190, 269 187, 269 184, 269 181, 268 178, 266 176, 265 174, 264 173, 259 171, 255 171, 250 173, 245 176, 243 178, 238 181, 236 185, 234 191, 233 197, 231 204, 230 211, 230 218, 231 225, 233 230, 236 236, 240 241, 245 246, 251 248, 258 251, 266 253, 275 254, 283 256, 292 256, 294 256
+</trace>
+<trace id="3">
+354 128, 355 128, 359 128, 372 129, 387 129, 401 129, 413 128, 424 129
+</trace>
+<trace id="4">
+368 178, 367 179, 368 179, 373 179, 386 182, 406 183, 429 181, 453 177
+</trace>
+<trace id="5">
+573 75, 533 202, 633 256, 653 256, 680 249, 700 242, 740 215, 753 195, 767 175, 773 155, 773 128, 760 75, 747 55, 707 22, 680 15, 653 8, 580 35, 553 55, 539 68, 526 88, 519 108, 519 128
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">F</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

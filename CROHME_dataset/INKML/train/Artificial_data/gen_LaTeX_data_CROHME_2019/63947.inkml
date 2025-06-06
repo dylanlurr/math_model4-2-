@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\theta^{\prime}=0</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+155 29, 150 19, 145 16, 124 16, 104 29, 78 52, 42 86, 24 132, 3 183, 14 225, 39 250, 81 256, 145 235, 196 194, 232 145, 253 96, 248 50, 227 16, 194 3, 153 11, 124 34
+</trace>
+<trace id="1">
+313 4, 319 10, 319 22, 325 34, 331 45, 331 57, 331 69, 331 81, 331 93, 337 99, 343 105, 343 117, 343 129
+</trace>
+<trace id="2">
+405 137, 472 134, 481 134, 489 134, 494 131, 499 131, 502 131, 499 131
+</trace>
+<trace id="3">
+435 163, 486 166, 489 166
+</trace>
+<trace id="4">
+610 24, 610 24, 614 11, 607 11, 601 18, 591 28, 581 63, 565 106, 562 161, 575 207, 591 233, 627 249, 679 256, 741 233, 786 194, 803 148, 799 96, 783 47, 750 18, 705 1, 656 5, 604 21, 575 57
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">\prime</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

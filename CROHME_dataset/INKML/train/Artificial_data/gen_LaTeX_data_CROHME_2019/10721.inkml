@@ -1,0 +1,30 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\frac{6}{\alpha}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+59 1, 58 2, 53 14, 50 20, 47 28, 44 36, 41 46, 40 55, 38 66, 36 75, 36 83, 37 89, 40 93, 42 94, 45 92, 49 90, 53 85, 57 80, 60 75, 62 65, 62 61, 61 57, 59 55, 56 55, 51 55, 46 55, 41 58, 37 61, 35 63
+</trace>
+<trace id="1">
+1 141, 3 140, 5 138, 10 136, 16 134, 24 132, 35 130, 45 128, 57 125, 69 123, 80 121, 88 117, 96 116
+</trace>
+<trace id="2">
+41 213, 45 211, 45 213, 35 232, 31 240, 25 246, 21 250, 19 252, 16 252, 18 254, 16 254, 14 244, 14 238, 16 234, 19 230, 23 228, 29 227, 33 228, 39 230, 43 232, 45 236, 48 242, 54 246, 60 250, 66 254, 74 256, 81 254, 85 254
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">6</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

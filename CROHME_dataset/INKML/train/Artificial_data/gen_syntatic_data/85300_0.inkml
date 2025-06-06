@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">c = n ! - 1</annotation>
+<annotation type="UI">CROHME_2016_em_875</annotation>
+<trace id="1">
+93 26, 93 27, 101 29, 105 31, 109 31, 111 32, 112 32, 113 33, 113 32
+</trace>
+<trace id="2">
+93 41, 98 40, 101 39, 105 39, 108 40, 110 40, 112 42, 115 43, 118 45
+</trace>
+<trace id="109">
+30 19, 32 18, 20 23, 19 24, 17 29, 14 32, 12 36, 10 41, 10 44, 10 47, 12 51, 14 52, 15 56, 19 57, 22 59, 25 59, 30 61, 34 61, 39 59, 42 59, 45 59, 47 57, 49 57, 50 57, 52 56, 50 56, 49 54
+</trace>
+<trace id="210">
+153 26, 152 23, 149 53, 148 55, 148 56, 147 57, 147 58, 147 57, 147 56, 148 54, 149 52, 151 43, 152 40, 154 38, 155 34, 157 31, 158 28, 160 26, 163 21, 164 19, 165 18, 166 17, 167 16, 169 16, 170 16, 171 17, 173 20, 174 22, 173 25, 174 28, 174 31, 174 35, 173 38, 173 41, 172 46, 171 49, 171 54, 171 56, 171 57, 171 58, 172 59, 172 60, 173 60
+</trace>
+<trace id="211">
+208 10, 206 10, 204 48, 204 52, 205 56, 206 58, 206 59
+</trace>
+<trace id="212">
+209 74, 208 76
+</trace>
+<trace id="213">
+260 50, 257 50, 277 52, 287 52, 289 52, 289 53, 288 53
+</trace>
+<trace id="214">
+329 25, 329 32, 329 39, 329 43, 329 48, 329 54, 329 57, 330 59, 330 61, 331 62, 333 65, 334 65, 335 65, 335 64, 336 63, 336 62
+</trace>
+<traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="109"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="210"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="212"/>
+		<traceView traceDataRef="211"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="213"/>
+	</traceGroup>
+	<traceGroup xml:id="20">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="214"/>
+	</traceGroup>
+</traceGroup>
+</ink>

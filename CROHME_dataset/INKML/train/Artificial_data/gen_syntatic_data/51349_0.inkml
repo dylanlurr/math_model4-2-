@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">y = \theta + y</annotation>
+<annotation type="UI">MfrDB0482</annotation>
+<trace id="1">
+108 64, 110 64, 116 64, 120 64, 128 64, 136 64, 140 64, 143 64, 146 64, 147 64
+</trace>
+<trace id="2">
+107 81, 108 81, 110 81, 114 81, 121 81, 127 81, 133 81, 138 81, 143 81, 146 81, 148 80, 150 80, 151 80, 152 80
+</trace>
+<trace id="108">
+10 55, 10 56, 11 56, 12 58, 14 60, 16 63, 19 69, 20 72, 23 76, 25 81, 27 83, 28 85, 30 87, 32 88, 34 90, 36 90, 39 91, 41 93, 42 94, 44 96, 44 97, 45 97, 45 97, 46 97
+</trace>
+<trace id="109">
+72 48, 70 48, 70 50, 69 52, 69 54, 67 56, 66 58, 65 59, 63 61, 61 65, 59 68, 57 70, 55 73, 55 76, 53 77, 51 79, 50 81, 49 81, 49 83, 48 84, 48 86, 47 86, 46 88, 46 89, 46 90, 45 91, 45 92, 45 93, 44 93, 44 95, 44 95, 44 97, 43 97, 43 98, 42 99, 42 100, 42 102, 42 104, 41 106, 41 107, 41 107, 39 110, 39 112, 38 114, 37 115, 37 117, 35 119, 35 122, 34 125, 33 126, 32 128, 32 130, 31 131, 30 134, 29 136, 28 137, 28 139, 27 141, 27 143, 26 145, 25 147, 24 149, 23 152, 22 154, 22 154, 22 155, 21 156, 21 157, 20 158, 20 159
+</trace>
+<trace id="210">
+181 10, 181 10, 167 48, 167 56, 169 66, 170 70, 172 72, 173 74, 178 77, 179 78, 184 80, 187 80, 190 80, 192 77, 195 75, 201 71, 203 68, 206 64, 209 59, 210 53, 210 45, 210 38, 210 26, 209 23, 207 17, 206 16, 204 14, 200 11, 195 10, 191 10, 187 11, 181 16, 179 17, 176 20, 175 23, 170 32, 169 38, 169 42, 170 47, 173 51, 175 51, 176 53, 178 53, 179 53, 182 53, 185 51, 188 51, 191 50, 194 50, 198 48, 201 48, 203 48, 206 48, 207 48, 207 47, 207 45
+</trace>
+<trace id="211">
+290 34, 288 31, 297 71, 297 74, 297 75, 296 74
+</trace>
+<trace id="212">
+269 59, 266 58, 302 59, 305 59, 306 59, 308 59
+</trace>
+<trace id="213">
+381 43, 383 55, 396 58, 399 55, 404 49, 403 44, 403 40, 402 40, 401 38, 399 37, 399 38, 399 41, 399 46, 401 50, 402 53, 407 62, 408 66, 412 77, 416 84, 419 90, 422 96, 423 105, 423 108, 423 111, 417 114, 412 114, 408 114, 402 114, 399 112, 398 112, 396 111, 396 109, 398 108, 399 108
+</trace>
+<traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="109"/>
+		<traceView traceDataRef="108"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="210"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="212"/>
+		<traceView traceDataRef="211"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="213"/>
+	</traceGroup>
+</traceGroup>
+</ink>

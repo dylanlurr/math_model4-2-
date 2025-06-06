@@ -1,0 +1,49 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">z^{\prime} = z</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+10 56, 10 56, 3 54, 3 54, 3 54, 8 49, 16 45, 25 40, 39 35, 53 29, 70 23, 87 16, 105 12, 119 7, 133 5, 142 3, 149 4, 149 4, 154 12, 153 21, 150 34, 145 51, 139 71, 130 94, 119 120, 105 147, 91 172, 78 194, 66 214, 55 229, 46 242, 40 250, 36 256, 36 256, 36 256, 36 256, 36 256, 42 255, 48 253, 55 250, 64 247, 76 243, 90 240, 106 237, 122 235, 138 234, 151 232, 164 232, 174 230, 182 231, 187 232, 187 232, 187 232, 182 230
+</trace>
+<trace id="1">
+57 131, 51 129, 51 129, 48 120, 52 122, 59 123, 71 127, 86 131, 104 136, 123 140, 141 145, 161 150, 179 156, 195 158, 207 161
+</trace>
+<trace id="2">
+314 129, 1342 50, 1579 50, 1658 50
+</trace>
+<trace id="3">
+1719 157, 1718 153, 1718 152, 1718 154, 1721 156, 1730 155, 1751 153, 1771 150, 1790 151, 1808 154
+</trace>
+<trace id="4">
+1732 135, 1731 132, 1730 131, 1730 129, 1730 130, 1731 129, 1734 131, 1746 129, 1764 128, 1787 130, 1817 130
+</trace>
+<trace id="5">
+1879 5, 1941 8, 1957 5, 1976 5, 1994 5, 2013 5, 2028 8, 2044 8, 2059 8, 2072 8, 2081 8, 2087 11, 2093 14, 2093 20, 2093 26, 2087 36, 2084 48, 2075 60, 2062 73, 2053 88, 2037 104, 2022 119, 2006 135, 1991 153, 1976 169, 1960 184, 1945 200, 1935 212, 1926 221, 1920 231, 1917 240, 1914 243, 1914 249, 1914 252, 1920 256, 1926 256, 1935 256, 1948 256, 1960 252, 1972 249, 1991 246, 2006 243, 2022 237, 2041 234, 2059 228, 2075 221, 2087 215, 2099 209, 2106 206
+</trace>
+<trace id="6">
+1932 132, 1960 125, 1972 122, 1991 119, 2006 116, 2025 113, 2047 110, 2065 107, 2072 107
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">\prime</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

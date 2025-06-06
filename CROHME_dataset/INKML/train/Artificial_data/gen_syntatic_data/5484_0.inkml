@@ -1,0 +1,31 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">z !</annotation>
+<annotation type="UI">127_danilo</annotation>
+<trace id="1">
+85 15, 86 12, 86 10, 86 11, 87 22, 87 25, 86 44, 86 45, 86 46, 87 47
+</trace>
+<trace id="2">
+85 62, 85 63, 86 61
+</trace>
+<trace id="103">
+10 42, 14 41, 19 42, 25 43, 31 44, 34 44, 38 45, 39 46, 40 47, 36 51, 30 55, 25 60, 21 64, 18 67, 17 68, 17 70, 18 70, 22 70, 27 70, 32 70, 37 70, 41 70, 43 69, 45 69
+</trace>
+<trace id="104">
+12 56, 15 56, 20 56, 26 57, 33 58, 39 59, 45 60, 52 60
+</trace>
+<traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="104"/>
+		<traceView traceDataRef="103"/>
+	</traceGroup>
+</traceGroup>
+</ink>

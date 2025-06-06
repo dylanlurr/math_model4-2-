@@ -1,0 +1,27 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x ^ { 2 }</annotation>
+<annotation type="UI">CROHME19_1033</annotation>
+<trace id="111">
+10 60, 10 58, 11 58, 13 56, 15 54, 16 54, 18 54, 20 54, 21 55, 22 58, 24 63, 25 66, 27 67, 30 68, 32 68
+</trace>
+<trace id="112">
+34 51, 31 52, 27 55, 22 58, 18 63, 15 66, 13 68, 13 70
+</trace>
+<trace id="213">
+40 19, 39 18, 39 16, 40 15, 41 14, 42 12, 44 11, 46 11, 48 10, 49 11, 50 12, 51 12, 52 14, 52 16, 52 18, 52 20, 51 22, 50 24, 48 25, 48 27, 46 28, 46 30, 48 31, 49 32, 50 32, 52 31, 54 31, 56 31, 63 30, 64 30, 65 30, 66 30
+</trace>
+<traceGroup>
+	<traceGroup xml:id="29">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="111"/>
+		<traceView traceDataRef="112"/>
+	</traceGroup>
+	<traceGroup xml:id="30">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="213"/>
+	</traceGroup>
+</traceGroup>
+</ink>

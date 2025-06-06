@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">f( v )</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+74 43, 73 39, 73 37, 73 33, 72 30, 72 26, 70 22, 68 18, 66 14, 64 11, 62 8, 60 5, 57 4, 54 3, 52 2, 50 3, 47 4, 45 7, 43 11, 40 16, 38 22, 36 30, 34 39, 34 50, 32 61, 32 74, 32 88, 32 104, 33 120, 34 136, 35 152, 36 167, 38 182, 39 197, 41 209, 43 220, 45 229, 47 237, 48 244, 49 248, 50 252, 51 254, 51 255, 51 256, 51 255, 50 253, 50 252, 50 250, 49 247, 50 245
+</trace>
+<trace id="1">
+2 155, 2 154, 3 154, 6 154, 11 154, 19 154, 28 153, 41 153, 56 152, 73 152, 90 151, 107 150, 124 150, 139 149, 151 149, 160 150, 167 148, 171 148
+</trace>
+<trace id="2">
+312 1, 292 15, 266 47, 246 93, 235 135, 231 183, 240 216, 251 238, 266 253, 281 256
+</trace>
+<trace id="3">
+375 9, 372 6, 373 6, 374 7, 374 9, 381 17, 386 24, 397 37, 406 49, 419 66, 430 83, 445 102, 457 121, 469 141, 480 158, 491 177, 501 192, 509 207, 514 219, 521 231, 525 239, 529 247, 532 252, 533 254, 535 256, 535 253, 538 247, 541 238, 545 224, 549 209, 555 188, 562 165, 570 141, 579 116, 590 91, 599 69, 608 50, 616 33, 623 21, 627 12, 632 7, 633 2, 636 3, 634 2, 634 3, 635 4, 636 4
+</trace>
+<trace id="4">
+742 1, 755 9, 770 24, 785 54, 789 86, 789 131, 779 173, 762 204, 747 230, 731 247, 715 254, 696 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">s</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">/</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

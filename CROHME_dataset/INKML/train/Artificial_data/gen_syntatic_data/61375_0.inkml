@@ -1,0 +1,67 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\log ( x + 1 )</annotation>
+<annotation type="UI">MfrDB3517</annotation>
+<trace id="1">
+10 22, 10 30, 10 32, 10 36, 10 38, 10 40, 10 44, 10 46, 10 48, 10 50, 10 52, 10 54, 10 56, 10 62, 10 64, 10 66, 10 68, 10 70, 10 72, 10 74, 10 76, 10 78, 10 80, 10 82, 10 84, 10 86, 10 88, 10 90, 10 92, 11 94, 12 97
+</trace>
+<trace id="2">
+39 57, 33 57, 31 57, 30 58, 30 60, 29 61, 28 62, 28 64, 27 66, 26 68, 26 70, 26 72, 26 74, 26 76, 26 78, 26 80, 26 82, 26 84, 26 86, 26 88, 27 90, 29 91, 30 93, 31 94, 33 94, 34 95, 35 96, 36 95, 37 94, 38 93, 38 91, 39 89, 40 88, 40 86, 42 82, 42 80, 42 78, 42 76, 42 74, 42 72, 42 70, 42 68, 42 66, 42 64, 42 62, 42 60, 43 59, 43 58, 42 56, 41 55, 40 54, 39 53, 37 53, 35 53
+</trace>
+<trace id="3">
+83 63, 77 63, 75 63, 73 63, 71 63, 69 63, 68 64, 67 65, 66 66, 65 67, 64 68, 64 70, 63 71, 62 72, 62 74, 62 76, 62 78, 62 80, 62 82, 62 84, 63 86, 64 87, 64 89, 64 91, 65 92, 66 93, 67 94, 69 94, 71 94, 72 95, 73 96, 75 96, 77 96, 78 95, 79 94, 80 93, 80 91, 82 89, 82 87, 83 86, 84 85, 84 83, 84 81, 84 78, 84 76, 84 74, 84 72, 84 70, 84 68, 84 70, 84 72, 84 74, 84 78, 84 81, 84 85, 84 89, 84 91, 84 93, 84 97, 84 99, 84 101, 84 103, 85 104, 86 105, 86 107, 86 109, 86 111, 85 112, 84 113, 84 115, 84 117, 84 119, 84 121, 84 123, 84 125, 84 127, 84 128, 84 129, 83 130, 82 131, 81 132, 79 133, 77 134, 75 134, 73 134, 71 134, 69 134, 68 133, 67 132, 65 131, 63 130, 61 129, 60 127, 59 125, 57 123, 56 121, 55 120, 54 119, 54 117, 54 115, 54 113, 54 111, 55 109, 56 107, 57 106, 58 105, 61 102, 62 101, 63 100, 64 100, 65 100, 67 100, 68 99
+</trace>
+<trace id="110">
+149 13, 146 13, 130 38, 130 45, 130 51, 130 57, 130 67, 133 77, 136 84, 139 90, 139 93, 142 93
+</trace>
+<trace id="111">
+184 32, 180 38, 174 54, 158 77, 158 80, 158 77, 158 74, 161 68
+</trace>
+<trace id="112">
+161 41, 158 41, 174 71, 177 71, 180 74, 180 71
+</trace>
+<trace id="113">
+202 51, 199 48, 209 48, 228 49, 231 49, 234 49, 237 45, 237 41
+</trace>
+<trace id="114">
+221 29, 221 48, 221 55, 221 71, 221 68, 221 65, 221 61
+</trace>
+<trace id="115">
+256 61, 275 26, 278 23, 278 26, 278 29, 278 32, 278 35, 281 42, 281 49, 281 61, 281 68, 281 74
+</trace>
+<trace id="116">
+294 10, 304 26, 310 49, 304 93, 300 93, 297 96
+</trace>
+<traceGroup>
+	<traceGroup xml:id="24">
+		<annotation type="truth">\log</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="30">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="111"/>
+		<traceView traceDataRef="112"/>
+	</traceGroup>
+	<traceGroup xml:id="31">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="114"/>
+		<traceView traceDataRef="113"/>
+	</traceGroup>
+	<traceGroup xml:id="32">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="115"/>
+	</traceGroup>
+	<traceGroup xml:id="33">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="110"/>
+	</traceGroup>
+	<traceGroup xml:id="34">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="116"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,53 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sin(X)</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+95 64, 83 64, 76 65, 67 69, 58 74, 48 81, 38 89, 28 98, 20 106, 13 113, 7 119, 4 125, 2 128, 2 128, 4 131, 7 132, 12 132, 18 133, 27 133, 37 133, 47 133, 57 134, 67 137, 75 140, 81 144, 84 151, 84 159, 82 170, 77 182, 70 195, 61 208, 52 220, 43 233, 35 244, 28 251, 22 256, 22 256
+</trace>
+<trace id="1">
+180 8, 178 8, 176 7, 176 7, 176 7, 178 7, 180 7, 183 7, 187 6, 191 5, 195 4, 199 3, 204 2
+</trace>
+<trace id="2">
+156 86, 155 95, 155 101, 155 109, 155 119, 155 129, 155 141, 155 153, 155 166, 155 178, 155 187, 155 196, 155 204, 155 210
+</trace>
+<trace id="3">
+240 95, 239 95, 238 100, 237 108, 236 119, 235 129, 234 142, 233 155, 231 168, 230 179, 229 187, 228 194, 228 198, 227 202, 227 202, 229 199, 232 193, 235 185, 242 174, 250 161, 259 147, 268 133, 278 119, 287 110, 295 101, 302 95, 307 93, 311 93, 315 95, 318 98, 321 103, 325 110, 328 121, 331 131, 333 145, 336 160, 338 176, 340 190, 342 204, 344 217, 348 225, 353 230, 358 232
+</trace>
+<trace id="4">
+535 3, 535 2, 530 4, 522 10, 513 21, 499 33, 484 51, 468 70, 452 92, 436 115, 426 138, 419 160, 418 181, 422 200, 431 218, 445 232, 460 242, 478 249, 496 254, 513 256
+</trace>
+<trace id="5">
+601 2, 601 2, 599 2, 599 2, 601 7, 605 13, 611 20, 619 29, 629 39, 640 52, 665 76, 678 88, 689 100, 700 111, 709 121, 718 131, 725 141, 731 150, 737 158, 741 165, 746 169, 750 172, 753 172, 757 168
+</trace>
+<trace id="6">
+738 27, 739 23, 739 23, 736 21, 732 24, 721 39, 713 52, 705 68, 695 87, 684 109, 671 134, 657 158, 631 201, 619 219, 610 235, 601 247, 595 256
+</trace>
+<trace id="7">
+816 4, 819 1, 822 1, 829 5, 841 21, 855 52, 864 89, 868 130, 867 167, 861 199, 850 225, 838 242, 829 251, 821 256, 819 253
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">X</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="7"/>
+	</traceGroup>
+</traceGroup>
+</ink>

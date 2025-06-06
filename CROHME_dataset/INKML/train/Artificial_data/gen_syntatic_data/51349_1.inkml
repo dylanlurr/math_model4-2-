@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">p = x + \alpha</annotation>
+<annotation type="UI">MfrDB0482</annotation>
+<trace id="1">
+108 63, 110 63, 116 63, 120 63, 128 63, 136 63, 140 63, 143 63, 146 63, 147 63
+</trace>
+<trace id="2">
+107 80, 108 80, 110 80, 114 80, 121 80, 127 80, 133 80, 138 80, 143 80, 146 80, 148 80, 150 80, 151 80, 152 80
+</trace>
+<trace id="108">
+17 47, 17 51, 17 54, 17 57, 17 60, 17 67, 17 74, 17 80, 17 84, 17 90, 17 93, 17 97, 17 100, 17 103, 17 107, 17 110, 17 113, 17 120, 17 123, 17 126, 17 133, 17 136, 17 140, 13 143, 13 149, 13 153, 13 156, 13 159, 10 159, 10 156, 10 153, 10 146, 10 143, 10 140, 10 136, 10 133, 10 130, 13 123, 13 120, 17 116, 20 113, 20 110, 20 107, 20 103, 23 100, 23 97, 27 90, 30 84, 30 80, 33 77, 36 74, 40 67, 43 64, 43 60, 46 60, 50 57, 53 57, 56 57, 60 57, 63 57, 66 60, 66 64, 66 67, 69 67, 69 70, 69 74, 73 80, 73 84, 73 90, 73 93, 73 97, 73 100, 69 100, 66 103, 60 103, 56 103, 53 103, 46 103, 43 103, 40 103, 36 103, 33 103, 30 103, 27 103, 23 103, 23 100
+</trace>
+<trace id="209">
+169 21, 189 40, 191 44, 195 47, 199 51, 203 55, 207 58, 210 62, 212 66, 215 67, 215 68
+</trace>
+<trace id="210">
+168 92, 193 58, 198 54, 203 47, 208 42, 214 37, 219 32, 220 30
+</trace>
+<trace id="211">
+290 45, 328 46, 331 46, 332 46
+</trace>
+<trace id="212">
+307 18, 310 47, 310 51, 310 56, 311 60, 311 64, 311 66
+</trace>
+<trace id="213">
+363 12, 380 10, 384 12, 388 14, 393 17, 397 21, 401 25, 405 30, 409 35, 411 39, 414 45, 415 50, 415 55, 414 60, 413 66, 410 70, 406 75, 402 79, 400 84, 396 87, 392 91, 386 93, 382 95, 378 95, 375 95, 372 95, 369 93, 368 91, 368 89, 368 87, 368 85, 371 83, 373 80, 377 77, 381 76, 386 75, 392 75, 397 76, 402 77, 407 80, 411 83, 415 87, 419 91, 422 93, 423 97, 426 101, 426 104, 427 108, 427 109, 427 112, 427 113, 427 114
+</trace>
+<traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">p</annotation>
+		<traceView traceDataRef="108"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="209"/>
+		<traceView traceDataRef="210"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="212"/>
+		<traceView traceDataRef="211"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="213"/>
+	</traceGroup>
+</traceGroup>
+</ink>

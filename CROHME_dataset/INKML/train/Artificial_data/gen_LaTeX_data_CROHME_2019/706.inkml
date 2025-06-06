@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">l\leq n-1</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+1 233, 13 235, 28 233, 51 233, 73 215, 100 206, 131 169, 149 140, 160 111, 166 82, 171 57, 164 35, 157 22, 146 10, 137 4, 133 1, 129 8, 124 35, 120 68, 120 108, 122 155, 133 193, 137 211, 142 224, 151 240, 171 256
+</trace>
+<trace id="1">
+368 4, 368 7, 365 7, 347 23, 336 31, 320 42, 303 47, 293 56, 279 66, 271 72, 263 80, 257 85, 255 85, 255 88, 257 88, 260 88, 276 96, 287 104, 295 110, 306 115, 314 120, 322 128, 333 137, 341 145, 352 153, 360 161, 365 169, 374 174, 379 180, 382 183, 384 185, 384 188
+</trace>
+<trace id="2">
+238 153, 238 150, 233 139, 236 139, 238 142, 260 158, 293 191, 301 201, 311 212, 322 223, 330 231, 338 239, 352 253, 360 256, 363 256
+</trace>
+<trace id="3">
+447 233, 447 168, 454 164, 457 158, 463 155, 470 151, 477 148, 483 148, 490 148, 493 151, 496 155, 503 158, 506 164, 512 174, 516 184, 519 194, 522 200, 525 210, 529 216, 529 223, 529 226, 529 229, 529 233, 529 236, 529 233, 529 226, 529 223, 529 213, 529 203, 532 194, 535 181, 538 171, 542 161, 545 155, 551 148, 555 142, 561 138, 564 135, 571 132, 581 132, 587 135, 600 138, 610 142, 617 151, 623 161, 626 171, 630 184, 633 197, 633 210, 636 223, 636 236, 639 252, 643 256
+</trace>
+<trace id="4">
+709 140, 702 137, 704 135, 705 137, 712 137, 722 137, 746 133, 772 132, 792 130, 800 128, 801 130, 800 130, 796 133, 795 137
+</trace>
+<trace id="5">
+861 159, 864 165, 876 170, 893 167, 913 154, 943 139, 966 118, 980 90, 985 62, 986 32, 983 10, 985 1, 983 5, 980 18, 975 48, 978 80, 975 120, 976 160, 980 204, 976 230, 975 244, 978 256, 978 254, 978 252, 975 250
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">l</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">\leq</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

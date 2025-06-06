@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">5 7 + x c</annotation>
+<annotation type="UI">MfrDB1250</annotation>
+<trace id="5">
+356 92, 357 92, 358 92, 359 92, 361 92, 364 92, 368 92, 371 92, 376 92, 382 92, 387 92, 400 92, 405 92, 409 92, 412 92, 414 92, 414 91, 411 90, 408 88
+</trace>
+<trace id="6">
+384 68, 384 69, 384 71, 384 73, 384 76, 384 78, 384 82, 384 84, 384 88, 383 91, 382 96, 381 98, 381 102, 381 105, 381 107, 380 109, 380 110, 380 112, 380 114, 380 115, 380 116, 379 116
+</trace>
+<trace id="112">
+151 42, 142 38, 129 38, 116 38, 95 38, 81 38, 71 40, 62 42, 58 44, 57 44, 57 47, 57 57, 57 66, 58 79, 58 97, 58 114, 58 132, 55 151, 51 162, 49 169, 49 175, 53 177, 64 177, 81 173, 97 171, 114 171, 127 171, 136 177, 140 186, 140 199, 132 214, 114 225, 92 232, 64 232, 34 232, 18 221, 10 201
+</trace>
+<trace id="113">
+214 79, 217 64, 217 57, 217 45, 217 36, 217 26, 217 19, 217 15, 217 13, 219 13, 221 13, 228 13, 238 13, 249 15, 265 15, 276 15, 288 15, 297 15, 302 15, 306 19, 306 24, 306 33, 300 48, 291 65, 280 82, 267 108, 254 132, 241 156, 230 175, 223 186, 219 195, 219 203
+</trace>
+<trace id="214">
+531 10, 510 69, 503 83, 496 99, 487 117, 478 133, 471 147, 464 161, 460 172, 455 182, 453 189, 453 194, 451 198
+</trace>
+<trace id="215">
+505 170, 492 147, 483 138, 476 126, 469 115, 462 101, 457 87, 455 83
+</trace>
+<trace id="216">
+668 49, 647 33, 645 33, 643 33, 638 33, 634 37, 629 42, 622 46, 618 55, 613 65, 608 76, 606 85, 604 97, 604 108, 604 120, 604 129, 608 138, 613 145, 618 152, 627 156, 634 158, 645 161, 657 158, 669 156, 683 152, 687 149
+</trace>
+<traceGroup>
+	<traceGroup xml:id="20">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="23">
+		<annotation type="truth">5</annotation>
+		<traceView traceDataRef="112"/>
+	</traceGroup>
+	<traceGroup xml:id="24">
+		<annotation type="truth">7</annotation>
+		<traceView traceDataRef="113"/>
+	</traceGroup>
+	<traceGroup xml:id="25">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="215"/>
+		<traceView traceDataRef="214"/>
+	</traceGroup>
+	<traceGroup xml:id="26">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="216"/>
+	</traceGroup>
+</traceGroup>
+</ink>

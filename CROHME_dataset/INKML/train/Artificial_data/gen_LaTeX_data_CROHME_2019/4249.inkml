@@ -1,0 +1,70 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">R=\frac{r+1}{n}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+36 156, 22 225, 22 231, 19 238, 19 245, 19 249, 19 252, 15 249, 15 245, 12 242, 8 238, 8 228, 5 218, 5 207, 5 194, 5 180, 8 163, 15 146, 22 128, 29 111, 32 98, 39 80, 50 67, 60 50, 70 36, 80 26, 91 19, 101 12, 111 5, 122 5, 135 5, 146 8, 159 15, 166 22, 173 32, 180 39, 183 50, 187 63, 187 74, 187 84, 187 94, 183 104, 177 111, 166 122, 153 132, 142 139, 132 146, 118 153, 108 156, 98 159, 91 159, 84 159, 80 159, 77 159, 74 159, 70 156, 70 153, 70 149, 74 149, 77 149, 84 149, 91 153, 98 159, 101 170, 108 177, 118 187, 128 197, 139 207, 149 214, 159 225, 170 231, 180 238, 194 245, 204 249, 214 252, 225 256, 235 252, 242 252, 252 245, 262 238, 273 235, 283 228, 290 218, 300 211, 307 204, 314 194, 321 183
+</trace>
+<trace id="1">
+453 132, 458 129, 464 128, 466 129, 465 131, 461 134, 450 137, 431 138, 413 142, 397 142, 387 141, 380 142, 381 143
+</trace>
+<trace id="2">
+479 177, 460 181, 445 184, 430 185, 415 187, 403 185, 395 186, 391 185
+</trace>
+<trace id="3">
+554 57, 553 55, 551 54, 551 55, 551 56, 551 62, 551 71, 552 80, 552 86, 554 92, 556 96, 556 97, 556 97, 556 95, 555 90, 556 83, 557 75, 560 67, 564 63, 569 58, 574 55, 580 52, 584 50, 589 49, 591 49, 591 48
+</trace>
+<trace id="4">
+618 48, 639 52, 642 52, 649 52, 653 55, 663 55, 667 55, 677 55, 681 55, 691 55, 698 55, 702 55, 705 55, 712 55, 716 55, 719 55, 723 55, 723 52, 726 52, 723 52, 719 52
+</trace>
+<trace id="5">
+681 3, 681 20, 681 27, 681 34, 681 38, 681 41, 681 48, 681 55, 681 62, 681 66, 681 73, 681 76, 681 83, 681 87, 681 90, 681 94, 681 97
+</trace>
+<trace id="6">
+761 40, 772 14, 775 11, 778 8, 778 5, 781 2, 784 2, 784 5, 787 11, 787 17, 790 25, 790 31, 793 40, 796 48, 798 54, 798 60, 801 66, 804 71, 807 74, 807 77, 807 80, 810 80, 807 80
+</trace>
+<trace id="7">
+752 97, 787 97, 793 97, 801 97, 804 97, 810 97, 813 95, 816 97, 819 95, 821 95
+</trace>
+<trace id="8">
+539 130, 539 134, 557 138, 578 130, 603 127, 660 123, 737 123, 833 120
+</trace>
+<trace id="9">
+664 254, 663 256, 663 256, 663 255, 661 253, 660 250, 659 247, 659 243, 661 237, 663 228, 665 219, 669 213, 673 209, 675 208, 677 208, 680 209, 683 214, 683 220, 684 228, 682 235, 682 241, 681 242, 681 241, 682 239, 683 235, 684 230, 686 224, 686 220, 689 214, 692 211, 695 209, 698 208, 699 209, 702 211, 703 214, 705 217, 705 221, 703 231, 703 238, 702 245, 702 250, 703 251, 708 251, 713 248
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">R</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+	<traceGroup xml:id="105">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="8"/>
+	</traceGroup>
+	<traceGroup xml:id="106">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="9"/>
+	</traceGroup>
+</traceGroup>
+</ink>

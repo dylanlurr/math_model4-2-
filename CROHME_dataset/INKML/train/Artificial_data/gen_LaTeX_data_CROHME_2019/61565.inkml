@@ -1,0 +1,34 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\left(\theta\right)</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+62 6, 62 1, 61 1, 60 1, 59 3, 57 7, 52 13, 47 29, 38 47, 30 69, 21 94, 14 118, 6 147, 1 178, 1 208, 7 228, 18 243, 29 252, 33 254, 39 256, 41 254, 40 254, 39 256, 38 254
+</trace>
+<trace id="1">
+274 35, 283 18, 147 120, 139 137, 139 145, 130 188, 130 222, 156 247, 173 256, 207 256, 224 247, 249 247, 274 230, 283 222, 300 213, 308 205, 325 179, 334 154, 342 137, 351 120, 351 103, 351 95, 359 78, 359 61, 359 44, 351 35, 342 27, 342 18, 334 18, 334 10, 325 10, 308 10, 300 18, 291 18, 274 27, 257 27, 249 35, 232 44, 224 52, 207 52, 198 61, 190 61, 181 69, 181 78, 173 86, 173 95, 173 103, 173 112
+</trace>
+<trace id="2">
+156 145, 164 145, 334 137, 342 137, 359 137, 368 137, 376 137
+</trace>
+<trace id="3">
+524 7, 524 1, 532 4, 540 12, 553 31, 567 60, 567 98, 551 149, 524 189, 484 231, 436 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+</traceGroup>
+</ink>

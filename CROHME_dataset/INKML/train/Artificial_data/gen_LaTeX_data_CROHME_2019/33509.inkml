@@ -1,0 +1,38 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\theta=\beta</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+154 35, 162 18, 27 120, 18 137, 18 145, 10 188, 10 222, 35 247, 52 256, 86 256, 103 247, 128 247, 154 230, 162 222, 179 213, 188 205, 205 179, 213 154, 222 137, 230 120, 230 103, 230 95, 239 78, 239 61, 239 44, 230 35, 222 27, 222 18, 213 18, 213 10, 205 10, 188 10, 179 18, 171 18, 154 27, 137 27, 128 35, 112 44, 103 52, 86 52, 78 61, 69 61, 61 69, 61 78, 52 86, 52 95, 52 103, 52 112
+</trace>
+<trace id="1">
+35 145, 44 145, 213 137, 222 137, 239 137, 247 137, 256 137
+</trace>
+<trace id="2">
+315 179, 334 188, 388 182
+</trace>
+<trace id="3">
+332 130, 329 128, 331 132, 339 137, 350 153, 366 160, 378 162, 390 162, 407 155, 414 146
+</trace>
+<trace id="4">
+474 11, 479 2, 483 2, 483 2, 483 2, 483 11, 488 15, 488 25, 488 38, 492 57, 492 75, 492 94, 492 117, 492 140, 492 159, 492 182, 492 195, 488 209, 488 223, 488 232, 488 242, 488 251, 488 256, 488 256, 488 256, 488 251, 488 246, 488 232, 488 219, 488 200, 488 182, 488 159, 488 135, 488 117, 488 98, 492 80, 497 66, 502 52, 506 38, 515 25, 520 20, 525 11, 534 6, 539 6, 543 6, 552 6, 557 11, 557 15, 562 25, 562 34, 562 43, 557 57, 552 66, 548 80, 539 85, 529 89, 520 94, 511 98, 506 98, 497 98, 497 98, 497 98, 497 94, 506 94, 511 89, 520 85, 529 85, 543 89, 552 89, 562 94, 571 103, 580 108, 585 117, 585 126, 585 135, 585 140, 576 149, 571 159, 557 168, 548 172, 539 177, 529 177, 520 177, 515 177
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\beta</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

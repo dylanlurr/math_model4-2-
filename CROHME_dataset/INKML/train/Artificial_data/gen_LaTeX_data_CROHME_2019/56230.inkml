@@ -1,0 +1,38 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">k\geq n</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+30 23, 23 16, 16 178, 16 192, 16 199, 9 206, 9 199, 9 192, 16 185, 23 178, 30 164, 51 150, 65 136, 72 128, 86 114, 100 107, 107 100, 121 86, 143 72, 150 58, 164 51, 171 44, 178 37, 185 30, 192 23, 192 16, 192 9, 185 9, 178 9
+</trace>
+<trace id="1">
+37 136, 30 128, 114 192, 121 199, 128 206, 128 213, 136 220, 136 227, 143 234, 150 241, 157 241, 157 248, 164 248, 171 256, 185 256, 192 256, 199 256, 206 248, 213 248, 220 241, 227 241, 234 234, 241 227, 241 220, 248 213
+</trace>
+<trace id="2">
+386 3, 395 16, 402 23, 412 29, 421 35, 431 42, 442 48, 455 55, 470 60, 484 66, 499 73, 513 79, 526 84, 538 90, 547 95, 557 99, 564 103, 568 107, 572 110, 573 113, 575 115, 575 116, 573 116, 572 118, 565 120, 559 121, 549 124, 538 126, 523 129, 509 133, 491 136, 475 141, 457 144, 442 149, 428 154, 413 157, 403 162, 394 165, 386 168, 379 171, 374 175, 371 178, 371 179
+</trace>
+<trace id="3">
+310 256, 329 252, 342 252, 358 252, 376 251, 394 251, 413 251, 433 249, 450 247, 468 246, 484 244, 497 244, 509 243, 518 243, 528 243, 534 244, 536 243
+</trace>
+<trace id="4">
+641 15, 634 5, 638 1, 641 1, 644 5, 651 18, 654 50, 651 93, 647 148, 647 194, 654 236, 661 246, 674 249, 687 239, 703 220, 726 187, 755 155, 778 135, 797 112, 810 96, 820 86, 823 83, 823 86, 827 102, 827 125, 830 161, 836 197, 862 233, 908 256, 976 252, 1064 216
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

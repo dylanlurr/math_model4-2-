@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\cos(\phi_{1})</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+64 34, 66 28, 65 22, 64 17, 62 13, 59 10, 59 10, 55 6, 52 8, 48 12, 43 21, 37 33, 29 49, 21 67, 14 88, 7 109, 3 130, 1 148, 3 161, 8 169, 17 171, 29 168, 45 159, 63 146, 81 129, 99 110, 116 89, 131 69, 143 51, 152 36, 157 23, 161 14, 161 8, 161 8, 158 9, 156 14, 153 22, 150 32, 145 45, 141 59, 137 74, 135 90, 134 105, 135 119, 136 131, 140 140, 145 146, 152 148, 160 148, 169 144, 178 137, 186 128, 194 117, 201 104, 207 90, 211 74, 214 59, 214 43, 210 30, 206 18, 200 9, 192 3, 183 1, 173 2, 164 6, 156 12, 151 19, 147 28, 147 36, 149 44, 153 51, 160 58
+</trace>
+<trace id="1">
+328 28, 324 22, 320 18, 315 15, 309 15, 303 16, 297 19, 289 24, 281 31, 274 38, 267 47, 262 55, 258 63, 256 71, 258 77, 262 82, 269 88, 278 92, 289 97, 300 101, 310 104, 320 107, 327 110, 333 116, 334 120, 333 125, 328 131, 322 137, 314 144, 305 151, 296 157, 291 162, 285 167, 281 169, 281 169
+</trace>
+<trace id="2">
+441 1, 426 2, 411 13, 398 32, 383 66, 378 98, 374 126, 375 149, 380 164, 393 171, 412 169
+</trace>
+<trace id="3">
+493 174, 489 170, 486 165, 484 160, 483 154, 484 148, 486 142, 491 136, 497 130, 505 126, 514 122, 524 120, 534 120, 544 122, 553 125, 561 130, 567 136, 571 142, 574 149, 575 156, 575 163, 572 169, 568 174, 563 178, 557 181, 549 183, 540 184, 532 184, 523 183, 515 181, 507 179, 501 176, 496 172, 493 169, 491 165
+</trace>
+<trace id="4">
+547 87, 546 89, 544 92, 542 99, 538 109, 534 120, 529 134, 524 149, 519 166, 513 185, 508 203, 503 221, 499 239, 494 256
+</trace>
+<trace id="5">
+635 117, 640 124, 642 142, 631 126, 629 122, 629 119, 629 117, 629 115, 631 117, 631 119, 631 122, 631 124, 631 126, 629 128, 629 131, 629 133, 629 135, 629 137, 631 137
+</trace>
+<trace id="6">
+620 171, 615 171, 631 162, 640 158, 656 151, 665 149
+</trace>
+<trace id="7">
+708 4, 728 37, 731 49, 734 61, 737 73, 740 84, 743 93, 743 105, 743 114, 743 123, 743 132, 740 138, 740 144, 737 150, 734 156, 731 162, 728 165, 723 171
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\phi</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="7"/>
+	</traceGroup>
+</traceGroup>
+</ink>

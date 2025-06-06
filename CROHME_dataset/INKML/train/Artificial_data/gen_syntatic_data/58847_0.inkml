@@ -1,0 +1,27 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x ^ { 3 }</annotation>
+<annotation type="UI">MfrDB3060</annotation>
+<trace id="10">
+39 10, 40 10, 42 10, 44 10, 45 10, 46 10, 47 11, 48 13, 49 14, 49 15, 50 16, 50 17, 50 18, 49 19, 49 20, 49 21, 49 22, 48 22, 48 23, 48 24, 49 26, 49 28, 50 30, 51 31, 51 33, 52 33, 52 34, 51 34, 50 34, 50 35, 49 35, 48 35
+</trace>
+<trace id="111">
+12 34, 10 33, 10 32, 10 30, 29 39, 30 42, 31 44, 33 48, 34 50, 35 52, 36 54, 37 57, 38 59, 38 60, 39 62, 39 63, 39 64, 39 63, 39 62, 40 60
+</trace>
+<trace id="112">
+43 25, 42 26, 35 35, 31 41, 24 50, 22 52, 21 54, 20 55, 19 57, 18 58, 18 59, 19 60, 19 58
+</trace>
+<traceGroup>
+	<traceGroup xml:id="31">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="10"/>
+	</traceGroup>
+	<traceGroup xml:id="32">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="111"/>
+		<traceView traceDataRef="112"/>
+	</traceGroup>
+</traceGroup>
+</ink>

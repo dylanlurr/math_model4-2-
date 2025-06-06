@@ -1,0 +1,35 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x \pi</annotation>
+<annotation type="UI">111_hirata</annotation>
+<trace id="130">
+10 16, 11 20, 12 24, 15 28, 18 32, 22 37, 24 40, 27 42, 30 47, 31 49
+</trace>
+<trace id="131">
+34 18, 30 18, 28 20, 25 22, 21 26, 18 31, 15 37, 13 42, 12 47, 12 51
+</trace>
+<trace id="232">
+32 10, 41 10, 43 10, 46 11, 49 11, 52 11, 53 12, 56 12, 59 12, 62 13, 65 13, 68 14, 70 14, 71 14, 72 14, 73 15, 73 14
+</trace>
+<trace id="233">
+52 14, 48 19, 47 22, 46 25, 45 28, 42 31, 41 34, 40 37, 39 40, 38 42, 37 44, 37 46, 36 47, 36 49, 36 51
+</trace>
+<trace id="234">
+62 15, 58 20, 58 22, 57 25, 56 26, 56 29, 55 31, 55 34, 55 36, 55 39, 55 42, 55 44, 56 45
+</trace>
+<traceGroup>
+	<traceGroup xml:id="47">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="131"/>
+		<traceView traceDataRef="130"/>
+	</traceGroup>
+	<traceGroup xml:id="48">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="232"/>
+		<traceView traceDataRef="233"/>
+		<traceView traceDataRef="234"/>
+	</traceGroup>
+</traceGroup>
+</ink>

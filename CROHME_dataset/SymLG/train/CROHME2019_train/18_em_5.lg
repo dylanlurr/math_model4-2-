@@ -1,0 +1,23 @@
+# IUD, ISICAL_2014_F18_E5
+# Objects(10):
+O, int_1, \int, 1.0, O
+O, g_1, g, 1.0, OR
+O, n_2, n, 1.0, ORRRRRSub
+O, lim_1, \lim, 1.0, ORRR
+O, infin_1, \infty, 1.0, ORRRSubRR
+O, n_1, n, 1.0, ORRRSub
+O, rarr_1, \rightarrow, 1.0, ORRRSubR
+O, int_2, \int, 1.0, ORRRR
+O, g_2, g, 1.0, ORRRRR
+O, =_1, =, 1.0, ORR
+
+# Relations from SRT:
+R, =_1, lim_1, Right, 1.0
+R, g_1, =_1, Right, 1.0
+R, g_2, n_2, Sub, 1.0
+R, int_1, g_1, Right, 1.0
+R, int_2, g_2, Right, 1.0
+R, lim_1, int_2, Right, 1.0
+R, lim_1, n_1, Sub, 1.0
+R, n_1, rarr_1, Right, 1.0
+R, rarr_1, infin_1, Right, 1.0

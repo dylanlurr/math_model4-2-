@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">B,B^{\prime}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+2 2, 10 13, 14 27, 17 43, 19 63, 19 84, 21 107, 22 130, 25 154, 27 174, 30 194, 34 213, 37 225, 41 236, 45 245, 47 249, 49 251
+</trace>
+<trace id="1">
+19 107, 19 90, 22 76, 27 65, 32 54, 40 47, 48 41, 58 39, 67 39, 77 42, 85 48, 93 55, 97 64, 99 74, 99 84, 96 94, 92 103, 87 111, 81 117, 76 122, 70 125, 67 127, 66 128, 67 129, 71 129, 77 130, 85 132, 94 135, 104 139, 115 144, 124 150, 133 157, 139 165, 144 174, 145 183, 143 192, 138 201, 130 211, 119 219, 107 228, 93 235, 79 240, 66 244, 53 244, 44 244, 36 241, 33 236, 33 230, 36 222
+</trace>
+<trace id="2">
+231 229, 214 246, 211 248, 211 251, 209 253, 206 256
+</trace>
+<trace id="3">
+336 56, 336 48, 344 124, 359 236
+</trace>
+<trace id="4">
+291 48, 314 11, 381 3, 434 11, 441 18, 449 26, 449 33, 449 41, 449 48, 441 56, 434 64, 426 71, 419 79, 411 79, 404 86, 396 86, 389 94, 389 101, 396 101, 404 109, 411 109, 419 116, 434 124, 449 131, 456 139, 464 139, 479 146, 486 161, 486 176, 486 184, 479 191, 471 199, 464 206, 449 214, 434 221, 426 229, 411 229, 396 236, 389 236, 374 244, 366 244, 351 244, 344 244, 336 251, 344 251
+</trace>
+<trace id="5">
+546 10, 546 4, 572 62, 572 69, 578 107, 578 114, 578 120, 572 120, 572 127, 578 120
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">B</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">,</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">B</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\prime</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

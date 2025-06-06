@@ -1,0 +1,53 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">a = \sin x</annotation>
+<annotation type="UI">CROHME19_951</annotation>
+<trace id="2">
+100 35, 101 35, 107 35, 110 35, 114 35, 117 35, 121 35, 123 35, 126 35, 125 35
+</trace>
+<trace id="3">
+94 56, 93 56, 94 56, 96 56, 107 56, 118 55, 122 55, 124 55
+</trace>
+<trace id="109">
+36 40, 35 37, 35 38, 35 37, 34 34, 35 34, 29 35, 26 35, 22 38, 20 40, 16 43, 11 50, 10 55, 10 58, 10 62, 12 64, 13 65, 16 67, 20 65, 23 64, 30 59, 33 57, 36 52, 39 49, 39 44, 40 40, 39 34, 36 33, 35 31, 33 31, 32 29, 30 29, 30 32, 32 34, 33 37, 34 39, 35 41, 36 47, 36 50, 36 53, 36 57, 36 61, 38 64, 44 68, 57 70, 62 71, 63 71
+</trace>
+<trace id="210">
+175 34, 175 34, 179 30, 179 25, 173 21, 162 25, 160 33, 163 38, 180 45, 184 51, 182 59, 165 59, 160 57, 160 54
+</trace>
+<trace id="211">
+192 32, 192 32, 193 30, 194 30, 198 41, 200 47, 202 55, 202 59
+</trace>
+<trace id="212">
+216 42, 216 42, 217 38, 217 37, 223 42, 229 57, 229 50, 233 42, 240 35, 252 33, 257 38, 264 65, 265 65
+</trace>
+<trace id="213">
+200 12, 200 12, 196 10, 196 10, 198 11, 200 12
+</trace>
+<trace id="214">
+278 34, 278 34, 280 32, 282 30, 288 30, 296 31, 302 36, 307 43, 307 51, 307 57, 303 61, 303 54, 309 47, 326 37, 321 49, 328 58, 334 59
+</trace>
+<traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="109"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="213"/>
+		<traceView traceDataRef="212"/>
+		<traceView traceDataRef="210"/>
+		<traceView traceDataRef="211"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="214"/>
+	</traceGroup>
+</traceGroup>
+</ink>

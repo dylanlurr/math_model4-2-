@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">s = - \int y</annotation>
+<annotation type="UI">CROHME19_1158</annotation>
+<trace id="1">
+52 51, 55 51, 58 50, 61 49, 65 49, 68 49, 71 49, 72 50
+</trace>
+<trace id="2">
+52 65, 58 65, 62 64, 66 63, 69 63, 72 62, 74 62, 76 64, 76 63
+</trace>
+<trace id="3">
+109 56, 110 56, 111 56, 113 56, 126 55, 132 55, 135 55, 138 55, 141 55, 142 55
+</trace>
+<trace id="4">
+207 16, 207 13, 205 11, 203 10, 194 12, 191 16, 188 20, 186 24, 185 29, 185 36, 185 42, 185 49, 186 56, 186 64, 185 71, 180 88, 177 97, 173 104, 169 109, 165 112, 164 111
+</trace>
+<trace id="106">
+33 29, 12 42, 13 45, 15 48, 18 52, 21 55, 25 58, 26 63, 28 66, 29 70, 29 73, 28 76, 26 78, 25 79, 21 81, 17 81, 13 81, 10 79
+</trace>
+<trace id="207">
+234 43, 229 49, 228 50, 228 52, 228 54, 229 54, 230 56, 231 57, 231 57, 233 58, 234 58, 236 58, 238 58, 239 58, 241 57, 242 56, 245 54, 246 53, 248 50, 249 48, 250 47, 251 45, 251 44, 252 43, 252 42, 253 41, 253 42, 254 42, 254 43, 254 43, 255 46, 255 47, 255 50, 255 54, 255 57, 256 62, 256 67, 256 71, 256 77, 256 81, 256 87, 256 91, 255 94, 255 98, 254 101, 252 103, 250 104, 248 104, 245 105, 241 105, 238 105, 233 106, 230 106, 227 106, 224 106, 223 106
+</trace>
+<traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\int</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">s</annotation>
+		<traceView traceDataRef="106"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="207"/>
+	</traceGroup>
+</traceGroup>
+</ink>

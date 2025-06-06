@@ -1,0 +1,66 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sqrt { x ^ { 2 } } = ( y )</annotation>
+<annotation type="UI">MfrDB3365</annotation>
+<trace id="0">
+10 84, 10 86, 10 88, 10 90, 10 94, 10 98, 10 102, 10 104, 10 108, 11 114, 13 118, 14 120, 14 122, 15 124, 16 126, 17 127, 18 128, 19 130, 20 132, 21 133, 22 134, 23 136, 24 138, 24 140, 25 141, 26 142, 27 142, 28 140, 29 136, 30 134, 31 128, 33 122, 37 113, 39 105, 41 101, 45 92, 49 84, 53 75, 54 71, 57 62, 60 54, 62 48, 63 44, 67 37, 68 32, 70 27, 70 25, 72 21, 73 18, 75 16, 76 15, 76 13, 77 12, 78 11, 79 10, 81 10, 84 10, 87 10, 92 10, 97 10, 101 10, 103 10, 107 10, 111 10, 115 10, 117 10, 119 10, 123 10, 125 10, 127 10, 129 10, 131 10
+</trace>
+<trace id="1">
+66 67, 66 69, 66 71, 67 74, 68 76, 69 78, 71 81, 72 82, 72 84, 74 88, 75 92, 76 96, 76 98, 78 102, 78 105, 79 109, 80 112, 82 116, 82 118, 82 120, 83 124, 84 126, 85 128, 86 130
+</trace>
+<trace id="2">
+86 82, 86 84, 86 86, 84 90, 83 92, 82 94, 82 96, 80 100, 79 101, 78 102, 76 106, 75 108, 74 110, 73 112, 71 115, 70 118, 69 119, 68 120, 68 124, 67 127, 66 128, 66 130, 66 132, 66 134, 65 136, 64 136, 65 134, 66 132
+</trace>
+<trace id="4">
+166 76, 168 76, 170 76, 172 76, 174 76, 176 76, 178 76, 180 76, 182 76, 184 76, 186 77, 188 78, 190 78
+</trace>
+<trace id="5">
+166 93, 168 93, 170 93, 172 93, 174 93, 176 93, 178 93, 180 93, 182 93, 186 93, 188 93, 192 93, 196 93, 198 93, 200 92
+</trace>
+<trace id="110">
+99 54, 100 51, 103 50, 105 49, 109 48, 112 48, 115 48, 118 48, 120 49, 122 51, 124 54, 124 56, 123 61, 120 66, 115 71, 110 75, 106 77, 102 79, 100 79, 99 79, 98 79, 98 79, 100 79, 102 79, 104 79, 106 79, 108 79, 111 80, 114 80, 119 78
+</trace>
+<trace id="211">
+260 17, 242 30, 239 35, 236 41, 233 47, 230 53, 228 58, 226 64, 224 69, 224 74, 223 78, 224 82, 224 84, 226 87, 228 89
+</trace>
+<trace id="212">
+254 67, 267 70, 268 68, 269 64, 270 62, 272 58, 272 56, 273 55, 273 54, 273 53, 272 54, 272 56, 270 60, 270 65, 269 71, 269 77, 269 84, 268 91, 268 97, 268 104, 268 111, 268 116, 268 121, 267 124, 267 127, 267 128, 267 129, 266 129, 263 128, 261 125, 260 122, 256 118, 254 115, 253 112, 250 110, 250 108, 249 105, 250 104, 253 102, 255 100, 257 97, 261 96, 264 94, 268 94, 272 91, 276 90, 277 90
+</trace>
+<trace id="213">
+301 29, 309 60, 308 68, 307 75, 307 82, 305 89, 302 95, 301 102, 299 107, 296 112, 295 117, 294 122, 293 122
+</trace>
+<traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="110"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="211"/>
+	</traceGroup>
+	<traceGroup xml:id="20">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="212"/>
+	</traceGroup>
+	<traceGroup xml:id="21">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="213"/>
+	</traceGroup>
+</traceGroup>
+</ink>

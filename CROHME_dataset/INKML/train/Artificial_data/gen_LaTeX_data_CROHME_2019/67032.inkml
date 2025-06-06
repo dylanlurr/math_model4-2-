@@ -1,0 +1,60 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">R=\frac{\lambda}{B}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+29 52, 25 106, 25 123, 25 137, 29 151, 29 167, 29 181, 29 198, 29 208, 29 222, 29 228, 29 239, 29 245, 32 249, 32 252, 32 256
+</trace>
+<trace id="1">
+5 29, 83 5, 93 5, 106 5, 120 8, 130 15, 140 18, 151 29, 157 42, 161 56, 164 69, 164 79, 164 93, 161 106, 154 117, 147 123, 137 130, 127 137, 120 144, 110 147, 96 151, 83 151, 69 151, 59 151, 49 151, 42 151, 39 151, 35 151, 35 154, 42 157, 49 161, 56 164, 66 167, 79 174, 90 181, 100 191, 113 198, 127 205, 140 215, 154 222, 164 225, 171 232, 178 235, 188 239, 191 242, 198 245, 201 249, 205 249, 208 249, 208 252, 205 249, 205 245
+</trace>
+<trace id="2">
+273 137, 270 133, 268 131, 272 132, 279 134, 290 137, 301 136, 315 133, 332 128, 351 130, 367 130
+</trace>
+<trace id="3">
+288 170, 285 171, 285 173, 290 175, 297 174, 307 170, 327 168, 354 162
+</trace>
+<trace id="4">
+486 29, 485 30, 485 31, 484 32, 482 34, 480 37, 477 40, 474 44, 471 48, 467 54, 462 59, 458 65, 453 70, 449 75, 445 79, 442 83, 440 86, 439 87, 438 88, 439 88, 439 86
+</trace>
+<trace id="5">
+453 8, 453 6, 453 3, 454 2, 454 2, 455 3, 456 5, 458 8, 461 12, 464 17, 468 23, 471 29, 476 35, 480 41, 484 48, 489 54, 494 60, 498 66, 502 71, 506 77, 510 82, 513 87, 516 93, 518 97
+</trace>
+<trace id="6">
+427 138, 427 138, 433 134, 439 132, 449 130, 459 127, 470 126, 483 124, 495 122, 506 120, 516 120, 524 120, 529 121
+</trace>
+<trace id="7">
+449 191, 449 197, 450 203, 452 212, 453 222, 454 233, 455 240, 455 243, 457 244, 458 244
+</trace>
+<trace id="8">
+449 178, 448 178, 447 176, 448 173, 450 171, 455 167, 464 163, 470 160, 477 162, 483 167, 485 173, 483 183, 478 189, 468 198, 465 200, 466 199, 470 199, 479 200, 494 208, 503 216, 508 223, 509 230, 507 234, 501 242, 495 246, 487 251, 473 255, 464 256, 457 253, 455 250, 458 245
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">R</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\sum</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+	</traceGroup>
+</traceGroup>
+</ink>

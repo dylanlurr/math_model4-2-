@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">n=\frac{c}{v}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+9 144, 9 152, 17 200, 17 224, 25 240, 25 256, 25 248, 33 240, 33 232, 57 168, 105 144, 97 136, 105 144, 128 168, 136 184, 144 224, 144 240, 144 248, 152 248
+</trace>
+<trace id="1">
+305 131, 255 137, 246 139, 236 139, 229 141, 223 141, 218 141, 214 141, 214 144
+</trace>
+<trace id="2">
+311 189, 279 187, 270 187, 264 189, 255 189, 246 191, 238 191, 231 193, 225 193, 220 195, 218 195
+</trace>
+<trace id="3">
+452 2, 442 10, 436 13, 431 17, 425 23, 420 31, 415 38, 410 47, 405 56, 402 65, 402 73, 402 81, 406 87, 411 91, 418 95, 443 98, 452 98, 456 98
+</trace>
+<trace id="4">
+487 123, 485 123, 483 123, 469 123, 463 125, 457 125, 451 127, 443 129, 436 129, 428 131, 420 133, 410 133, 402 135, 396 137, 389 137, 383 137, 377 137, 373 137, 373 135
+</trace>
+<trace id="5">
+384 183, 392 206, 396 213, 397 218, 403 225, 406 230, 409 237, 413 242, 414 245, 416 249, 418 252, 419 254, 421 256, 423 256, 425 252, 426 249, 430 245, 433 239, 438 234, 441 227, 447 220, 450 212, 453 205, 457 196, 460 188, 465 181, 467 174, 470 169, 472 166, 474 162, 475 161
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

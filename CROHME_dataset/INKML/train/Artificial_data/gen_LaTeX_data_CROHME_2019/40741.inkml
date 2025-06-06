@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">p=q</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+2 127, 2 126, 4 127, 5 129, 5 129, 6 133, 5 135, 6 139, 6 144, 6 152, 6 161, 7 172, 7 183, 7 195, 9 208, 10 221, 11 232, 13 241, 15 249, 16 253, 18 256, 18 256, 18 251, 18 246
+</trace>
+<trace id="1">
+2 99, 1 99, 2 99, 3 100, 2 99, 2 99, 2 99, 2 98, 2 97, 3 96, 3 94, 5 93, 7 91, 11 90, 15 88, 19 88, 24 86, 30 86, 36 86, 43 87, 49 90, 56 93, 62 99, 66 107, 70 116, 71 127, 70 138, 67 149, 60 160, 52 169, 43 176, 33 180, 22 180, 13 179
+</trace>
+<trace id="2">
+111 94, 111 94, 113 92, 116 91, 119 90, 123 89, 128 88, 135 87, 141 86, 148 86, 154 86, 160 86, 163 87
+</trace>
+<trace id="3">
+111 115, 111 115, 111 115, 113 115, 117 115, 121 113, 126 112, 132 111, 140 109, 148 108, 156 107, 164 105, 171 104, 177 103
+</trace>
+<trace id="4">
+308 11, 268 3, 263 6, 256 8, 251 11, 246 16, 239 21, 231 28, 229 35, 224 40, 222 48, 219 53, 219 60, 219 65, 219 67, 222 72, 224 75, 227 77, 231 77, 236 77, 241 75, 249 75, 254 70, 259 65, 261 60, 266 55, 271 48, 273 40, 276 33, 276 25, 278 21, 278 16, 278 11, 281 8, 278 6, 278 3, 281 3, 281 6, 281 11, 281 16, 278 25, 281 33, 281 43, 281 55, 281 65, 281 77, 281 89, 281 102, 281 112, 281 124, 281 134, 281 141, 281 149, 281 153, 281 158, 281 163, 281 166, 281 168, 281 171, 281 168
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">p</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">.</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

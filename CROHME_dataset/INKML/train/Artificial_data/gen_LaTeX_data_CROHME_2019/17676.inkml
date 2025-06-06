@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x_{0}=1</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+9 22, 17 27, 31 35, 46 49, 65 62, 83 75, 96 93, 102 114, 100 141, 92 166, 77 191, 61 210, 44 226, 25 237, 11 242, 3 243, 3 243, 3 243, 3 243, 3 243, 3 243, 3 243
+</trace>
+<trace id="1">
+160 3, 148 13, 133 28, 113 52, 102 80, 98 110, 98 141, 102 171, 110 197, 119 218, 135 234, 154 246, 173 256, 173 256, 173 256, 173 256, 173 256, 173 256
+</trace>
+<trace id="2">
+272 196, 275 193, 278 188, 278 185, 278 182, 277 178, 274 175, 271 175, 265 177, 258 183, 250 191, 243 201, 236 215, 233 227, 235 240, 242 251, 253 256, 269 252, 284 240, 300 225, 306 210, 306 192, 301 178, 294 171, 286 173, 275 177, 270 183
+</trace>
+<trace id="3">
+368 132, 371 132, 381 132, 387 132, 396 132, 412 132, 421 132, 437 132, 446 132, 455 132, 461 132, 464 132
+</trace>
+<trace id="4">
+371 184, 375 184, 378 184, 381 184, 384 184, 387 184, 393 184, 399 184, 406 184, 412 184, 415 184, 424 184, 427 184, 430 184, 440 187, 443 187, 446 187, 449 187, 452 187, 455 187, 458 187, 461 187
+</trace>
+<trace id="5">
+529 17, 524 9, 524 1, 524 7, 527 20, 534 46, 545 82, 552 126, 560 167, 563 204, 568 237, 571 253, 571 256, 571 253, 568 250, 568 248, 568 245, 568 232
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">\rightarrow</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">4</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

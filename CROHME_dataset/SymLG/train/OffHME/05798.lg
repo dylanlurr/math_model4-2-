@@ -1,0 +1,65 @@
+# IUD, Formula00_3283_tru_norm
+# Objects(19):
+O, \gamma_3, \gamma, 1.0, O
+O, \alpha_5, \alpha, 1.0, OSub
+O, \beta_6, \beta, 1.0, OSubR
+O, =_7, =, 1.0, OR
+O, -_8, -, 1.0, ORR
+O, g_10, g, 1.0, ORRR
+O, \alpha_12, \alpha, 1.0, ORRRSub
+O, \beta_13, \beta, 1.0, ORRRSubR
+O, +_14, +, 1.0, ORRRR
+O, _15, -, 1.0, ORRRRR
+O, g_18, g, 1.0, ORRRRRAbove
+O, 0_20, 0, 1.0, ORRRRRAboveSub
+O, \alpha_21, \alpha, 1.0, ORRRRRAboveSubR
+O, g_23, g, 1.0, ORRRRRAboveR
+O, 0_25, 0, 1.0, ORRRRRAboveRSub
+O, \beta_26, \beta, 1.0, ORRRRRAboveRSubR
+O, g_28, g, 1.0, ORRRRRBelow
+O, 0_30, 0, 1.0, ORRRRRBelowSub
+O, 0_31, 0, 1.0, ORRRRRBelowSubR
+
+
+# Relations from SRT:
+R, +_14, _15, Right, 1.0
+R, -_8, g_10, Right, 1.0
+R, 0_20, \alpha_21, Right, 1.0
+R, 0_25, \beta_26, Right, 1.0
+R, 0_30, 0_31, Right, 1.0
+R, =_7, -_8, Right, 1.0
+R, \alpha_12, \beta_13, Right, 1.0
+R, \alpha_5, \beta_6, Right, 1.0
+R, \gamma_3, =_7, Right, 1.0
+R, \gamma_3, \alpha_5, Sub, 1.0
+R, _15, g_18, Above, 1.0
+R, _15, g_28, Below, 1.0
+R, g_10, +_14, Right, 1.0
+R, g_10, \alpha_12, Sub, 1.0
+R, g_18, 0_20, Sub, 1.0
+R, g_18, g_23, Right, 1.0
+R, g_23, 0_25, Sub, 1.0
+R, g_28, 0_30, Sub, 1.0
+
+# Bounding boxes
+BB, \gamma_3, 74.0000, 85.2353, 12.2353, 176.4118
+BB, \alpha_5, 131.3529, 193.3235, 71.7941, 117.5882
+BB, \beta_6, 133.5588, 208.0294, 181.3529, 119.7941
+BB, =_7, 307.8235, 163.9118, 240.1765, 105.8235
+BB, -_8, 346.7941, 142.5882, 414.4412, 122.0000
+BB, g_10, 480.6176, 77.8824, 407.8235, 206.5588
+BB, \alpha_12, 544.5882, 163.1765, 487.9706, 77.1471
+BB, \beta_13, 538.7059, 197.7353, 597.5294, 90.3824
+BB, +_14, 722.5294, 74.2059, 633.5588, 190.3824
+BB, _15, 776.2059, 172.7353, 1113.7059, 133.0294
+BB, g_18, 760.0294, 135.2353, 828.4118, 18.3235
+BB, 0_20, 829.1471, 54.3529, 874.7353, 118.3235
+BB, \alpha_21, 930.6176, 121.2647, 868.1176, 55.8235
+BB, g_23, 1011.5000, 16.1176, 946.7941, 131.5588
+BB, 0_25, 1070.3235, 122.7353, 1014.4412, 52.8824
+BB, \beta_26, 1074.0000, 125.6765, 1124.7353, 44.7941
+BB, g_28, 899.7353, 166.1176, 839.4412, 249.9412
+BB, 0_30, 944.5882, 178.6176, 900.4706, 238.9118
+BB, 0_31, 1004.8824, 177.8824, 950.4706, 238.9118
+
+# LaTeX, $\gamma _ { \alpha \beta } = - g _ { \alpha \beta } + \frac { g _ { 0 \alpha } g _ { 0 \beta } } { g _ { 0 0 } }$

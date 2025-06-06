@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\frac{k}{k-1}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+66 1, 66 5, 69 44, 66 83, 66 86, 66 90, 62 86, 66 86, 66 83, 66 75
+</trace>
+<trace id="1">
+112 1, 116 1, 104 28, 73 48, 69 48, 73 48, 77 44, 81 44, 85 44, 93 48, 97 48, 100 52, 104 55, 108 55, 112 59, 116 63, 116 67, 120 71, 124 75, 124 79, 128 83, 131 79, 131 75
+</trace>
+<trace id="2">
+6 145, 6 139, 6 139, 12 139, 12 139, 18 139, 23 134, 29 134, 40 128, 68 123, 96 123, 153 117, 175 117, 186 123, 192 117
+</trace>
+<trace id="3">
+17 220, 17 220, 17 220, 29 212, 33 206, 34 199, 33 191, 27 181, 18 171, 14 167, 13 168, 12 187, 22 242, 21 252, 24 234, 28 227, 32 225, 34 230, 33 233, 22 240, 47 253, 50 256
+</trace>
+<trace id="4">
+72 212, 74 212, 76 212, 77 212, 79 212, 81 212, 83 212, 85 212, 87 212, 89 212, 91 212, 93 212, 94 212, 96 212, 98 212, 100 212, 102 212, 104 212, 106 212
+</trace>
+<trace id="5">
+127 210, 127 210, 130 210, 135 208, 143 204, 152 199, 160 195, 167 189, 172 181, 177 174, 181 170, 181 166, 181 167, 181 168, 180 171, 177 177, 174 190, 169 204, 161 218, 153 232, 148 244, 144 251, 143 256, 143 256, 143 254, 145 251, 149 246
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

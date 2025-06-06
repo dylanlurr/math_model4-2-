@@ -1,0 +1,73 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">p=\frac{2 \gamma\cos\theta}{r}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+4 110, 6 126, 6 140, 10 159, 13 184, 11 206, 15 233, 15 250, 15 256, 15 254, 15 248, 15 236, 10 217, 10 192, 8 159, 11 130, 18 108, 32 91, 45 86, 59 91, 69 105, 71 119, 67 135, 53 145, 32 149, 6 149, 1 147, 1 145
+</trace>
+<trace id="1">
+111 88, 113 87, 119 87, 128 86, 142 86, 155 86, 166 86
+</trace>
+<trace id="2">
+132 117, 142 117, 156 114, 177 109
+</trace>
+<trace id="3">
+224 14, 227 12, 231 6, 248 3, 259 14, 259 19, 259 23, 257 29, 253 34, 248 40, 244 47, 240 51, 235 56, 233 60, 231 62, 231 60, 240 62, 244 62, 250 62, 257 62, 266 60, 272 60, 287 58, 289 56
+</trace>
+<trace id="4">
+304 51, 305 51, 306 51, 307 51, 309 52, 311 54, 313 57, 315 59, 316 63, 317 67, 318 71, 318 75, 318 79, 317 83, 317 86, 315 89, 314 90, 313 92, 311 92, 310 92, 309 92, 309 90, 309 88, 309 86, 310 83, 311 80, 313 77, 315 73, 318 70, 321 66, 324 63, 327 59, 330 55, 332 52, 334 48, 336 44, 337 41, 337 39, 337 36, 337 34, 336 33, 335 32, 334 32, 332 32, 331 32
+</trace>
+<trace id="5">
+367 48, 367 48, 365 50, 365 50, 364 51, 364 51, 362 51, 362 53, 362 53, 362 51, 364 50, 365 48, 367 45, 368 41, 370 36, 368 33, 367 33, 356 47, 353 53, 353 57, 358 59, 365 57, 374 53, 382 48, 385 47, 390 44, 387 44, 384 45, 379 50, 377 54, 377 57, 379 59, 381 59, 387 54, 388 51, 391 48, 391 45, 390 45, 388 47, 388 48, 396 50, 403 47, 406 44, 408 42, 406 41, 405 41, 403 42, 403 45, 406 47, 408 48, 414 50, 423 53, 425 54, 425 57, 423 59, 418 60, 414 62, 409 62, 406 62
+</trace>
+<trace id="6">
+469 4, 448 21, 441 40, 439 54, 443 61, 449 62, 459 61, 467 53, 475 44, 481 31, 481 21, 478 10, 471 2, 460 1
+</trace>
+<trace id="7">
+443 14, 445 15, 449 21, 457 23, 468 27, 480 28
+</trace>
+<trace id="8">
+221 80, 309 92, 332 95, 351 95, 370 95, 393 95, 412 95, 431 95, 450 92, 465 88, 481 84, 488 84
+</trace>
+<trace id="9">
+339 140, 339 142, 339 146, 340 149, 340 152, 340 156, 341 160, 341 163, 342 166, 343 168, 343 169, 343 170, 343 171, 343 170, 343 169, 343 168, 343 167, 342 164, 342 162, 343 159, 343 156, 344 154, 346 151, 347 149, 350 146, 352 145, 354 144, 357 143, 359 142, 361 142, 363 142, 365 142, 366 142
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">p</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\gamma</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="105">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+	<traceGroup xml:id="106">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="8"/>
+	</traceGroup>
+	<traceGroup xml:id="107">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="9"/>
+	</traceGroup>
+</traceGroup>
+</ink>

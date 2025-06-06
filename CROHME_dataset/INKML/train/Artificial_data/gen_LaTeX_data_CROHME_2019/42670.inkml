@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sigma_{m}=0</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+94 3, 24 124, 19 150, 9 180, 9 200, 3 225, 3 240, 14 250, 24 250, 34 256, 54 250, 69 245, 84 230, 94 220, 104 200, 114 185, 124 165, 129 145, 129 124, 129 109, 124 99, 119 89, 114 84, 104 79, 99 79, 94 79, 89 79, 84 79, 89 79, 99 79, 109 79, 129 79, 155 74, 180 74, 210 69, 235 64, 245 64
+</trace>
+<trace id="1">
+307 171, 312 176, 310 178, 310 185, 310 196, 310 209, 307 220, 305 229, 307 233, 310 233, 312 233, 314 229, 321 220, 334 211, 340 202, 345 191, 354 187, 358 187, 358 191, 363 202, 365 218, 365 233, 363 247, 360 251, 360 249, 363 242, 367 233, 374 225, 382 216, 391 209, 405 202, 416 196, 429 194, 438 196, 442 200, 442 209, 440 227, 440 242, 438 251, 438 253, 440 253, 442 256
+</trace>
+<trace id="2">
+505 132, 532 141, 535 144, 538 144, 547 147, 550 147, 553 150
+</trace>
+<trace id="3">
+526 159, 523 159, 520 159, 523 159, 532 162, 538 165, 544 165, 574 168, 580 168, 586 168, 598 171, 601 171, 598 171
+</trace>
+<trace id="4">
+721 48, 667 215, 674 229, 687 242, 707 249, 727 256, 754 249, 781 242, 807 229, 834 209, 848 189, 861 169, 868 142, 868 122, 868 95, 861 68, 848 48, 834 28, 814 15, 794 8, 774 8, 761 8, 741 8, 721 22, 707 35, 694 55, 694 62
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\sigma</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\sigma</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

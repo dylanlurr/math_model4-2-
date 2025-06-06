@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">1 = 9 \times 9</annotation>
+<annotation type="UI">MfrDB0945</annotation>
+<trace id="1">
+10 75, 11 74, 13 73, 15 72, 17 71, 18 70, 19 68, 21 66, 23 63, 24 60, 28 55, 31 50, 38 43, 41 42, 43 39, 44 36, 45 34, 47 31, 49 28, 49 26, 52 24, 54 22, 57 19, 57 18, 58 16, 59 16, 59 18, 59 21, 59 25, 58 27, 57 31, 57 35, 56 39, 55 43, 55 48, 54 53, 54 58, 53 70, 53 74, 53 77, 53 79, 53 80, 54 82, 54 84, 55 85, 56 86, 57 88, 58 88
+</trace>
+<trace id="2">
+98 47, 102 47, 105 47, 109 47, 111 47, 115 47, 118 47, 123 47, 127 47, 130 47, 133 47, 137 47, 139 47, 140 47, 142 47, 144 47, 145 46, 146 46, 147 46
+</trace>
+<trace id="3">
+98 52, 100 52, 103 53, 107 53, 110 53, 115 53, 120 53, 127 53, 131 53, 135 53, 141 53, 148 53, 152 53, 154 53, 156 53, 157 53, 157 54, 158 54
+</trace>
+<trace id="107">
+257 18, 255 18, 251 18, 242 19, 238 23, 238 25, 238 29, 240 33, 242 35, 246 37, 249 39, 255 41, 259 39, 263 37, 265 35, 265 33, 263 29, 261 27, 259 27, 257 25, 255 25, 257 25, 267 31, 273 33, 278 37, 284 41, 286 45, 288 48, 288 52, 288 56, 284 60, 280 64, 276 67, 265 74, 259 76, 253 78, 248 78, 242 80, 240 80, 238 80
+</trace>
+<trace id="108">
+356 25, 358 23, 356 21, 356 23, 352 39, 350 45, 346 52, 344 58, 342 62, 340 68, 338 70, 336 72
+</trace>
+<trace id="109">
+327 41, 334 39, 340 41, 350 45, 356 48, 361 52, 367 56, 371 60, 375 62, 379 66, 379 68
+</trace>
+<trace id="110">
+404 14, 402 14, 400 12, 396 14, 394 18, 396 21, 396 25, 400 29, 404 33, 408 33, 412 33, 414 31, 412 25, 410 19, 406 16, 402 12, 400 12, 400 10, 400 12, 402 14, 419 23, 431 33, 435 37, 437 43, 437 48, 433 52, 429 56, 425 58, 421 60, 417 62, 415 62
+</trace>
+<traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">9</annotation>
+		<traceView traceDataRef="107"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="109"/>
+		<traceView traceDataRef="108"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">9</annotation>
+		<traceView traceDataRef="110"/>
+	</traceGroup>
+</traceGroup>
+</ink>

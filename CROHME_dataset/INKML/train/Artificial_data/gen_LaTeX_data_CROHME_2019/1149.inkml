@@ -1,0 +1,67 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sigma=\frac{F_{n}}{A}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+543 57
+</trace>
+<trace id="1">
+543 57, 587 35, 587 24, 587 13, 576 13, 565 13, 554 13, 532 13, 510 13, 487 13, 454 13, 421 13, 399 24, 366 24, 322 24, 289 24, 244 35, 211 46, 178 46, 145 57, 123 68, 101 68, 79 90, 46 112, 35 123, 24 145, 24 156, 13 178, 24 189, 35 200, 46 211, 68 233, 90 244, 112 256, 134 256, 167 256, 200 256, 233 256, 256 244, 289 244, 311 233, 322 222, 344 211, 344 200, 355 189, 355 178, 355 167, 355 156, 344 134, 322 123, 289 112, 256 112, 222 112, 189 112, 156 112, 134 112, 101 123, 68 123, 57 134
+</trace>
+<trace id="2">
+746 140, 743 138, 734 133, 720 131, 703 129, 686 133, 661 143, 646 152
+</trace>
+<trace id="3">
+703 211, 698 209, 689 209, 682 206, 670 206, 656 206, 646 209
+</trace>
+<trace id="4">
+822 6, 822 7, 820 29, 819 39, 819 48, 819 58, 820 66, 820 73, 825 93, 825 96, 825 98, 827 98, 825 96, 822 83, 820 74, 819 68, 817 54, 817 46, 819 39, 819 32, 819 27, 819 22, 819 12, 817 9, 817 6, 819 4, 817 2, 819 2, 824 4, 825 4, 842 9, 847 9, 851 11, 852 11, 854 11
+</trace>
+<trace id="5">
+825 32, 827 32, 825 32, 827 34, 829 34, 837 36, 844 37, 846 37, 849 39, 851 39
+</trace>
+<trace id="6">
+880 67, 880 67, 879 66, 879 67, 878 68, 877 71, 877 75, 877 81, 877 86, 877 89, 878 91, 878 91, 878 92, 879 92, 878 90, 879 87, 879 82, 879 78, 881 74, 882 72, 883 71, 885 72, 887 73, 890 75, 892 78, 894 82, 894 87, 894 89, 894 92, 893 95, 892 96, 892 97, 892 98, 892 98, 891 98
+</trace>
+<trace id="7">
+811 126, 878 137, 889 137, 894 137, 900 137, 905 137
+</trace>
+<trace id="8">
+824 250, 824 253, 824 254, 823 256, 823 256, 823 256, 824 253, 825 251, 826 248, 828 244, 829 238, 831 232, 833 226, 835 218, 837 211, 839 202, 842 194, 844 186, 847 179, 849 173, 852 168, 854 164, 857 161, 858 160, 860 160, 862 161, 864 164, 865 168, 868 173, 870 179, 872 186, 875 193, 877 200, 880 207, 881 214, 883 220, 884 225, 885 230, 886 234, 887 237, 887 239, 888 240, 888 240, 888 240, 888 240, 886 238, 885 236, 884 233
+</trace>
+<trace id="9">
+830 218, 829 219, 829 219, 830 219, 833 219, 837 218, 841 216, 847 215, 854 213, 861 212, 868 210, 873 209, 878 208
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\sigma</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">F</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="7"/>
+	</traceGroup>
+	<traceGroup xml:id="105">
+		<annotation type="truth">A</annotation>
+		<traceView traceDataRef="9"/>
+		<traceView traceDataRef="8"/>
+	</traceGroup>
+</traceGroup>
+</ink>

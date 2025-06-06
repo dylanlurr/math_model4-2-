@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">y\in T</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+2 100, 2 99, 1 99, 1 99, 3 102, 5 105, 7 111, 11 116, 15 122, 19 129, 25 136, 30 141, 34 147, 38 152, 42 157, 46 162, 48 165, 50 168, 53 170, 55 170
+</trace>
+<trace id="1">
+69 99, 68 94, 67 90, 66 88, 65 86, 65 86, 65 87, 65 91, 65 95, 65 102, 66 108, 66 117, 66 126, 66 137, 66 146, 66 157, 65 167, 64 177, 63 187, 62 197, 61 207, 60 216, 59 225, 59 232, 59 238, 59 244, 59 248, 59 251, 59 253, 59 254, 59 256, 59 256, 59 256, 59 253, 59 249, 60 245, 60 239, 61 232
+</trace>
+<trace id="2">
+337 9, 337 4, 335 2, 332 1, 329 1, 322 1, 308 4, 284 9, 252 17, 209 36, 172 55, 140 76, 119 100, 109 116, 112 126, 117 137, 124 147, 132 153, 148 159, 170 164, 197 166, 226 167, 250 169, 282 169, 306 171, 316 171, 321 171, 321 169, 321 167, 319 167, 316 158
+</trace>
+<trace id="3">
+156 70, 160 70, 221 65, 249 65, 284 62, 322 57, 356 52
+</trace>
+<trace id="4">
+483 7, 481 7, 481 6, 478 6, 477 6, 477 9, 475 11, 477 24, 473 49, 472 59, 472 70, 470 83, 468 95, 467 108, 467 121, 465 133, 465 144, 465 153, 463 161, 463 166, 463 171, 463 169
+</trace>
+<trace id="5">
+397 4, 399 4, 414 2, 422 2, 430 2, 439 2, 477 4, 491 4, 508 4, 524 4, 539 6, 556 4, 570 4, 577 4
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

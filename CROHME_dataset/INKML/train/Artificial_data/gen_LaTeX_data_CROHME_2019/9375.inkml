@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">z>1</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+25 18, 20 15, 20 15, 20 9, 30 8, 42 7, 57 5, 75 4, 94 2, 112 2, 145 2, 156 6, 160 14, 160 24, 153 38, 143 55, 129 77, 113 100, 77 151, 49 194, 40 213, 33 227, 27 237, 27 244, 30 249, 37 252, 45 255, 57 256, 69 255, 85 254, 103 252, 136 246, 151 245, 161 242, 168 237, 168 231
+</trace>
+<trace id="1">
+7 141, 2 141, 2 141, 9 142, 18 142, 32 139, 49 137, 69 134, 92 130, 115 129, 136 127, 155 125, 171 124
+</trace>
+<trace id="2">
+233 73, 233 68, 236 70, 246 76, 273 94, 310 126, 320 139, 333 144, 326 144, 323 147, 318 150, 307 158, 299 166, 283 176, 267 197, 254 218, 249 232, 236 250, 233 256
+</trace>
+<trace id="3">
+496 13, 500 9, 500 13, 492 27
+</trace>
+<trace id="4">
+393 123, 397 127, 408 123, 430 119, 463 105, 503 82, 555 46, 599 13, 621 1, 625 1, 621 5, 618 38, 610 90, 606 149, 603 189, 603 215, 606 241, 610 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\prime</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

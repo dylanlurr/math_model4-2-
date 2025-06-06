@@ -1,0 +1,38 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">B_{n-1}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+40 30, 29 60, 28 69, 25 78, 24 88, 21 100, 20 112, 18 126, 17 140, 14 153, 13 168, 10 180, 9 193, 8 205, 6 216, 5 225, 4 233, 2 240, 2 245, 2 246
+</trace>
+<trace id="1">
+21 24, 52 6, 61 4, 72 2, 82 2, 92 2, 101 4, 110 6, 117 10, 121 16, 125 21, 126 28, 128 36, 126 44, 121 53, 114 62, 108 72, 98 81, 89 89, 80 98, 69 106, 61 113, 54 118, 49 122, 45 124, 44 125, 42 126, 44 125, 48 124, 54 122, 60 120, 69 117, 78 113, 89 112, 101 110, 112 110, 122 112, 134 114, 144 117, 153 122, 161 128, 169 134, 173 141, 177 148, 178 156, 180 164, 177 172, 174 180, 169 188, 164 196, 156 204, 148 212, 140 218, 129 225, 118 232, 106 237, 94 242, 82 246, 70 250, 60 253, 49 254, 40 256, 30 256, 24 256, 18 254, 13 253, 10 250, 8 249, 8 246, 9 245
+</trace>
+<trace id="2">
+239 226, 242 251, 242 253, 242 256, 242 253, 242 251, 242 249, 239 246, 239 244, 239 239, 239 235, 239 230, 239 228, 242 223, 242 221, 244 219, 246 216, 249 214, 253 214, 256 214, 260 216, 262 216, 267 219, 269 223, 272 226, 274 230, 276 233, 279 235, 279 237, 281 239, 281 242, 281 244
+</trace>
+<trace id="3">
+302 215, 317 214, 320 214, 323 213, 326 213, 330 213, 332 212, 335 212, 335 212
+</trace>
+<trace id="4">
+362 171, 368 186, 368 192, 368 201, 368 207, 368 216, 368 222, 368 231, 365 240, 365 243, 362 249, 359 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">B</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

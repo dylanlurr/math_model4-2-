@@ -1,0 +1,42 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">c \sin \theta</annotation>
+<annotation type="UI">65_maira</annotation>
+<trace id="111">
+44 19, 37 16, 32 16, 27 19, 22 24, 17 31, 13 38, 10 48, 10 55, 13 62, 17 67, 48 72
+</trace>
+<trace id="212">
+110 21, 112 19, 98 19, 94 24, 94 26, 98 32, 102 34, 110 38, 114 42, 118 46, 118 48, 116 51, 114 53, 112 55, 108 57, 102 59, 100 59, 98 59, 96 57, 96 55, 98 53
+</trace>
+<trace id="213">
+181 22, 181 20, 166 44, 166 49, 166 51
+</trace>
+<trace id="214">
+220 16, 222 14, 212 44, 210 51, 208 51, 208 53, 208 55, 208 53, 208 51, 210 49, 210 46, 212 40, 214 36, 218 31, 220 29, 222 25, 226 22, 227 22, 229 20, 233 18, 234 18, 236 18, 238 16, 244 16, 246 16, 248 18, 248 20, 248 22, 248 23, 246 25, 246 27, 244 29, 244 31, 242 33, 242 37, 240 39, 240 40, 240 42, 238 44, 238 46, 238 48, 236 49, 236 51, 236 53, 236 55, 238 57, 240 57
+</trace>
+<trace id="215">
+325 12, 325 10, 298 39, 296 47, 298 50, 300 55, 302 59, 306 61, 313 61, 319 59, 323 59, 325 58, 331 56, 334 54, 336 52, 338 49, 342 43, 344 41, 346 37, 346 35, 346 27, 346 25, 344 23, 344 20, 342 18, 340 16, 338 16, 336 14, 334 14, 331 14, 329 14, 327 14, 325 14, 321 14, 319 14, 317 16, 311 18, 309 20, 306 22, 304 22, 304 23, 302 25, 302 27, 300 29, 300 31, 300 33
+</trace>
+<trace id="216">
+296 39, 300 39, 331 39, 336 39, 340 39, 342 39, 344 39, 344 41, 342 43
+</trace>
+<traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="111"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="216"/>
+		<traceView traceDataRef="215"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="213"/>
+		<traceView traceDataRef="212"/>
+		<traceView traceDataRef="214"/>
+	</traceGroup>
+</traceGroup>
+</ink>

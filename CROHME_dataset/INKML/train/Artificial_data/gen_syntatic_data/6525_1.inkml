@@ -1,0 +1,31 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x _ { x }</annotation>
+<annotation type="UI">131_user0</annotation>
+<trace id="110">
+10 12, 11 13, 14 16, 35 32, 35 34, 33 34, 32 32, 30 32, 29 32, 25 32, 24 32
+</trace>
+<trace id="111">
+16 38, 37 15, 39 13, 40 12, 42 12, 43 12, 43 10, 43 12
+</trace>
+<trace id="212">
+57 33, 69 50, 69 52, 69 52, 69 54
+</trace>
+<trace id="213">
+52 55, 65 43, 67 41, 69 39, 69 39, 70 38
+</trace>
+<traceGroup>
+	<traceGroup xml:id="47">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="111"/>
+		<traceView traceDataRef="110"/>
+	</traceGroup>
+	<traceGroup xml:id="48">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="213"/>
+		<traceView traceDataRef="212"/>
+	</traceGroup>
+</traceGroup>
+</ink>

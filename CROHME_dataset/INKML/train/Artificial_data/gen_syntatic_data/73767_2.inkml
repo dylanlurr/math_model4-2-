@@ -1,0 +1,53 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sum _ { i } k _ { i }</annotation>
+<annotation type="UI">CROHME19_7</annotation>
+<trace id="0">
+71 12, 63 10, 60 11, 57 12, 54 12, 50 13, 46 14, 42 16, 39 17, 37 18, 36 19, 35 21, 34 22, 34 23, 34 24, 34 25, 35 26, 37 26, 39 27, 42 28, 45 29, 48 30, 51 31, 53 32, 55 32, 57 33, 58 34, 59 34, 59 35, 59 36, 58 37, 57 39, 54 41, 51 43, 46 45, 42 48, 38 50, 33 53, 28 56, 23 59, 19 60, 16 63, 13 65, 11 66, 10 68, 10 70, 10 72, 12 73, 13 74, 17 76, 21 76, 26 77, 31 77, 37 76, 43 76, 49 75, 54 75, 59 74, 62 73, 65 73, 66 73, 67 72
+</trace>
+<trace id="1">
+18 127, 24 115, 25 113, 26 111, 26 110, 27 109, 28 108, 28 109, 28 110, 28 111, 28 113, 28 114, 28 115, 29 117, 29 118, 29 120, 30 121, 30 122
+</trace>
+<trace id="2">
+27 98, 31 95, 31 94, 30 93, 29 92, 27 92, 26 92, 25 92, 24 93
+</trace>
+<trace id="4">
+117 67, 116 72, 115 74, 115 75, 115 77, 115 79, 115 80, 115 82, 115 83, 116 84, 116 85, 117 86
+</trace>
+<trace id="5">
+117 56, 118 54
+</trace>
+<trace id="106">
+102 36, 102 37, 102 37, 102 39, 102 40, 102 41, 102 44, 102 45, 101 47, 100 51, 100 54, 100 57, 99 60, 98 62, 98 64, 98 64, 98 65, 98 65, 98 65, 98 64
+</trace>
+<trace id="107">
+100 58, 101 57, 102 57, 103 56, 104 56, 107 56, 109 56, 111 55, 113 55, 115 55, 116 54, 117 54, 117 54, 116 54
+</trace>
+<trace id="108">
+101 58, 102 58, 102 58, 103 58, 104 58, 106 58, 106 59, 108 60, 111 60, 114 62, 117 63, 118 64, 120 64, 121 64, 122 65, 123 65
+</trace>
+<traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">\sum</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="107"/>
+		<traceView traceDataRef="108"/>
+		<traceView traceDataRef="106"/>
+	</traceGroup>
+</traceGroup>
+</ink>

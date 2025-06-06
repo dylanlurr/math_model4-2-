@@ -1,0 +1,42 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x=t</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+106 60, 112 28, 119 21, 125 21, 132 15, 145 15, 151 15, 164 8, 177 8, 184 8, 190 15, 197 15, 203 21, 210 28, 216 34, 223 41, 223 47, 229 54, 229 67, 229 73, 229 86, 229 93, 229 106, 229 112, 229 119, 223 125, 223 138, 216 145, 210 151, 203 164, 190 171, 177 184, 164 184, 151 190, 138 197, 125 203, 112 210, 99 210, 86 216, 73 216, 60 223, 47 223, 34 223, 21 223, 15 229, 15 223, 8 223
+</trace>
+<trace id="1">
+360 47, 301 21, 295 21, 288 28, 275 34, 269 34, 256 47, 249 54, 242 60, 236 73, 229 86, 229 99, 223 112, 223 125, 216 138, 216 151, 216 164, 216 171, 216 184, 223 190, 223 197, 229 210, 242 216, 249 223, 262 229, 275 236, 288 242, 301 249, 314 249, 321 249, 334 256, 340 256, 347 256, 353 256
+</trace>
+<trace id="2">
+420 130, 420 130, 420 130, 420 130, 420 130, 420 130, 420 130, 423 134, 423 134, 432 135, 437 134, 445 134, 453 133, 462 133, 470 131, 478 130, 484 130, 488 129, 488 129, 493 131, 493 131
+</trace>
+<trace id="3">
+444 174, 444 174, 444 174, 444 174, 444 174, 449 175, 453 173, 458 173, 464 172, 471 172, 479 172, 489 173, 498 171, 509 169, 518 163
+</trace>
+<trace id="4">
+614 4, 608 26, 605 40, 603 56, 603 75, 600 94, 600 119, 600 141, 600 163, 600 182, 603 198, 603 215, 603 228, 605 242, 608 253, 608 256
+</trace>
+<trace id="5">
+644 193, 581 146
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

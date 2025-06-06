@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">{r}_{k},{r}_{l}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+3 32, 9 46, 14 62, 21 83, 28 106, 35 131, 44 158, 52 182, 60 204, 67 222, 72 236, 76 245, 79 251, 79 251, 80 247, 79 238, 78 224, 76 206, 76 184, 77 160, 80 135, 88 112, 96 90, 108 71, 120 55, 136 43, 151 32, 170 22, 189 16, 205 9, 222 3
+</trace>
+<trace id="1">
+298 184, 298 194, 298 206, 291 224, 286 241, 281 251
+</trace>
+<trace id="2">
+373 169, 358 181, 336 196, 316 209, 303 221, 296 229, 296 236, 303 246, 328 249, 363 249
+</trace>
+<trace id="3">
+434 226, 435 228, 435 229, 437 231, 438 234, 438 237, 438 240, 438 244, 437 247, 436 250, 434 253, 433 254, 432 256, 432 255
+</trace>
+<trace id="4">
+507 3, 504 11, 501 22, 504 48, 499 90, 501 141, 499 183, 501 217, 504 230, 504 233, 501 230, 504 225, 514 217, 520 196, 530 172, 554 146, 567 125, 586 119, 609 125, 636 143, 654 169, 673 199, 686 220, 712 238, 746 251, 797 246
+</trace>
+<trace id="5">
+855 170, 855 169, 855 169, 855 169, 855 169, 856 171, 856 174, 857 177, 857 182, 858 187, 858 194, 859 201, 859 208, 859 215, 859 222, 859 229, 859 234, 859 238, 859 242, 859 245, 859 247, 859 249, 859 250, 859 251, 859 251, 860 251, 859 251
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

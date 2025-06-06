@@ -1,0 +1,63 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">- 2 \leq x \leq 2</annotation>
+<annotation type="UI">2014_RIT_CROHME_104</annotation>
+<trace id="0">
+10 108, 16 108, 29 108, 48 108, 67 106, 84 103, 99 102, 112 100, 122 99, 130 98, 135 97, 140 97, 144 96
+</trace>
+<trace id="1">
+166 87, 160 83, 154 80, 150 75, 148 69, 148 61, 150 52, 156 44, 165 38, 174 35, 183 35, 194 39, 202 48, 207 61, 207 80, 201 101, 188 119, 174 134, 164 146, 156 152, 153 155, 153 156, 166 153, 183 149, 202 146, 222 144, 241 143, 254 143, 262 143, 269 143, 273 141
+</trace>
+<trace id="2">
+344 31, 343 32, 335 42, 322 55, 309 67, 297 78, 291 84, 288 89, 288 92, 289 94, 298 96, 313 96, 330 95, 343 94, 354 89, 363 87, 369 86, 372 86
+</trace>
+<trace id="3">
+285 138, 290 136, 299 136, 312 136, 328 136, 344 136, 358 136, 368 135, 378 134
+</trace>
+<trace id="6">
+576 11, 572 12, 566 18, 559 25, 548 35, 537 45, 528 52, 521 58, 518 60, 517 62, 517 64, 519 65, 528 65, 540 65, 555 65, 564 65, 574 65, 579 65, 584 65
+</trace>
+<trace id="7">
+508 106, 510 106, 519 106, 531 106, 545 106, 558 106, 566 106, 575 106, 582 106, 587 106
+</trace>
+<trace id="8">
+642 44, 637 39, 634 32, 631 28, 628 24, 628 21, 628 16, 637 12, 651 10, 668 10, 684 16, 697 26, 705 41, 708 55, 707 72, 698 86, 681 104, 664 116, 652 125, 642 130, 639 133, 638 134, 642 134, 661 134, 684 132, 714 130, 740 127, 759 124, 778 119, 793 110
+</trace>
+<trace id="109">
+406 45, 406 46, 407 48, 412 51, 413 55, 423 65, 428 70, 435 80, 442 91, 443 92, 448 98, 451 104, 455 119, 464 137
+</trace>
+<trace id="110">
+471 54, 471 57, 466 59, 465 61, 462 67, 456 74, 455 75, 453 77, 449 83, 448 85, 442 91, 435 98, 433 99, 432 101, 430 104, 429 105, 428 107, 425 109, 423 114, 422 115, 419 119, 417 121, 417 122
+</trace>
+<traceGroup>
+	<traceGroup xml:id="1:">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="2:">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="3:4:">
+		<annotation type="truth">\leq</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="7:8:">
+		<annotation type="truth">\leq</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+	</traceGroup>
+	<traceGroup xml:id="9:">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="8"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="109"/>
+		<traceView traceDataRef="110"/>
+	</traceGroup>
+</traceGroup>
+</ink>

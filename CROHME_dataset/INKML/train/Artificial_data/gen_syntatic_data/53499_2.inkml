@@ -1,0 +1,42 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">4 7 \pi</annotation>
+<annotation type="UI">MfrDB1618</annotation>
+<trace id="110">
+26 10, 14 24, 13 27, 11 30, 11 33, 11 35, 10 37, 11 39, 11 42, 13 43, 16 45, 19 45, 23 45, 27 45, 32 43, 35 43, 38 42, 39 40, 41 39
+</trace>
+<trace id="111">
+35 23, 24 40, 22 45, 20 49, 19 53, 17 58, 16 61, 16 64, 16 65
+</trace>
+<trace id="112">
+53 10, 66 21, 65 24, 62 29, 60 32, 58 36, 52 40, 49 45, 48 48, 45 52, 45 55, 43 56, 42 60
+</trace>
+<trace id="213">
+105 33, 105 34, 106 45, 108 54, 108 57, 109 59
+</trace>
+<trace id="214">
+118 29, 117 29, 117 31, 118 34, 118 46, 118 53, 120 56, 120 57
+</trace>
+<trace id="215">
+132 23, 131 25, 120 28, 114 29, 109 29, 100 28, 97 28, 95 28
+</trace>
+<traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">4</annotation>
+		<traceView traceDataRef="111"/>
+		<traceView traceDataRef="110"/>
+	</traceGroup>
+	<traceGroup xml:id="20">
+		<annotation type="truth">7</annotation>
+		<traceView traceDataRef="112"/>
+	</traceGroup>
+	<traceGroup xml:id="21">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="213"/>
+		<traceView traceDataRef="215"/>
+		<traceView traceDataRef="214"/>
+	</traceGroup>
+</traceGroup>
+</ink>

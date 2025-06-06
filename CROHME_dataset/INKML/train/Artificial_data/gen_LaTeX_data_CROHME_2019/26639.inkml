@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\frac{\pi\sigma^{2}}{4}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+12 11, 16 14, 19 15, 27 20, 33 24, 44 24, 55 24, 65 24, 72 21, 82 18, 91 15, 96 10, 99 4, 99 1
+</trace>
+<trace id="1">
+45 27, 45 28, 45 33, 46 40, 46 48, 45 57, 45 68, 44 77, 43 82, 42 87, 41 89, 40 91, 39 91, 38 89, 36 85
+</trace>
+<trace id="2">
+64 22, 64 21, 65 25, 65 24, 67 27, 69 29, 73 38, 74 38, 79 47, 83 51, 90 63, 93 66, 98 78, 100 79, 104 83, 106 89, 105 87, 105 85, 104 84, 104 83, 103 82, 101 82
+</trace>
+<trace id="3">
+156 9, 150 11, 147 14, 143 17, 141 21, 137 25, 134 32, 131 38, 129 46, 127 55, 127 64, 127 72, 127 80, 130 85, 134 89, 139 91, 148 91, 155 91, 166 85, 173 78, 181 70, 186 60, 189 52, 190 42, 190 33, 190 25, 188 18, 184 11, 178 7, 171 4, 166 3, 161 2, 155 2, 149 2, 146 6, 145 11, 145 16, 146 22, 153 25, 166 29, 178 30, 192 30, 205 30, 217 28, 226 27, 230 26, 233 25, 234 25
+</trace>
+<trace id="4">
+271 15, 261 4, 262 4, 263 3, 265 2, 267 2, 268 2, 269 3, 271 4, 272 6, 273 7, 274 10, 274 13, 274 16, 274 19, 272 22, 271 26, 269 29, 267 32, 264 34, 262 36, 260 38, 259 39, 258 39, 257 40, 256 40, 256 39, 255 37, 256 34, 256 32, 257 30, 258 28, 258 27, 259 26, 260 26, 261 26, 262 28, 263 29, 265 31, 267 34, 269 36, 272 38, 274 40, 276 42, 278 44, 279 45, 280 46, 281 46, 282 46, 283 46, 284 45, 285 44, 285 42, 286 41
+</trace>
+<trace id="5">
+6 144, 1 134, 6 134, 17 128, 44 123, 76 123, 108 123, 141 117, 195 117, 243 123, 270 123, 297 112
+</trace>
+<trace id="6">
+147 166, 147 166, 147 167, 145 169, 142 172, 140 177, 136 182, 132 189, 128 195, 125 202, 121 207, 119 212, 119 216, 119 219, 122 220, 127 219, 133 218, 140 215, 148 212, 156 208, 163 204, 169 201, 174 198, 177 196, 179 194, 179 194, 178 195, 176 198, 173 201, 170 206, 167 211, 164 218, 161 224, 158 231, 156 237, 154 242, 154 247, 153 251, 152 253, 151 255, 150 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">\sigma</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

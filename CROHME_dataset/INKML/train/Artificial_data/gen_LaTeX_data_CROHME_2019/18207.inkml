@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\theta=\theta_{i}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+43 15, 40 18, 37 22, 33 30, 28 41, 23 54, 19 71, 14 89, 10 110, 6 131, 3 152, 2 173, 2 192, 3 209, 6 224, 10 236, 15 245, 22 251, 30 255, 38 256, 48 253, 58 248, 68 240, 79 229, 90 215, 101 199, 112 181, 121 162, 129 142, 136 122, 141 103, 144 85, 145 68, 144 53, 142 40, 139 29, 135 19, 130 11, 123 6, 116 3, 108 2, 100 3, 90 9, 79 13, 68 14, 57 26, 48 38, 41 52, 35 66, 33 79, 33 88, 35 101, 41 116, 48 121, 56 124, 64 125, 72 125, 76 124, 84 121, 92 118, 99 116, 104 114
+</trace>
+<trace id="1">
+209 132, 212 132, 216 132, 220 132, 236 132, 244 132, 256 132, 264 132, 276 132, 280 132, 288 132, 292 132
+</trace>
+<trace id="2">
+216 156, 220 156, 224 156, 236 156, 240 156, 252 156, 260 156, 272 156, 280 156, 288 156, 296 156, 300 156, 304 156
+</trace>
+<trace id="3">
+406 45, 404 44, 402 44, 399 47, 396 52, 392 59, 388 69, 384 83, 380 100, 376 119, 371 140, 368 163, 366 184, 365 207, 367 225, 372 241, 380 251, 392 256, 407 254, 425 246, 444 235, 462 220, 479 203, 495 184, 507 166, 517 147, 523 129, 526 110, 527 93, 526 75, 521 60, 516 45, 508 32, 499 22, 488 14, 478 9, 467 6, 457 4, 449 3, 441 4, 437 5, 434 7, 432 9, 430 10, 432 13, 433 17, 434 19, 435 22
+</trace>
+<trace id="4">
+377 161, 377 158, 381 155, 387 153, 396 150, 409 147, 423 144, 439 141, 456 140, 472 138, 487 136, 501 135, 514 134, 523 133, 531 133, 539 132, 544 132, 549 132, 551 131, 551 130, 552 129, 552 128, 552 128, 550 127, 550 128, 550 130, 549 130
+</trace>
+<trace id="5">
+611 174, 612 171, 614 171, 616 171, 618 172, 621 172, 624 173, 627 173, 629 174
+</trace>
+<trace id="6">
+612 207, 612 209, 612 209, 612 212, 612 214, 613 218, 613 222, 614 227, 614 233, 614 238, 614 243, 614 248, 614 252, 614 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sigma^{2}_{Y_{i}}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+297 16, 290 16, 269 9, 262 9, 235 9, 221 9, 214 9, 201 9, 201 3, 167 9, 153 9, 139 16, 126 16, 112 23, 98 30, 85 37, 71 44, 64 50, 50 57, 37 71, 30 85, 16 112, 9 119, 3 132, 3 146, 3 167, 3 180, 3 187, 3 201, 9 214, 16 221, 23 228, 44 242, 71 256, 105 256, 126 256, 139 249, 153 249, 160 242, 173 235, 180 221, 194 214, 201 201, 201 187, 208 173, 208 167, 208 126, 201 112, 194 105, 187 91, 180 85, 173 78, 160 64, 153 64, 112 50, 98 50, 85 50, 71 50, 64 57
+</trace>
+<trace id="1">
+357 186, 356 178, 357 175, 358 176, 361 179, 365 185, 370 192, 375 201, 379 205, 381 209, 382 212, 384 213, 384 213, 384 215, 383 217
+</trace>
+<trace id="2">
+398 180, 397 176, 396 174, 395 174, 396 173, 397 172, 397 171, 397 171, 397 172, 397 171, 397 172, 397 173, 394 181, 388 198, 379 215, 370 228, 365 240, 361 250, 360 254, 360 256, 360 255, 359 255, 360 254, 359 254, 359 254, 360 251
+</trace>
+<trace id="3">
+419 243, 418 244, 418 244, 419 244, 422 243, 426 241, 431 238, 434 236, 435 234, 436 234, 435 234, 435 236, 433 239, 431 243, 431 247, 431 250, 434 253, 436 255, 440 256, 444 255, 447 254
+</trace>
+<trace id="4">
+444 227, 442 228, 442 228, 443 228, 445 228
+</trace>
+<trace id="5">
+365 15, 366 12, 368 11, 370 10, 372 8, 375 7, 378 6, 382 5, 385 4, 388 3, 391 2, 393 2, 396 2, 398 2, 400 3, 402 4, 404 6, 405 9, 407 12, 408 15, 409 19, 409 24, 409 28, 409 33, 408 38, 406 43, 405 48, 403 53, 401 58, 398 62, 395 66, 392 70, 388 73, 384 76, 380 79, 376 81, 372 82, 368 84, 365 85, 362 85, 360 86, 358 86, 358 86, 356 86, 356 86, 358 86, 360 86, 363 86, 368 85, 373 85, 380 84, 388 84, 397 82, 406 82, 414 81, 423 80, 430 80, 436 80, 441 80, 444 80, 446 80
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\sigma</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

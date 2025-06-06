@@ -1,0 +1,53 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">t\rightarrow\pm\infty</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+113 6, 95 64, 86 77, 82 91, 77 104, 73 117, 73 126, 68 140, 68 149, 68 162, 68 175, 68 184, 68 193, 73 206, 77 215, 86 224, 95 233, 100 242, 108 247, 117 251, 126 256, 140 256, 149 256, 162 256, 175 251, 184 247, 193 242, 198 238, 206 233, 206 229
+</trace>
+<trace id="1">
+6 117, 51 122, 64 122, 73 126, 86 126, 95 126, 104 126, 108 126, 117 126, 126 126, 135 126
+</trace>
+<trace id="2">
+278 122, 363 135, 375 135, 387 135, 411 135, 423 135
+</trace>
+<trace id="3">
+532 14, 593 50, 605 62, 617 74, 617 86, 629 98, 641 98, 641 110, 653 122, 653 135, 653 147, 641 159, 641 171, 641 183, 641 195, 641 207, 629 207, 617 219, 605 219, 593 231, 581 231, 556 231, 544 231, 532 231, 520 243, 520 256
+</trace>
+<trace id="4">
+810 30, 821 13, 830 4, 832 1, 830 4, 830 19, 823 43, 825 79, 830 105, 834 123, 838 134, 834 136, 816 136
+</trace>
+<trace id="5">
+737 105, 737 103, 744 99, 761 90, 779 85, 803 81, 841 74, 874 70, 898 66, 922 68
+</trace>
+<trace id="6">
+719 256, 713 253, 715 253, 730 251, 770 249, 834 242, 903 231, 958 229, 989 227, 993 229, 991 227, 986 227, 982 227, 980 227, 975 236
+</trace>
+<trace id="7">
+1570 115, 1509 133, 1412 155, 1290 180, 1182 202, 1110 191, 1067 176, 1053 151, 1071 119, 1121 97, 1193 76, 1268 65, 1333 72, 1401 101, 1459 137, 1509 176, 1552 209, 1602 230, 1656 256, 1728 256, 1800 223, 1858 198, 1897 176, 1897 151, 1868 119, 1811 90, 1728 72, 1653 65
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">\rightarrow</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\pm</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="7"/>
+	</traceGroup>
+</traceGroup>
+</ink>

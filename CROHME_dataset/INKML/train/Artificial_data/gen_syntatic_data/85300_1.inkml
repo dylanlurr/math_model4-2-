@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">c = ( y z )</annotation>
+<annotation type="UI">CROHME_2016_em_875</annotation>
+<trace id="1">
+93 27, 93 28, 101 30, 105 32, 109 32, 111 33, 112 33, 113 34, 113 33
+</trace>
+<trace id="2">
+93 42, 98 41, 101 40, 105 40, 108 41, 110 41, 112 43, 115 44, 118 46
+</trace>
+<trace id="109">
+49 21, 49 20, 47 20, 47 19, 45 19, 41 19, 39 19, 36 19, 33 19, 31 20, 27 21, 25 23, 23 24, 19 26, 17 27, 15 31, 10 39, 10 42, 10 44, 11 50, 13 52, 15 54, 18 56, 21 57, 25 58, 28 59, 33 60, 37 60, 47 60, 51 59, 54 59
+</trace>
+<trace id="210">
+159 10, 159 11, 156 14, 155 13, 155 14, 152 21, 151 25, 149 29, 148 33, 148 37, 148 41, 148 46, 149 50, 151 54, 153 57, 157 61
+</trace>
+<trace id="211">
+170 30, 171 30, 177 35, 180 38, 184 39, 186 42, 189 44, 191 48, 192 51, 192 54, 193 57, 193 55
+</trace>
+<trace id="212">
+214 28, 214 29, 214 31, 214 32, 210 43, 208 48, 206 53, 200 62, 197 68, 195 72, 193 76, 192 80, 191 81
+</trace>
+<trace id="213">
+231 32, 234 31, 238 31, 241 31, 245 31, 249 31, 252 32, 255 32, 256 33, 253 39, 250 42, 248 44, 244 47, 241 51, 240 54, 237 57, 244 57, 249 55, 267 50
+</trace>
+<trace id="214">
+289 17, 290 14, 289 13, 290 13, 291 13, 297 17, 300 18, 301 23, 304 27, 305 31, 306 35, 308 40, 308 44, 306 48, 305 54, 301 68, 300 73, 297 77, 295 83, 294 85
+</trace>
+<traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="109"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="210"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="212"/>
+		<traceView traceDataRef="211"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="213"/>
+	</traceGroup>
+	<traceGroup xml:id="20">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="214"/>
+	</traceGroup>
+</traceGroup>
+</ink>

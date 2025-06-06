@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">c=s+2</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+189 15, 189 28, 15 122, 15 149, 28 162, 42 189, 55 215, 68 215, 82 229, 108 242, 122 242, 135 242, 162 256, 175 256, 189 256, 202 256, 215 256, 229 256, 229 242, 242 242
+</trace>
+<trace id="1">
+314 133, 336 131, 354 131, 373 131, 391 131, 401 131
+</trace>
+<trace id="2">
+304 175, 312 179, 326 179, 342 183, 358 185, 385 185
+</trace>
+<trace id="3">
+552 41, 571 28, 578 21, 578 28, 584 8, 578 8, 552 8, 539 15, 526 21, 500 60, 500 73, 513 86, 526 99, 539 106, 558 119, 578 132, 591 145, 617 177, 623 190, 630 203, 630 216, 630 229, 630 236, 623 249, 623 242, 623 249, 591 256, 571 256, 545 256, 519 249, 500 249, 486 249, 467 249
+</trace>
+<trace id="4">
+706 52, 791 69, 825 69, 859 69, 909 69, 943 69, 977 69, 994 86, 1011 86, 1011 69, 1011 52
+</trace>
+<trace id="5">
+943 18, 893 103, 893 137, 893 154, 893 188, 893 205, 893 239, 876 256
+</trace>
+<trace id="6">
+1091 83, 1081 62, 1071 42, 1081 32, 1096 12, 1116 7, 1147 2, 1177 2, 1198 7, 1208 32, 1213 62, 1198 98, 1162 139, 1132 179, 1111 215, 1111 235, 1121 240, 1157 235, 1254 250, 1375 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">m</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\geq</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">N</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,34 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\frac{1}{\theta}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+45 1, 49 1, 49 7, 49 17, 49 27, 47 39, 45 51, 43 64, 43 74, 41 84, 41 90, 39 96, 39 98, 39 100, 39 102
+</trace>
+<trace id="1">
+1 126, 5 129, 10 129, 18 130, 28 130, 39 130, 52 131, 64 129, 77 129, 87 126
+</trace>
+<trace id="2">
+51 167, 51 164, 50 164, 46 164, 42 166, 35 171, 26 186, 19 204, 13 221, 15 238, 15 251, 18 256, 27 256, 41 249, 53 237, 64 220, 69 205, 75 192, 72 179, 69 167, 65 158, 63 156, 57 155, 49 156, 40 161, 35 172
+</trace>
+<trace id="3">
+62 218, 64 217, 62 216, 59 216, 53 214, 46 211, 39 211, 30 211, 20 211, 15 213
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

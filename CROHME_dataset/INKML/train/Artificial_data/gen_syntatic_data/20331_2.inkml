@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">y = x - t</annotation>
+<annotation type="UI">90_leo</annotation>
+<trace id="1">
+111 69, 111 69, 141 69, 142 69, 143 69, 143 68, 142 68, 141 68
+</trace>
+<trace id="2">
+111 57, 110 56, 122 55, 129 55, 131 55, 137 56, 138 57, 139 57
+</trace>
+<trace id="109">
+37 15, 37 27, 39 31, 42 32, 46 32, 47 32, 49 32, 51 31, 52 29, 54 26, 54 23, 54 20, 54 16, 54 15, 54 11, 52 10, 51 10, 51 13, 51 15, 51 18, 51 21, 51 27, 51 34, 52 40, 52 47, 54 55, 54 62, 54 70, 56 77, 54 85, 54 92, 54 98, 54 103, 54 108, 54 111, 54 113, 54 115, 54 116, 54 118, 52 116, 51 115, 47 113, 44 110, 37 105, 31 102, 24 97, 19 92, 15 87, 12 83, 10 80, 10 77, 12 73, 15 72, 20 69, 29 67, 36 64, 44 62, 52 59, 59 57, 66 55, 70 55, 74 54, 77 54, 79 52, 80 52, 82 52
+</trace>
+<trace id="210">
+190 57, 198 51, 200 51, 202 50, 203 50, 206 50, 208 50, 210 50, 212 50, 214 50, 217 51, 218 52, 220 53, 221 54, 222 56, 222 58, 223 60, 223 62, 222 64, 222 67, 221 70, 220 72, 220 75, 219 76, 218 78, 216 80, 214 82, 212 84, 211 85, 209 86, 208 87, 207 88, 204 89, 204 89
+</trace>
+<trace id="211">
+247 45, 235 50, 234 51, 232 52, 230 54, 229 56, 228 58, 226 60, 225 63, 224 65, 223 67, 223 71, 222 74, 223 76, 223 78, 224 80, 224 82, 225 84, 226 86, 228 87, 229 88, 230 89, 232 90, 234 91, 236 91, 239 90, 241 90, 241 89
+</trace>
+<trace id="212">
+323 71, 333 71, 335 71, 337 71, 339 71, 341 72, 343 72, 345 72, 347 72, 347 72
+</trace>
+<trace id="213">
+389 41, 387 39, 387 41, 387 44, 387 46, 387 49, 386 52, 386 56, 385 58, 385 62, 385 65, 385 68, 385 71, 385 73, 385 76, 384 79, 384 81, 384 83, 383 85, 383 87, 383 88, 383 90, 383 90, 383 91, 383 92, 383 91, 383 90, 383 89, 383 87, 383 85, 383 83, 383 81, 383 78, 383 75, 383 73, 383 70, 383 67, 383 65, 383 63, 383 62, 384 60, 385 58, 385 57, 386 55, 387 54, 389 53, 391 52, 392 52, 394 51, 396 50, 398 49, 400 48, 403 48, 407 46, 409 46, 412 45, 415 44, 415 44
+</trace>
+<traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="109"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="210"/>
+		<traceView traceDataRef="211"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="212"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="213"/>
+	</traceGroup>
+</traceGroup>
+</ink>

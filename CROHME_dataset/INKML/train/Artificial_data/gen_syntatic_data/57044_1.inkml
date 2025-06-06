@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x ^ { 2 } - x</annotation>
+<annotation type="UI">MfrDB2671</annotation>
+<trace id="0">
+10 28, 11 29, 12 30, 13 31, 14 32, 16 34, 19 37, 21 38, 25 42, 28 45, 31 48, 32 49, 34 51, 35 53, 36 54, 37 55, 38 58, 40 60, 41 61, 43 64, 44 65, 45 68, 49 72, 50 73, 52 75, 53 77, 54 80, 55 81
+</trace>
+<trace id="1">
+56 46, 55 45, 54 45, 52 45, 51 45, 49 45, 45 47, 41 50, 40 51, 39 51, 38 53, 37 54, 36 57, 35 59, 34 60, 34 61, 33 63, 32 64, 31 64, 30 65, 30 66, 29 68, 28 69, 28 70, 27 72, 26 73, 26 74, 26 75, 24 76, 24 77, 24 78, 23 79
+</trace>
+<trace id="3">
+126 60, 125 60, 126 60, 129 60, 134 60, 135 60, 140 60, 145 60, 148 60, 149 60, 150 60, 151 60
+</trace>
+<trace id="4">
+178 44, 178 46, 178 47, 180 48, 184 52, 186 54, 192 59, 197 63, 200 66, 205 69, 209 74, 211 76, 216 81, 218 84, 218 85, 218 86, 219 87, 218 88, 217 87
+</trace>
+<trace id="5">
+216 55, 215 55, 214 55, 212 57, 209 61, 207 62, 202 67, 198 70, 195 72, 192 74, 189 77, 188 78, 188 79, 187 81
+</trace>
+<trace id="106">
+68 18, 73 12, 76 12, 78 11, 81 10, 84 10, 86 10, 88 11, 88 14, 88 17, 88 21, 86 24, 81 28, 77 32, 75 34, 73 36, 72 37, 71 37, 70 36, 71 37, 74 37, 78 37, 84 37, 90 37, 96 37, 101 37, 104 37, 105 37, 103 37
+</trace>
+<traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="106"/>
+	</traceGroup>
+</traceGroup>
+</ink>

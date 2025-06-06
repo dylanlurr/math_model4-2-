@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">p+2^{y}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+29 256, 25 231, 21 223, 21 215, 21 203, 17 194, 13 182, 13 174, 13 162, 13 154, 9 145, 9 133, 9 129, 9 121, 9 117, 9 113, 9 105, 9 101, 9 97, 9 93, 5 88, 9 88, 13 88, 21 88, 29 88, 33 93, 42 93, 46 93, 46 97, 50 97, 54 101, 58 105, 62 105, 62 109, 66 113, 70 117, 70 121, 70 125, 70 129, 70 133, 70 137, 70 141, 66 145, 62 150, 58 154, 54 154, 54 158, 50 158, 46 158, 42 162, 38 162, 33 162, 29 162, 25 166, 21 166, 21 170, 17 170
+</trace>
+<trace id="1">
+176 45, 176 36, 183 27, 188 15, 185 1, 188 1, 185 1, 190 10, 197 38, 204 74, 204 95, 202 137, 195 163, 197 172, 195 163, 192 134
+</trace>
+<trace id="2">
+115 78, 110 81, 113 85, 129 88, 157 88, 197 76, 237 62, 267 45, 286 41, 286 45, 284 59
+</trace>
+<trace id="3">
+328 2, 384 73, 384 87, 384 101, 370 101, 356 115, 342 130, 342 144, 328 144, 342 144, 356 144, 370 158, 384 158, 398 158, 427 158, 441 172, 455 172, 469 172, 483 172, 497 172
+</trace>
+<trace id="4">
+563 46, 562 44, 573 67, 580 60, 579 51, 578 56, 580 64, 582 71, 583 76, 585 84, 588 93, 588 102, 588 110, 586 114, 583 121, 582 123, 576 128, 570 129, 566 129, 563 128, 558 127, 555 126, 547 122, 544 121, 542 118, 540 117, 538 116, 538 113, 538 112, 538 111, 542 108
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">p</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

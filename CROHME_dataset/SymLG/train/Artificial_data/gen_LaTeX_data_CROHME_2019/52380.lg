@@ -1,0 +1,23 @@
+# IUD, 52380
+# Objects(10):
+O, 100_13, 100, 1.0, ORRRRR
+O, I_4, I, 1.0, ORR
+O, S_8, S, 1.0, ORRRRAbove
+O, =_5, =, 1.0, ORRR
+O, _6, -, 1.0, ORRRR
+O, E_3, E, 1.0, OR
+O, 2_12, 2, 1.0, ORRRRBelowR
+O, R_2, R, 1.0, O
+O, S_11, S, 1.0, ORRRRBelow
+O, 1_9, 1, 1.0, ORRRRAboveR
+
+# Relations from SRT:
+R, =_5, _6, Right, 1.0
+R, E_3, I_4, Right, 1.0
+R, I_4, =_5, Right, 1.0
+R, R_2, E_3, Right, 1.0
+R, S_11, 2_12, Right, 1.0
+R, S_8, 1_9, Right, 1.0
+R, _6, 100_13, Right, 1.0
+R, _6, S_11, Below, 1.0
+R, _6, S_8, Above, 1.0

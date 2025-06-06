@@ -1,0 +1,38 @@
+# IUD, Formula00_10524_tru_norm
+# Objects(10):
+O, C_3, C, 1.0, O
+O, v_4, v, 1.0, OSub
+O, =_5, =, 1.0, OR
+O, F_6, F, 1.0, ORR
+O, _7, \sqrt, 1.0, ORRR
+O, _8, -, 1.0, ORRRInside
+O, S_10, S, 1.0, ORRRInsideAbove
+O, G_11, G, 1.0, ORRRInsideAboveR
+O, \Delta_13, \Delta, 1.0, ORRRInsideBelow
+O, P_14, P, 1.0, ORRRInsideBelowR
+
+
+# Relations from SRT:
+R, =_5, F_6, Right, 1.0
+R, C_3, =_5, Right, 1.0
+R, C_3, v_4, Sub, 1.0
+R, F_6, _7, Right, 1.0
+R, S_10, G_11, Right, 1.0
+R, \Delta_13, P_14, Right, 1.0
+R, _7, _8, Inside, 1.0
+R, _8, S_10, Above, 1.0
+R, _8, \Delta_13, Below, 1.0
+
+# Bounding boxes
+BB, C_3, 15.6627, 52.3373, 104.8193, 176.4337
+BB, v_4, 123.4940, 121.6145, 168.0723, 175.8313
+BB, =_5, 203.0120, 111.3735, 256.0241, 146.3133
+BB, F_6, 322.2892, 63.7831, 391.5663, 160.7711
+BB, _7, 396.3855, 19.2048, 678.9157, 183.0602
+BB, _8, 471.6867, 111.3735, 657.2289, 136.6747
+BB, S_10, 494.5783, 34.8675, 551.2048, 99.9277
+BB, G_11, 560.8434, 40.2892, 615.6627, 108.9639
+BB, \Delta_13, 496.9880, 148.1205, 556.6265, 196.3133
+BB, P_14, 571.0843, 135.4699, 616.2651, 203.5422
+
+# LaTeX, $C _ { v } = F \sqrt { \frac { S G } { \Delta P } }$

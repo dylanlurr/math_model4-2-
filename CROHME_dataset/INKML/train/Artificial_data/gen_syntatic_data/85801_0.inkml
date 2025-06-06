@@ -1,0 +1,27 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x _ { x }</annotation>
+<annotation type="UI">CROHME_2016_em_960</annotation>
+<trace id="123">
+10 35, 12 30, 14 28, 19 25, 24 20, 27 20, 33 20, 36 20, 39 21, 41 30, 47 42, 51 48, 56 51, 63 54, 68 54
+</trace>
+<trace id="124">
+72 10, 63 13, 53 20, 43 30, 32 42, 25 49, 20 55, 20 59
+</trace>
+<trace id="225">
+92 41, 93 45, 91 73, 91 71, 93 69, 93 65
+</trace>
+<traceGroup>
+	<traceGroup xml:id="45">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="124"/>
+		<traceView traceDataRef="123"/>
+	</traceGroup>
+	<traceGroup xml:id="46">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="225"/>
+	</traceGroup>
+</traceGroup>
+</ink>

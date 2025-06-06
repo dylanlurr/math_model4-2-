@@ -1,0 +1,35 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x !</annotation>
+<annotation type="UI">MfrDB1579</annotation>
+<trace id="20">
+88 10, 88 12, 86 21, 86 26, 86 28, 85 35, 85 38, 85 44, 84 48, 82 57, 82 60, 81 65, 81 70, 79 75, 78 78, 77 81, 77 84, 76 86, 76 88, 76 91, 76 93, 76 97, 76 99, 76 102, 76 103, 76 104
+</trace>
+<trace id="21">
+71 117
+</trace>
+<trace id="22">
+72 116, 72 117, 73 117, 74 117
+</trace>
+<trace id="123">
+10 87, 12 87, 31 85, 33 87, 33 90, 35 92, 37 94, 37 96, 38 98, 38 100, 40 102, 40 104, 42 106, 42 108, 44 110, 44 112, 47 114, 49 112
+</trace>
+<trace id="124">
+50 78, 45 81, 31 100, 29 102, 27 104, 26 106, 24 108, 24 110, 22 110, 22 112, 20 114, 20 116, 20 118, 18 118, 18 121, 18 118
+</trace>
+<traceGroup>
+	<traceGroup xml:id="37">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="20"/>
+		<traceView traceDataRef="22"/>
+		<traceView traceDataRef="21"/>
+	</traceGroup>
+	<traceGroup xml:id="38">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="124"/>
+		<traceView traceDataRef="123"/>
+	</traceGroup>
+</traceGroup>
+</ink>

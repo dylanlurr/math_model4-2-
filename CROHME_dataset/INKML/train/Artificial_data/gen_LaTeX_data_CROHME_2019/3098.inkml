@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">R_{t+1}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+23 51, 11 68, 11 84, 11 109, 11 129, 11 153, 11 178, 7 198, 7 215, 7 231, 7 239, 7 247, 7 251, 7 256, 7 251, 7 243, 2 227, 2 211, 7 190, 7 170, 7 145, 11 121, 19 92, 27 72, 35 56, 47 39, 60 27, 68 15, 76 11, 84 7, 88 2, 92 7, 96 11, 96 19, 100 31, 100 47, 96 68, 92 88, 88 109, 76 125, 68 137, 60 149, 47 158, 43 162, 35 166, 31 166, 31 170, 27 170, 31 170, 35 170, 39 170, 47 174, 60 178, 68 182, 80 186, 88 190, 100 198, 109 202, 121 207, 129 215, 141 219, 149 223, 162 227, 166 231, 170 231
+</trace>
+<trace id="1">
+251 171, 249 171, 245 176, 241 185, 237 198, 233 212, 231 224, 230 239, 230 248, 234 255, 240 256, 250 255, 260 248, 272 244, 280 239, 282 234
+</trace>
+<trace id="2">
+230 211, 231 212, 233 212, 238 210, 244 207, 252 205, 258 203, 261 201
+</trace>
+<trace id="3">
+333 171, 331 178, 331 181, 331 186, 331 192, 331 200, 331 209, 331 218, 331 226, 332 235, 333 242, 333 249, 333 253, 333 256
+</trace>
+<trace id="4">
+302 226, 312 228, 318 229, 326 229, 334 227, 340 227
+</trace>
+<trace id="5">
+371 171, 372 172, 371 179, 369 193, 364 212, 359 228, 360 242, 361 253, 362 255, 362 256, 363 254
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">R</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

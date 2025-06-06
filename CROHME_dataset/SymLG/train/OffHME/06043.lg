@@ -1,0 +1,59 @@
+# IUD, Formula00_8944_tru_norm
+# Objects(17):
+O, p_2, p, 1.0, O
+O, (_3, (, 1.0, OR
+O, \sigma_4, \sigma, 1.0, ORR
+O, )_5, ), 1.0, ORRR
+O, =_6, =, 1.0, ORRRR
+O, _7, -, 1.0, ORRRRR
+O, 1_8, 1, 1.0, ORRRRRAbove
+O, \sigma_10, \sigma, 1.0, ORRRRRBelow
+O, a_12, a, 1.0, ORRRRRBelowSub
+O, v_13, v, 1.0, ORRRRRBelowSubR
+O, e_15, e, 1.0, ORRRRRR
+O, -_17, -, 1.0, ORRRRRRSup
+O, _18, -, 1.0, ORRRRRRSupR
+O, \sigma_19, \sigma, 1.0, ORRRRRRSupRAbove
+O, \sigma_21, \sigma, 1.0, ORRRRRRSupRBelow
+O, a_23, a, 1.0, ORRRRRRSupRBelowSub
+O, v_24, v, 1.0, ORRRRRRSupRBelowSubR
+
+
+# Relations from SRT:
+R, (_3, \sigma_4, Right, 1.0
+R, )_5, =_6, Right, 1.0
+R, -_17, _18, Right, 1.0
+R, =_6, _7, Right, 1.0
+R, \sigma_10, a_12, Sub, 1.0
+R, \sigma_21, a_23, Sub, 1.0
+R, \sigma_4, )_5, Right, 1.0
+R, _18, \sigma_19, Above, 1.0
+R, _18, \sigma_21, Below, 1.0
+R, _7, 1_8, Above, 1.0
+R, _7, \sigma_10, Below, 1.0
+R, _7, e_15, Right, 1.0
+R, a_12, v_13, Right, 1.0
+R, a_23, v_24, Right, 1.0
+R, e_15, -_17, Sup, 1.0
+R, p_2, (_3, Right, 1.0
+
+# Bounding boxes
+BB, p_2, 8.8353, 105.6667, 86.7470, 222.5341
+BB, (_3, 94.3775, 124.1406, 150.2008, 200.0442
+BB, \sigma_4, 169.8795, 118.9197, 232.5301, 193.6185
+BB, )_5, 259.0361, 101.2490, 295.1807, 190.8072
+BB, =_6, 361.8474, 128.9598, 410.4418, 176.3494
+BB, _7, 467.4699, 103.2570, 617.6707, 126.9518
+BB, 1_8, 544.1767, 35.3855, 558.2329, 96.4297
+BB, \sigma_10, 458.2329, 147.4337, 518.0723, 233.7791
+BB, a_12, 515.6627, 183.9799, 555.8233, 232.1727
+BB, v_13, 570.2811, 175.1446, 608.4337, 226.5502
+BB, e_15, 665.4618, 98.0361, 727.3092, 154.6627
+BB, -_17, 751.0040, 81.5703, 783.9357, 100.4458
+BB, _18, 823.2932, 70.3253, 943.3735, 92.4137
+BB, \sigma_19, 854.6185, 17.7149, 935.7430, 79.9639
+BB, \sigma_21, 814.0562, 93.2169, 885.5422, 149.4418
+BB, a_23, 872.6908, 104.0602, 907.2289, 154.2610
+BB, v_24, 919.2771, 103.6586, 954.2169, 143.8193
+
+# LaTeX, $p ( \sigma ) = \frac { 1 } { \sigma _ { a v } } e ^ { - \frac { \sigma } { \sigma _ { a v } } }$

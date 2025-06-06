@@ -1,0 +1,42 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">- \pi i</annotation>
+<annotation type="UI">CROHME19_1158</annotation>
+<trace id="3">
+10 58, 11 58, 12 58, 14 58, 27 57, 33 57, 36 57, 39 57, 42 57, 43 57
+</trace>
+<trace id="106">
+90 33, 90 36, 84 50, 84 55, 84 62, 84 76, 84 83, 82 89, 82 95, 82 99, 80 104, 78 106, 80 106
+</trace>
+<trace id="107">
+112 38, 110 40, 110 50, 110 57, 110 61, 112 68, 112 74, 114 81, 116 85, 116 89, 116 93, 116 95
+</trace>
+<trace id="108">
+133 29, 131 29, 129 29, 127 29, 107 31, 99 31, 90 31, 84 33, 67 36, 65 38, 65 42
+</trace>
+<trace id="109">
+162 33, 158 42, 158 46, 156 50, 154 54, 152 65, 150 69, 152 87, 152 91, 154 95, 154 99, 154 97
+</trace>
+<trace id="110">
+164 10, 162 13
+</trace>
+<traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="107"/>
+		<traceView traceDataRef="108"/>
+		<traceView traceDataRef="106"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="109"/>
+		<traceView traceDataRef="110"/>
+	</traceGroup>
+</traceGroup>
+</ink>

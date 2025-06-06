@@ -1,0 +1,35 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x !</annotation>
+<annotation type="UI">127_Nina</annotation>
+<trace id="2">
+81 11
+</trace>
+<trace id="3">
+81 11, 81 10, 81 11, 80 11, 80 12, 80 13, 81 15, 81 16, 81 18, 81 20, 81 23, 81 27, 81 30, 81 34, 81 38, 81 42, 82 46, 82 49, 83 52, 83 55, 84 57, 83 59, 84 61
+</trace>
+<trace id="4">
+83 74, 82 75, 84 74
+</trace>
+<trace id="105">
+10 54, 16 44, 17 45, 19 45, 20 46, 23 48, 25 49, 28 51, 28 53, 30 55, 31 56, 34 59, 35 61, 36 62, 36 64, 37 65, 36 66, 35 66, 34 67, 30 68, 28 69, 25 71, 23 71, 21 72, 19 72, 17 72, 16 72, 15 72, 14 71, 11 71, 11 69
+</trace>
+<trace id="106">
+53 54, 43 54, 42 54, 41 55, 41 56, 39 58, 38 59, 37 60, 36 61, 36 62, 35 64, 35 65, 34 66, 35 67, 36 67, 37 68, 38 69, 41 71, 42 71, 44 72, 46 72, 49 74, 50 74, 52 74, 55 75, 57 75, 58 75, 61 75
+</trace>
+<traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="106"/>
+		<traceView traceDataRef="105"/>
+	</traceGroup>
+</traceGroup>
+</ink>

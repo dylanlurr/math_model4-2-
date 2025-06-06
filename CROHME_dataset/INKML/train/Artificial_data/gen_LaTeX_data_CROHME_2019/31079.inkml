@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\phi_{ex}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+52 140, 49 140, 46 140, 42 140, 42 144, 39 147, 35 147, 29 154, 25 157, 18 161, 15 167, 12 174, 8 178, 5 181, 2 188, 2 195, 2 198, 2 205, 2 211, 5 215, 8 218, 12 222, 18 222, 22 225, 32 225, 39 228, 46 228, 52 228, 59 228, 66 225, 69 225, 76 222, 83 218, 86 211, 93 208, 96 201, 100 195, 100 181, 100 174, 100 171, 96 164, 90 161, 83 157, 73 151, 69 151
+</trace>
+<trace id="1">
+140 93, 140 90, 140 86, 137 86, 134 86, 130 90, 127 96, 120 103, 113 110, 103 120, 96 127, 90 137, 83 147, 69 167, 66 178, 59 188, 52 198, 49 208, 25 245, 25 249, 22 252, 18 256
+</trace>
+<trace id="2">
+180 143, 183 146, 199 152, 196 152, 199 152, 214 149, 220 149, 217 149, 220 149, 226 137, 226 137, 220 125, 217 122, 214 119, 208 116, 202 116, 193 122, 193 119, 190 131, 190 140, 193 146, 196 152, 199 159, 202 165, 226 171, 233 168, 233 171
+</trace>
+<trace id="3">
+271 127, 269 134, 264 148, 264 150, 264 151, 262 153, 262 155, 260 157, 260 158, 260 160, 260 162, 258 164, 258 166, 258 167, 258 169, 257 169, 257 171, 257 169, 257 167
+</trace>
+<trace id="4">
+248 114, 251 118, 260 130, 264 136, 264 139, 266 143, 267 144, 269 146, 269 148, 271 150, 271 151, 273 151, 273 153, 273 155, 274 157, 276 158, 276 160, 278 162, 278 164, 280 164, 280 166, 281 167, 280 166, 278 162
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\phi</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">\beta</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

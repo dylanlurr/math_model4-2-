@@ -1,0 +1,41 @@
+# IUD, Formula00_11675_tru_norm
+# Objects(11):
+O, S_3, S, 1.0, O
+O, \alpha_5, \alpha, 1.0, OSub
+O, \beta_6, \beta, 1.0, OSubR
+O, \gamma_7, \gamma, 1.0, OSubRR
+O, =_8, =, 1.0, OR
+O, S_10, S, 1.0, ORR
+O, (_12, (, 1.0, ORRSub
+O, \alpha_13, \alpha, 1.0, ORRSubR
+O, \beta_14, \beta, 1.0, ORRSubRR
+O, )_15, ), 1.0, ORRSubRRR
+O, \gamma_16, \gamma, 1.0, ORRSubRRRR
+
+
+# Relations from SRT:
+R, (_12, \alpha_13, Right, 1.0
+R, )_15, \gamma_16, Right, 1.0
+R, =_8, S_10, Right, 1.0
+R, S_10, (_12, Sub, 1.0
+R, S_3, =_8, Right, 1.0
+R, S_3, \alpha_5, Sub, 1.0
+R, \alpha_13, \beta_14, Right, 1.0
+R, \alpha_5, \beta_6, Right, 1.0
+R, \beta_14, )_15, Right, 1.0
+R, \beta_6, \gamma_7, Right, 1.0
+
+# Bounding boxes
+BB, S_3, 15.1515, 13.7273, 71.5152, 114.3333
+BB, \alpha_5, 78.7879, 57.3636, 131.5152, 121.6061
+BB, \beta_6, 128.4848, 57.9697, 175.1515, 135.5455
+BB, \gamma_7, 181.2121, 62.8182, 231.5152, 149.4848
+BB, =_8, 285.4545, 70.6970, 336.9697, 108.8788
+BB, S_10, 370.9091, 37.9697, 414.5455, 122.2121
+BB, (_12, 419.3939, 68.2727, 450.3030, 137.9697
+BB, \alpha_13, 442.4242, 71.3030, 494.5455, 137.3636
+BB, \beta_14, 499.3939, 64.0303, 549.0909, 143.4242
+BB, )_15, 539.3939, 53.7273, 583.6364, 136.1515
+BB, \gamma_16, 581.2121, 64.0303, 647.8788, 145.8485
+
+# LaTeX, $S _ { \alpha \beta \gamma } = S _ { ( \alpha \beta ) \gamma }$

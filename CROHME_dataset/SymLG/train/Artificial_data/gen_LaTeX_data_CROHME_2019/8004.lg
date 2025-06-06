@@ -1,0 +1,35 @@
+# IUD, 8004
+# Objects(16):
+O, 0_11, 0, 1.0, ORRSubRR
+O, k_24, k, 1.0, ORRRRSubRR
+O, \sum_7, \sum, 1.0, ORR
+O, =_5, =, 1.0, OR
+O, n_13, n, 1.0, ORRSup
+O, n_22, n, 1.0, ORRRRSub
+O, h_17, h, 1.0, ORRR
+O, k_18, k, 1.0, ORRRSub
+O, =_10, =, 1.0, ORRSubR
+O, -_23, -, 1.0, ORRRRSubR
+O, -_14, -, 1.0, ORRSupR
+O, 1_15, 1, 1.0, ORRSupRR
+O, n_4, n, 1.0, OSub
+O, x_20, x, 1.0, ORRRR
+O, k_9, k, 1.0, ORRSub
+O, y_3, y, 1.0, O
+
+# Relations from SRT:
+R, -_14, 1_15, Right, 1.0
+R, -_23, k_24, Right, 1.0
+R, =_10, 0_11, Right, 1.0
+R, =_5, \sum_7, Right, 1.0
+R, \sum_7, h_17, Right, 1.0
+R, \sum_7, k_9, Sub, 1.0
+R, \sum_7, n_13, Sup, 1.0
+R, h_17, k_18, Sub, 1.0
+R, h_17, x_20, Right, 1.0
+R, k_9, =_10, Right, 1.0
+R, n_13, -_14, Right, 1.0
+R, n_22, -_23, Right, 1.0
+R, x_20, n_22, Sub, 1.0
+R, y_3, =_5, Right, 1.0
+R, y_3, n_4, Sub, 1.0

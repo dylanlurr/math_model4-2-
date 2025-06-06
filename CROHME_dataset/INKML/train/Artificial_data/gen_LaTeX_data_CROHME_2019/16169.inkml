@@ -1,0 +1,37 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sqrt{1/2}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+2 183, 2 183, 2 183, 2 193, 2 199, 2 204, 2 214, 2 224, 2 235, 7 240, 12 250, 17 256, 28 256, 33 256, 43 256, 48 250, 54 245, 58 235, 58 224, 64 209, 64 193, 69 173, 69 152, 69 131, 69 110, 64 95, 64 79, 58 64, 58 53, 58 43, 64 33, 74 22, 85 17, 105 12, 126 7, 152 2, 178 2, 338 2, 381 2, 424 7, 476 12, 511 12, 554 17, 588 17, 614 22, 640 22
+</trace>
+<trace id="1">
+109 179, 130 147, 137 136, 141 129, 148 119, 151 108, 155 101, 158 91, 162 80, 165 70, 169 62, 172 55, 172 48, 172 45, 172 41, 176 41, 176 45, 176 48, 172 59, 176 66, 176 80, 176 94, 176 112, 179 129, 179 147, 183 161, 183 179, 186 193, 190 207, 193 217, 197 228, 197 239, 197 246, 200 246
+</trace>
+<trace id="2">
+343 40, 333 54, 325 70, 309 94, 295 118, 281 144, 273 168, 263 190, 255 210, 251 226, 251 236, 251 244, 251 246
+</trace>
+<trace id="3">
+395 91, 399 57, 411 49, 418 45, 429 42, 437 42, 445 42, 452 45, 463 53, 471 72, 479 91, 486 113, 486 132, 486 155, 486 170, 486 189, 479 204, 471 219, 463 230, 452 238, 445 242, 433 246, 429 246, 422 246, 414 242, 411 234, 411 223, 411 219, 411 212, 411 204, 411 200, 411 196, 418 193, 426 189, 437 185, 448 185, 460 185, 471 185, 486 185, 501 185, 512 189, 528 196, 539 200, 546 204, 558 208, 562 212, 569 215, 577 215, 580 215
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">/</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,49 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sum _ { i } x _ { i }</annotation>
+<annotation type="UI">CROHME19_7</annotation>
+<trace id="0">
+73 12, 64 10, 61 11, 58 12, 55 12, 51 13, 47 14, 43 16, 40 17, 38 18, 37 19, 36 21, 35 22, 35 23, 35 24, 35 25, 36 26, 38 26, 40 27, 43 28, 46 29, 49 30, 52 31, 54 32, 56 32, 58 33, 59 34, 60 34, 60 35, 60 36, 59 37, 58 39, 55 41, 52 43, 47 45, 43 48, 38 50, 33 53, 28 56, 23 59, 19 61, 16 64, 13 66, 11 67, 10 69, 10 71, 10 73, 12 74, 13 75, 17 77, 21 77, 26 78, 31 78, 37 77, 43 77, 49 76, 54 77, 59 76, 62 75, 65 75, 67 75, 68 74
+</trace>
+<trace id="1">
+18 129, 24 117, 25 114, 26 112, 26 111, 27 110, 28 109, 28 111, 28 112, 28 113, 28 115, 28 116, 28 117, 29 119, 29 120, 29 122, 30 123, 30 124
+</trace>
+<trace id="2">
+27 99, 31 96, 31 95, 30 94, 29 93, 27 93, 26 93, 25 93, 24 94
+</trace>
+<trace id="4">
+119 69, 118 74, 117 76, 117 77, 117 79, 117 81, 117 82, 117 84, 117 85, 118 86, 118 87, 119 88
+</trace>
+<trace id="5">
+119 57, 120 55
+</trace>
+<trace id="106">
+102 37, 103 37, 103 38, 103 40, 106 44, 107 45, 109 49, 112 54, 116 59, 116 60, 118 63, 118 65, 119 65
+</trace>
+<trace id="107">
+126 41, 125 42, 122 45, 119 48, 107 61, 104 63, 102 65, 101 66, 100 66
+</trace>
+<traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">\sum</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="107"/>
+		<traceView traceDataRef="106"/>
+	</traceGroup>
+</traceGroup>
+</ink>

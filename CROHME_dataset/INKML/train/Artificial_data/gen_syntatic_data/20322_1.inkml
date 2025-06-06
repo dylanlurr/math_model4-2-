@@ -1,0 +1,46 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">k \cos y</annotation>
+<annotation type="UI">90_jorge</annotation>
+<trace id="110">
+12 37, 10 36, 12 79, 13 82, 13 83, 14 86, 14 87, 16 89, 16 87
+</trace>
+<trace id="111">
+35 39, 13 60, 18 71, 20 71, 21 72, 24 72, 25 74, 28 75, 31 77, 33 78, 36 79, 39 81, 41 82, 44 83, 46 83, 48 85, 50 86, 51 86, 52 87, 54 87, 55 87, 55 86
+</trace>
+<trace id="212">
+136 10, 99 13, 95 20, 92 26, 92 30, 92 33, 92 36, 92 43, 92 43, 92 46, 95 46, 102 50, 105 50, 112 50, 116 50, 119 50, 119 50
+</trace>
+<trace id="213">
+199 24, 166 33, 162 40, 162 43, 162 50, 162 50, 166 50, 166 53, 172 53, 179 53, 182 53, 185 53, 188 53, 191 53, 191 50, 195 51, 199 47, 202 44, 206 44, 206 41, 206 37, 206 37, 206 31, 206 31, 206 27, 206 24, 206 17, 199 14, 192 14
+</trace>
+<trace id="214">
+299 11, 266 17, 266 21, 266 24, 265 27, 265 31, 265 31, 268 31, 272 31, 275 31, 278 31, 282 31, 285 31, 285 31, 288 34, 288 37, 292 37, 292 37, 292 41, 292 44, 292 44, 292 47, 292 51, 288 51, 282 54, 272 57, 272 57, 265 57, 265 57, 258 57
+</trace>
+<trace id="215">
+375 14, 395 57, 398 64, 398 64, 402 64, 405 64, 405 64, 408 64, 412 57, 419 51, 429 44, 432 41, 439 34, 439 24, 439 24, 442 24
+</trace>
+<trace id="216">
+405 74, 405 131
+</trace>
+<traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="111"/>
+		<traceView traceDataRef="110"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="213"/>
+		<traceView traceDataRef="212"/>
+		<traceView traceDataRef="214"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="216"/>
+		<traceView traceDataRef="215"/>
+	</traceGroup>
+</traceGroup>
+</ink>

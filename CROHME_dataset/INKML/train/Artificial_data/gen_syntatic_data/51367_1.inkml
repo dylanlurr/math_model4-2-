@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">c = n + 1</annotation>
+<annotation type="UI">MfrDB0524</annotation>
+<trace id="1">
+145 101, 157 106, 162 106, 167 106, 173 106, 178 106, 183 106, 188 106, 191 106, 195 107, 199 107, 201 107, 203 107, 204 107
+</trace>
+<trace id="2">
+140 74, 145 73, 150 73, 155 73, 162 73, 170 73, 178 73, 185 72, 190 70, 195 70, 200 70, 205 70, 209 70, 211 70, 214 71, 216 72, 218 72, 219 73
+</trace>
+<trace id="107">
+114 73, 82 53, 36 53, 23 53, 23 60, 23 60, 23 66, 16 73, 10 85, 10 92, 10 98, 10 105, 10 105, 10 111, 10 117, 16 124, 16 124, 24 137, 24 137, 24 143, 30 143, 43 143, 50 143, 56 143, 56 143
+</trace>
+<trace id="208">
+301 74, 301 76, 301 80, 304 88, 306 94, 306 103, 309 121, 311 131, 311 135, 311 137, 311 133, 312 126, 312 121, 314 116, 316 110, 316 107, 318 103, 319 99, 319 97, 321 95, 323 95, 325 94, 325 92, 328 92, 332 92, 333 92, 339 92, 339 95, 342 97, 342 99, 344 104, 347 110, 347 116, 349 121, 349 126, 349 131, 351 142, 351 145, 351 149, 351 151, 351 154, 351 156
+</trace>
+<trace id="209">
+400 126, 404 126, 407 126, 409 126, 416 126, 418 126, 423 125, 426 125, 428 125, 432 125, 437 125, 440 125, 442 125, 444 125, 447 125
+</trace>
+<trace id="210">
+416 85, 416 87, 418 88, 419 94, 419 95, 419 102, 421 108, 421 109, 421 115, 421 118, 421 126, 421 131, 421 138, 421 140, 423 142
+</trace>
+<trace id="211">
+482 122, 483 120, 485 116, 490 106, 497 85, 501 76, 506 60, 510 50, 513 36, 515 31, 515 25, 520 13, 520 10, 520 11, 522 17, 522 22, 522 25, 522 31, 522 38, 522 48, 522 57, 524 67, 525 78, 527 88, 527 97, 529 108, 531 115, 532 125, 532 132, 534 141, 536 146, 536 150, 536 153, 536 156
+</trace>
+<traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="107"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="208"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="209"/>
+		<traceView traceDataRef="210"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="211"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sigma^{2}_{i}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+465 70, 471 61, 471 50, 469 38, 469 29, 467 18, 463 11, 454 6, 442 2, 423 4, 400 9, 370 18, 334 31, 292 45, 246 64, 198 86, 153 108, 112 130, 74 149, 45 167, 21 183, 8 199, 2 211, 6 220, 14 229, 30 238, 50 245, 76 250, 107 254, 138 256, 170 256, 202 252, 230 247, 255 238, 274 229, 286 216, 295 202, 295 185, 292 172, 285 158, 273 148, 257 137, 237 130, 220 128, 197 128, 177 134, 163 141, 145 146
+</trace>
+<trace id="1">
+565 220, 565 220, 559 207, 558 207, 547 220, 548 252, 552 256, 571 256, 582 249, 584 246
+</trace>
+<trace id="2">
+572 177, 572 177, 572 182, 573 181, 578 171
+</trace>
+<trace id="3">
+531 246, 531 246, 531 245, 532 244, 547 227, 554 213, 553 213
+</trace>
+<trace id="4">
+531 8, 531 4, 533 3, 537 2, 550 4, 565 9, 577 13, 584 18, 585 27, 580 39, 567 50, 558 66, 552 72, 554 77, 560 82, 572 83, 586 84, 602 85, 611 85, 614 85, 608 86
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\sigma</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">v</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\prime</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

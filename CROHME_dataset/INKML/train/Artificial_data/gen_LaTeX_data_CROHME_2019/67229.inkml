@@ -1,0 +1,38 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\lambda>x</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+4 3, 18 11, 24 14, 31 21, 35 28, 62 80, 66 91, 70 105, 81 174, 81 184, 81 194, 79 232, 77 237, 76 250
+</trace>
+<trace id="1">
+66 74, 58 79, 51 83, 44 90, 38 97, 9 157, 7 168, 4 190, 3 227, 3 232, 3 237, 4 241, 13 256
+</trace>
+<trace id="2">
+157 68, 246 121, 282 160, 266 173, 203 210, 144 256
+</trace>
+<trace id="3">
+552 5, 528 29, 515 46, 501 69, 481 93, 396 208, 389 218, 386 225, 382 184
+</trace>
+<trace id="4">
+345 5, 379 42, 389 56, 464 144, 470 161, 481 178, 528 252, 528 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\lambda</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\geq</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

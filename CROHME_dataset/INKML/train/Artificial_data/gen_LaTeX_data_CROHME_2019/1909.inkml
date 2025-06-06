@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">e_{ji}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+2 256, 2 253, 8 250, 14 238, 26 226, 52 203, 66 183, 72 154, 75 125, 84 104, 84 87, 81 75, 72 72, 69 84, 58 122, 61 177, 52 215, 66 232, 96 238, 128 232, 154 212, 171 186, 183 145, 186 113, 183 64, 171 34, 142 8, 110 2, 75 20, 49 61, 26 119, 20 165, 29 197, 52 221, 87 235, 145 238, 177 229, 206 224, 232 215, 261 192, 285 180, 296 162, 311 136, 322 119, 337 101, 346 75, 360 43, 372 29, 389 17, 410 11, 424 17, 442 37, 450 61, 459 90, 465 116, 468 136, 459 142, 453 154, 436 162, 404 174, 366 183, 322 189, 285 197, 276 194
+</trace>
+<trace id="1">
+539 175, 537 173, 536 173, 536 173, 536 173, 537 172, 540 172, 543 172, 549 172, 551 171, 553 171, 555 172
+</trace>
+<trace id="2">
+554 207, 554 211, 554 215, 556 222, 557 223, 557 226, 558 229, 558 233, 557 237, 556 241, 553 245, 550 249, 546 253, 540 255, 531 256, 528 254
+</trace>
+<trace id="3">
+590 171, 590 171, 590 171, 590 171, 590 171, 590 171, 590 173, 592 173, 593 175, 595 176, 597 178
+</trace>
+<trace id="4">
+585 245, 581 252, 580 254, 580 256, 578 256, 578 256, 580 254, 581 252, 583 249, 585 244, 587 239, 590 232, 592 225, 595 218, 597 213, 598 210, 598 208, 598 210, 598 210, 597 212, 597 215, 595 220, 595 225, 595 230, 597 234, 597 239, 600 242, 603 244, 607 245, 610 244
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

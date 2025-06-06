@@ -1,0 +1,49 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">P_{a}(x)</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+53 26, 53 48, 53 71, 48 98, 39 165, 44 256
+</trace>
+<trace id="1">
+8 26, 21 12, 35 8, 48 3, 62 8, 75 17, 84 30, 89 44, 89 62, 84 75, 71 89, 35 107, 21 111, 8 111, 3 111
+</trace>
+<trace id="2">
+206 184, 209 178, 209 176, 204 171, 195 171, 183 176, 169 188, 156 205, 149 229, 150 247, 157 256, 169 256, 186 246, 208 225, 226 203, 234 185, 234 181, 230 181, 227 185, 226 198, 224 211, 233 228, 244 238, 262 246, 284 243
+</trace>
+<trace id="3">
+406 5, 382 33, 374 52, 363 84, 355 115, 351 142, 347 154, 347 173, 351 201, 359 224, 367 236, 371 248, 374 252, 378 256, 382 256, 386 256, 390 256, 394 256
+</trace>
+<trace id="4">
+474 110, 565 47, 592 47, 619 47, 647 47, 674 47, 701 47, 719 56, 728 65, 746 74, 756 83, 765 92, 774 101, 774 110, 774 119, 774 128, 765 138, 756 156, 746 165, 737 174, 719 183, 692 192, 674 192, 647 201, 629 201, 610 201, 601 201
+</trace>
+<trace id="5">
+937 11, 819 65, 801 74, 783 92, 765 110, 756 119, 746 138, 737 156, 737 174, 737 192, 737 210, 746 228, 765 237, 783 256, 801 256
+</trace>
+<trace id="6">
+1048 5, 1052 5, 1052 9, 1074 24, 1085 35, 1089 42, 1092 53, 1096 68, 1100 79, 1100 97, 1085 145, 1077 163, 1066 178, 1059 193, 1048 208, 1037 219, 1030 226, 1022 237, 1015 241, 1008 248, 1004 252, 1000 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">P</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

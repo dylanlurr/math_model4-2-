@@ -1,0 +1,91 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\frac{2(n+\alpha)}{n+1}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+14 6, 27 3, 32 3, 37 4, 40 4, 45 4, 48 4, 51 6, 55 6, 56 8, 58 9, 58 13, 60 14, 60 17, 61 19, 61 21, 60 24, 58 27, 56 30, 55 34, 50 37, 45 42, 40 45, 35 50, 30 55, 27 60, 22 63, 19 68, 16 71, 14 73, 12 74, 11 76, 11 78, 12 79, 16 79, 17 81, 22 82, 25 82, 30 82, 37 82, 42 81, 48 81, 51 81, 56 79, 60 79, 64 78, 68 78
+</trace>
+<trace id="1">
+100 2, 98 1, 97 2, 95 4, 93 8, 92 13, 90 20, 88 28, 87 37, 87 46, 87 55, 88 63, 90 70, 92 76, 95 80, 99 82
+</trace>
+<trace id="2">
+121 64, 137 34, 142 29, 149 22, 154 15, 158 10, 161 8, 165 6, 168 3, 172 3, 175 3, 179 8, 182 10, 184 15, 186 22, 189 29, 189 36, 191 45, 191 52, 191 59, 191 66, 191 73, 193 78, 193 82
+</trace>
+<trace id="3">
+230 13, 230 6, 233 1, 232 4, 230 14, 227 32, 224 51, 221 69, 223 78, 226 81, 227 82, 232 82, 240 81
+</trace>
+<trace id="4">
+282 68, 279 65, 273 60, 263 56, 246 56, 236 53, 223 53, 217 57, 212 60
+</trace>
+<trace id="5">
+331 42, 331 45, 331 49, 329 54, 327 61, 324 67, 321 72, 318 77, 315 80, 312 82, 309 82, 307 82, 304 82, 302 79, 301 77, 301 74, 301 71, 303 68, 306 67, 308 66, 312 65, 314 65, 317 67, 320 70, 322 73, 325 76, 327 79, 330 79, 334 79, 337 77
+</trace>
+<trace id="6">
+363 5, 363 5, 363 5, 360 3, 360 3, 358 3, 358 3, 358 3, 358 3, 360 5, 367 7, 369 12, 373 14, 388 41, 385 68, 379 82
+</trace>
+<trace id="7">
+1 102, 1 107, 1 116, 14 128, 34 138, 71 150, 120 152, 185 147, 259 141, 312 141, 356 142, 385 147, 393 150, 397 152, 397 152, 393 152, 385 155, 385 155, 385 155, 385 155, 385 155, 385 155, 385 155
+</trace>
+<trace id="8">
+37 203
+</trace>
+<trace id="9">
+37 203, 33 198, 37 198, 42 198, 47 193, 52 193, 56 189, 61 193, 61 198, 61 203, 61 208, 61 212, 61 222, 61 227, 56 232, 56 241, 56 246, 52 246, 52 251, 52 256, 52 251, 52 246, 56 241, 56 236, 56 232, 56 227, 56 222, 61 217, 61 212, 61 208, 66 203, 71 198, 71 193, 76 189, 76 184, 80 184, 85 179, 90 179, 95 179, 95 184, 100 184, 100 189, 100 193, 100 198, 100 203, 100 208, 100 217, 100 222, 100 227, 104 232, 104 236, 104 241, 109 241, 109 246, 114 246, 119 246, 128 241, 133 241, 143 236, 152 236
+</trace>
+<trace id="10">
+222 184, 223 177, 225 176, 223 174, 222 176, 222 177, 220 183, 219 194, 216 211, 215 233, 211 250, 209 256
+</trace>
+<trace id="11">
+171 211, 173 208, 174 208, 174 206, 175 206, 180 206, 192 208, 216 211, 241 208, 265 208
+</trace>
+<trace id="12">
+285 236, 285 236, 285 239, 287 239, 288 239, 292 236, 319 220, 370 175, 340 248, 340 252, 339 253, 340 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="105">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+	<traceGroup xml:id="106">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="8"/>
+	</traceGroup>
+	<traceGroup xml:id="107">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="9"/>
+	</traceGroup>
+	<traceGroup xml:id="108">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="10"/>
+	</traceGroup>
+	<traceGroup xml:id="109">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="12"/>
+		<traceView traceDataRef="11"/>
+	</traceGroup>
+</traceGroup>
+</ink>

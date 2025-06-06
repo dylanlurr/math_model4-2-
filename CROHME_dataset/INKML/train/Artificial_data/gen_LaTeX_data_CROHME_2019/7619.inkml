@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">d_{p}\neq\infty</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+37 156, 41 148, 47 144, 48 140, 50 135, 51 131, 50 128, 50 126, 47 125, 43 126, 38 128, 32 132, 25 137, 19 145, 13 153, 8 163, 4 172, 3 182, 4 190, 6 197, 11 202, 18 205, 25 206, 33 204, 42 199, 49 193, 57 184, 63 173, 68 160, 71 145, 74 128, 75 110, 75 91, 74 71, 73 53, 72 37, 72 23, 71 13, 72 6, 73 3, 74 3, 76 8, 77 16, 80 27, 81 41, 84 58, 86 76, 90 94, 92 113, 96 132, 99 149, 102 165, 107 179, 110 191, 114 202, 117 210, 121 217, 124 219, 126 219, 130 218, 132 215
+</trace>
+<trace id="1">
+186 196, 186 196, 186 199, 187 203, 188 212, 189 224, 189 238, 188 249, 186 255, 186 256, 186 253, 185 248, 184 240, 184 229, 186 215, 190 202, 196 191, 205 186, 215 183, 219 184, 218 189, 213 198, 205 206, 197 210, 192 209
+</trace>
+<trace id="2">
+272 52, 282 54, 293 54, 301 54, 308 54, 318 52, 352 52, 359 52, 366 52, 369 52, 371 52
+</trace>
+<trace id="3">
+276 119, 334 114, 342 114, 356 114, 380 114, 385 114, 390 114, 393 112
+</trace>
+<trace id="4">
+339 3, 339 35, 339 51, 339 69, 339 86, 339 98, 339 175, 337 185, 335 207, 334 219
+</trace>
+<trace id="5">
+656 74, 632 135, 626 147, 608 159, 596 171, 584 183, 566 189, 541 195, 523 201, 505 201, 487 201, 475 201, 463 189, 456 177, 450 159, 450 141, 456 122, 463 110, 475 98, 487 92, 499 86, 511 86, 523 86, 541 92, 553 104, 566 116, 578 128, 596 141, 614 159, 626 171, 644 183, 656 195, 675 207, 693 213, 711 219, 735 219, 760 219, 778 219, 802 207, 820 201, 838 183, 857 171, 875 159, 881 147, 887 128, 893 116, 887 104, 881 92, 875 86, 857 74, 844 68, 826 62, 802 68, 772 68, 741 80, 711 86, 705 92
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">d</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">p</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\neq</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

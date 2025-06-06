@@ -1,0 +1,39 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">x !</annotation>
+<annotation type="UI">127_hirata</annotation>
+<trace id="1">
+65 14
+</trace>
+<trace id="2">
+65 14, 66 10, 67 10, 68 10, 68 11, 68 12, 69 13, 69 15, 69 17, 70 20, 70 23, 70 27, 70 31, 70 35, 71 39, 71 43, 71 47, 71 50, 71 53, 72 56, 73 58, 73 60, 73 62, 73 64, 73 65, 73 66, 73 68, 73 69, 73 70, 73 71
+</trace>
+<trace id="3">
+72 84
+</trace>
+<trace id="4">
+72 84, 72 85, 72 86, 73 87
+</trace>
+<trace id="105">
+10 60, 10 57, 10 53, 11 50, 13 47, 14 45, 17 43, 18 43, 21 43, 23 45, 27 49, 29 53, 31 59, 34 65, 36 69, 38 71, 41 74, 43 75, 47 75, 48 71
+</trace>
+<trace id="106">
+49 40, 47 38, 45 38, 42 43, 36 51, 30 58, 24 65, 20 71, 19 74, 19 76
+</trace>
+<traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="106"/>
+		<traceView traceDataRef="105"/>
+	</traceGroup>
+</traceGroup>
+</ink>

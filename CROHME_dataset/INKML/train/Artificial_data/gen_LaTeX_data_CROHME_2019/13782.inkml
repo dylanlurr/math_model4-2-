@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\theta_{b}, \theta_{c}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+76 8, 76 12, 30 112, 26 143, 30 157, 30 170, 39 193, 48 202, 57 215, 66 224, 76 229, 85 238, 94 242, 107 247, 116 247, 125 251, 139 251, 157 247, 166 242, 175 238, 184 233, 188 229, 197 220, 202 211, 211 202, 215 193, 220 179, 220 170, 224 157, 224 143, 229 130, 229 116, 224 103, 224 94, 220 80, 215 66, 211 57, 202 44, 193 35, 184 26, 170 17, 157 12, 143 8, 130 3, 116 3, 103 8, 94 12, 80 17, 76 26, 66 35, 62 48
+</trace>
+<trace id="1">
+17 130, 3 130, 148 125, 170 125, 184 125, 188 125, 197 125, 202 125, 206 130, 211 125, 215 125, 211 125, 211 121
+</trace>
+<trace id="2">
+287 233, 288 232, 292 231, 297 229, 303 224, 308 218, 312 209, 315 198, 314 186, 311 174, 307 171, 304 169, 301 169, 297 170, 294 178, 290 187, 289 200, 289 213, 290 226, 293 238, 298 248, 302 251, 306 251, 313 250, 318 244, 322 238, 327 233, 330 228, 331 223, 332 222, 332 223, 331 223, 332 223, 335 223, 339 222, 344 220
+</trace>
+<trace id="3">
+420 226, 419 228, 418 233, 415 240, 411 248, 405 253, 402 256
+</trace>
+<trace id="4">
+571 34, 565 22, 559 22, 523 40, 486 106, 480 124, 480 142, 480 155, 486 173, 492 191, 504 203, 510 215, 523 227, 541 233, 553 239, 571 245, 583 251, 601 251, 613 245, 625 245, 637 239, 643 227, 656 215, 662 197, 662 179, 668 161, 674 136, 674 112, 668 88, 668 70, 662 52, 656 34, 643 22, 637 9, 625 3, 613 3, 595 3, 583 9, 571 16, 559 22, 553 34, 541 40, 535 52, 529 58, 523 70, 523 76, 523 88, 523 94
+</trace>
+<trace id="5">
+510 118, 504 118, 498 118, 504 118, 668 118, 668 124
+</trace>
+<trace id="6">
+763 171, 745 169, 740 171, 737 176, 737 182, 735 187, 735 189, 735 194, 735 197, 735 202, 732 207, 735 210, 735 215, 732 218, 735 223, 735 228, 740 231, 743 236, 745 238, 750 241, 753 246, 758 246, 763 249, 768 249, 774 251, 781 251, 786 251, 794 249, 799 249, 805 249, 807 249, 810 249, 812 246, 815 246
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

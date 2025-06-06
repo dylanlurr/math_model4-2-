@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">z\neq 0</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+4 49, 2 42, 4 38, 16 33, 26 26, 39 21, 56 14, 74 9, 94 7, 112 5, 129 2, 143 7, 155 12, 164 18, 168 26, 168 38, 167 49, 162 64, 152 77, 141 91, 126 110, 112 129, 96 147, 82 169, 65 188, 51 206, 39 223, 33 235, 26 246, 23 253, 23 256, 30 256, 38 253, 47 251, 58 249, 77 246, 96 244, 120 244, 145 241, 168 244, 194 244, 218 246, 239 246, 256 246, 267 249, 274 246, 281 249, 281 246, 279 241, 276 241, 270 240
+</trace>
+<trace id="1">
+35 155, 42 162, 47 159, 56 162, 73 164, 86 164, 105 167, 126 167, 150 167, 168 157, 194 152
+</trace>
+<trace id="2">
+494 64, 494 64, 494 62, 490 64, 485 64, 459 68, 437 73, 413 82, 389 90, 370 95, 359 99, 359 101
+</trace>
+<trace id="3">
+461 152, 461 152, 457 154, 442 156, 424 160, 398 163, 380 171, 361 180, 345 186, 341 186
+</trace>
+<trace id="4">
+474 1, 474 1, 475 1, 475 5, 472 13, 464 27, 446 62, 431 112, 407 163, 381 208, 369 237, 359 252, 358 256, 369 250
+</trace>
+<trace id="5">
+733 44, 733 33, 680 12, 649 12, 617 23, 596 44, 585 65, 574 86, 564 139, 585 203, 596 224, 617 234, 638 245, 659 256, 680 245, 691 234, 723 192, 744 171, 744 150, 754 118, 754 86, 754 65, 744 44, 723 33, 701 23, 691 12
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\Delta</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

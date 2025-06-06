@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">y=u^{2}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+5 104, 5 104, 5 104, 7 98, 8 98, 7 104, 8 110, 9 122, 12 137, 19 145, 26 154, 36 154, 60 152, 79 148, 84 144, 89 137, 91 120, 93 100, 93 87, 91 87, 91 86, 91 89, 91 97, 91 111, 90 141, 91 162, 93 182, 94 202, 91 217, 87 229, 80 237, 69 244, 48 253, 31 256, 25 253, 15 247, 5 243, 1 241
+</trace>
+<trace id="1">
+150 90, 159 90, 161 90, 167 90, 169 90, 173 90, 177 90, 181 90, 185 90, 191 88, 193 88, 194 88, 196 88, 198 88, 200 88
+</trace>
+<trace id="2">
+136 117, 146 117, 150 117, 152 117, 155 117, 159 117, 161 115, 163 115, 167 115, 169 115, 171 115, 173 115, 175 115, 177 113
+</trace>
+<trace id="3">
+242 166, 269 104, 273 87, 273 69, 277 56, 277 43, 277 34, 277 20, 277 16, 273 7, 273 3, 273 12, 273 20, 273 38, 273 51, 277 69, 282 87, 282 100, 291 118, 300 131, 304 144, 313 153, 317 157, 322 166, 330 171, 339 171, 344 171, 352 166, 357 157, 361 149, 366 135, 366 122, 370 104, 370 91, 370 73, 370 60, 370 47, 370 34, 366 25, 366 20, 366 12, 361 7, 361 3, 361 7, 361 16, 361 25, 361 43, 361 56, 357 69, 361 87, 361 100, 366 113, 370 122, 375 135, 383 144, 392 149, 401 153, 410 157, 414 157
+</trace>
+<trace id="4">
+512 27, 503 30, 494 34, 488 35, 483 32, 481 27, 482 20, 485 11, 490 6, 496 3, 500 2, 505 4, 508 8, 510 17, 509 28, 503 37, 496 48, 488 56, 478 66, 469 72, 460 74, 455 74, 454 73, 456 73, 458 73, 465 77, 471 81, 478 84, 486 86, 493 86, 502 83, 510 81, 515 79, 519 77
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">u</annotation>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

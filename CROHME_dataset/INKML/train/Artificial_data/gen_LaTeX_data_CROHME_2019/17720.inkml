@@ -1,0 +1,63 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\sin\left(a-b\right)</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+128 60, 128 50, 109 31, 89 21, 70 21, 50 21, 50 11, 50 21, 21 31, 11 60, 41 80, 60 89, 80 89, 138 99, 148 99, 168 109, 187 109, 197 109, 207 119, 226 138, 236 138, 236 168, 246 158, 246 168, 226 197, 197 226, 177 236, 168 246, 148 246, 128 256, 109 256, 89 256, 80 256, 60 256, 50 256
+</trace>
+<trace id="1">
+343 148, 343 158, 343 177, 343 187, 334 216, 334 236
+</trace>
+<trace id="2">
+353 70
+</trace>
+<trace id="3">
+539 226, 539 216, 529 197, 529 168, 558 109, 568 99, 578 80, 607 60, 617 50, 637 41, 627 41, 637 41, 656 41, 666 41, 676 60, 685 60, 685 70, 685 99, 685 119, 685 138, 676 148, 685 138, 676 148, 676 177, 666 177, 676 187
+</trace>
+<trace id="4">
+822 2, 817 4, 813 6, 806 13, 797 26, 774 46, 760 80, 755 117, 746 148, 751 184, 758 211, 775 237, 797 256
+</trace>
+<trace id="5">
+980 144, 980 144, 980 144, 980 144, 967 130, 967 130, 952 130, 952 130, 939 130, 924 130, 911 144, 896 158, 896 172, 883 200, 883 214, 883 228, 883 242, 896 256, 896 256, 911 256, 924 242, 952 228, 967 214, 980 200, 995 186, 1008 172, 1008 172, 1008 186, 1023 186, 1023 200, 1036 214, 1049 228, 1077 228, 1092 242, 1120 228, 1147 228
+</trace>
+<trace id="6">
+1209 158, 1226 155, 1252 152, 1274 146, 1291 141, 1299 135, 1305 135, 1305 132
+</trace>
+<trace id="7">
+1364 3, 1372 14, 1397 50, 1421 98, 1440 161, 1435 212, 1429 245, 1429 256, 1432 242, 1432 215, 1448 193, 1462 177, 1489 174, 1516 180, 1532 201, 1537 218, 1529 237, 1510 250, 1489 256, 1462 256, 1429 247, 1410 234
+</trace>
+<trace id="8">
+1600 3, 1610 9, 1615 16, 1621 28, 1628 44, 1634 63, 1639 84, 1641 107, 1641 131, 1637 154, 1632 177, 1626 197, 1618 214, 1611 228, 1605 238, 1601 247, 1597 253, 1597 256, 1600 253, 1603 249
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="3"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="7"/>
+	</traceGroup>
+	<traceGroup xml:id="105">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="8"/>
+	</traceGroup>
+</traceGroup>
+</ink>

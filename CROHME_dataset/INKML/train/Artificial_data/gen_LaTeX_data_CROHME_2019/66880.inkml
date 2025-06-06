@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">u_{\lambda,i}</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+11 19, 11 11, 11 3, 11 11, 3 112, 3 121, 11 137, 11 146, 11 163, 19 180, 19 188, 28 196, 28 205, 36 213, 45 222, 53 230, 62 239, 70 247, 78 247, 87 256, 95 256, 104 256, 112 256, 121 256, 129 256, 137 256, 154 247, 163 239, 171 230, 180 222, 188 213, 196 205, 205 196, 205 180, 213 163, 213 154, 213 137, 213 129, 213 121, 213 104, 213 95, 213 87, 205 78, 205 70, 205 62, 205 53, 196 45, 196 36
+</trace>
+<trace id="1">
+322 207, 321 209, 319 210, 318 211, 317 213, 315 215, 314 218, 312 221, 309 225, 305 230, 301 235, 296 239, 291 244, 286 247, 282 250, 279 253, 276 254, 275 254, 274 253, 273 250, 274 247
+</trace>
+<trace id="2">
+275 177, 274 174, 274 172, 275 172, 276 171, 279 172, 282 172, 286 172, 291 173, 295 176, 301 179, 307 183, 313 187, 319 192, 323 197, 328 204, 331 209, 335 215, 336 220, 338 226, 339 230, 340 235, 340 238, 340 241, 340 243, 340 245, 340 245, 339 244, 339 243, 337 240, 336 236, 335 233, 334 228
+</trace>
+<trace id="3">
+362 246, 363 251, 362 252, 362 253, 361 255, 360 256
+</trace>
+<trace id="4">
+386 203, 386 207, 394 226, 394 234, 398 242, 398 246, 398 254
+</trace>
+<trace id="5">
+390 175, 394 175
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">u</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

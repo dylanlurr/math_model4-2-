@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">r_{0}=\infty</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+4 49, 4 42, 8 52, 8 82, 11 110, 18 154, 21 191, 25 222, 28 245, 32 252, 32 256, 32 252, 28 252, 25 228, 21 208, 18 171, 15 127, 18 89, 25 65, 42 38, 65 18, 82 4, 113 11, 133 25, 150 55, 167 76, 181 99, 188 116, 188 127, 191 130, 191 127
+</trace>
+<trace id="1">
+264 171, 268 171, 266 176, 264 185, 260 196, 257 207, 255 220, 253 231, 255 242, 257 249, 262 253, 268 256, 275 253, 282 251, 288 244, 295 238, 302 231, 306 222, 308 213, 308 205, 306 196, 302 189, 295 183, 286 178, 280 176, 271 178, 262 180, 255 185, 251 189
+</trace>
+<trace id="2">
+372 134, 372 134, 373 134, 378 132, 391 132, 409 130, 425 128, 435 131, 444 137
+</trace>
+<trace id="3">
+368 171, 368 171, 379 170, 392 167, 418 169, 443 168, 467 169
+</trace>
+<trace id="4">
+541 256, 534 256, 534 248, 534 185, 534 171, 548 136, 569 114, 583 100, 590 93, 611 79, 625 72, 632 72, 647 72, 654 79, 661 93, 682 136, 689 143, 689 150, 703 206, 710 213, 710 220, 724 234, 724 241, 731 241, 738 241, 759 241, 766 241, 781 241, 781 234, 788 234, 802 220, 809 213, 816 199, 823 185, 823 171, 823 164, 816 150, 809 143, 802 128, 795 128, 788 121, 774 114, 745 107, 731 107, 724 114, 710 136, 703 136, 696 150, 696 157, 689 157, 668 178, 661 178, 654 185, 639 192, 632 192, 625 192, 625 199, 618 199, 604 206, 597 213, 590 220, 569 227, 562 227, 555 234, 548 234, 541 234
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

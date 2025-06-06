@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">z (t)</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+74 14, 74 14, 74 14, 74 14, 74 14, 74 14, 74 14, 86 14, 86 14, 98 14, 110 14, 122 26, 147 26, 159 26, 171 38, 183 50, 159 98, 135 135, 86 159, 50 195, 26 219, 26 231, 26 243, 50 256, 98 256, 147 231, 195 219, 219 219, 243 207
+</trace>
+<trace id="1">
+26 110, 26 110, 26 110, 14 110, 14 98, 14 98, 14 98, 14 98, 26 98, 38 98, 62 98, 86 98, 122 98, 159 98, 231 98, 280 110
+</trace>
+<trace id="2">
+380 4, 369 22, 364 31, 362 38, 360 51, 357 65, 353 83, 351 101, 348 122, 344 142, 341 165, 341 183, 341 201, 341 215, 344 226, 346 235, 346 242, 346 246, 348 251, 348 253, 348 256
+</trace>
+<trace id="3">
+513 13, 519 7, 496 188, 496 199, 502 210, 513 222, 519 233, 530 239, 536 244, 547 250, 558 250, 564 256, 575 256, 581 250, 592 250, 598 244, 603 239, 603 233, 609 227
+</trace>
+<trace id="4">
+451 131, 445 126, 552 109, 575 109, 586 109, 586 103, 592 109, 598 109, 603 109
+</trace>
+<trace id="5">
+671 5, 684 35, 687 41, 693 50, 699 59, 702 71, 705 80, 708 92, 714 101, 714 110, 717 122, 720 132, 720 144, 723 153, 723 162, 723 174, 723 183, 726 192, 726 204, 726 210, 726 219, 726 225, 723 231, 723 237, 720 243, 720 246, 720 252, 717 252, 717 256, 717 252
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

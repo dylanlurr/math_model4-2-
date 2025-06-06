@@ -1,0 +1,68 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">p = i \in I</annotation>
+<annotation type="UI">90_leo</annotation>
+<trace id="1">
+110 68, 110 68, 140 68, 141 68, 142 68, 142 67, 141 67, 140 67
+</trace>
+<trace id="2">
+110 56, 109 55, 121 54, 128 54, 130 54, 136 55, 137 56, 138 56
+</trace>
+<trace id="109">
+24 18, 25 39, 25 46, 25 54, 24 63, 24 72, 24 79, 24 87, 25 95, 25 100, 25 105, 25 109, 25 111, 25 114, 25 116, 25 118
+</trace>
+<trace id="110">
+10 20, 23 12, 27 11, 30 10, 36 10, 41 10, 47 10, 52 11, 57 12, 63 14, 66 15, 70 16, 74 18, 77 20, 79 23, 81 24, 81 25, 81 27, 81 28, 79 29, 77 30, 74 32, 70 33, 66 34, 61 37, 55 38, 48 39, 43 41, 38 42, 33 42, 29 43, 25 43, 21 43, 19 45
+</trace>
+<trace id="211">
+190 67, 188 83, 189 85, 189 86, 190 88, 191 89, 193 91, 195 92, 196 92, 198 92, 199 91, 202 90
+</trace>
+<trace id="212">
+193 44
+</trace>
+<trace id="213">
+300 50, 284 49, 280 51, 276 53, 272 56, 269 59, 266 62, 264 65, 263 68, 262 71, 262 75, 263 79, 263 82, 265 84, 268 87, 272 89, 275 90, 279 91, 283 91, 287 91, 291 90, 296 90, 299 89, 299 88
+</trace>
+<trace id="214">
+254 78, 284 71, 289 71, 295 71, 296 71
+</trace>
+<trace id="215">
+387 40, 387 60, 387 65, 387 69, 387 74, 387 79, 387 81
+</trace>
+<trace id="216">
+368 96, 376 97, 379 96, 382 96, 384 96, 386 95, 386 94
+</trace>
+<trace id="217">
+359 45, 384 45, 389 45, 394 45, 396 45
+</trace>
+<traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">p</annotation>
+		<traceView traceDataRef="109"/>
+		<traceView traceDataRef="110"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="212"/>
+		<traceView traceDataRef="211"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">\in</annotation>
+		<traceView traceDataRef="213"/>
+		<traceView traceDataRef="214"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">I</annotation>
+		<traceView traceDataRef="217"/>
+		<traceView traceDataRef="216"/>
+		<traceView traceDataRef="215"/>
+	</traceGroup>
+</traceGroup>
+</ink>

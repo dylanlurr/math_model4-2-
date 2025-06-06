@@ -1,0 +1,38 @@
+# IUD, Formula00_5104_tru_norm
+# Objects(10):
+O, A_2, A, 1.0, O
+O, \rightarrow_3, \rightarrow, 1.0, OR
+O, a_4, a, 1.0, ORR
+O, A_6, A, 1.0, ORRR
+O, 1_7, 1, 1.0, ORRRSub
+O, A_9, A, 1.0, ORRRR
+O, 2_10, 2, 1.0, ORRRRSub
+O, \ldots_11, \ldots, 1.0, ORRRRR
+O, A_13, A, 1.0, ORRRRRR
+O, n_14, n, 1.0, ORRRRRRSub
+
+
+# Relations from SRT:
+R, A_13, n_14, Sub, 1.0
+R, A_2, \rightarrow_3, Right, 1.0
+R, A_6, 1_7, Sub, 1.0
+R, A_6, A_9, Right, 1.0
+R, A_9, 2_10, Sub, 1.0
+R, A_9, \ldots_11, Right, 1.0
+R, \ldots_11, A_13, Right, 1.0
+R, \rightarrow_3, a_4, Right, 1.0
+R, a_4, A_6, Right, 1.0
+
+# Bounding boxes
+BB, A_2, 15.7802, 147.5055, 108.0879, 12.3407
+BB, \rightarrow_3, 156.4396, 45.3077, 275.1209, 142.0110
+BB, a_4, 291.6044, 134.3187, 364.1319, 49.7033
+BB, A_6, 369.6264, 137.6154, 447.6484, 25.5275
+BB, 1_7, 479.5165, 131.0220, 498.1978, 83.7692
+BB, A_9, 606.9890, 20.0330, 520.1758, 147.5055
+BB, 2_10, 635.5604, 142.0110, 678.4176, 81.5714
+BB, \ldots_11, 714.6813, 82.6703, 810.2857, 109.0440
+BB, A_13, 947.6484, 20.0330, 846.5495, 155.1978
+BB, n_14, 964.1319, 153.0000, 1026.7692, 96.9560
+
+# LaTeX, $A \rightarrow a A _ { 1 } A _ { 2 } \ldots A _ { n }$

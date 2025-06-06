@@ -1,0 +1,38 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">7\times 6</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+60 128, 54 81, 49 76, 39 70, 33 70, 28 65, 23 65, 17 65, 12 65, 12 60, 7 60, 7 54, 7 49, 7 44, 12 33, 12 28, 17 23, 23 23, 33 17, 39 17, 44 12, 49 12, 54 12, 60 12, 65 7, 76 7, 81 7, 91 7, 97 7, 102 7, 107 7, 113 12, 118 17, 123 17, 123 23, 128 28, 134 39, 134 49, 139 60, 139 70, 139 86, 144 97, 144 113, 144 128, 144 150, 144 160, 144 176, 144 197, 144 208, 150 218, 150 229, 150 240, 150 245, 150 250, 150 256, 155 250, 155 245, 155 240, 155 234, 155 229, 155 224
+</trace>
+<trace id="1">
+118 181, 139 187, 150 187, 155 181, 160 181, 166 181, 171 181, 171 187, 171 181, 166 181
+</trace>
+<trace id="2">
+398 1, 388 17, 370 51, 342 76, 314 119, 280 163, 255 187, 240 194, 230 197
+</trace>
+<trace id="3">
+230 51, 246 70, 261 98, 289 138, 311 178, 336 218, 360 243, 379 256, 398 256
+</trace>
+<trace id="4">
+573 1, 554 9, 530 28, 508 67, 489 108, 481 161, 481 200, 486 229, 498 243, 518 251, 544 256, 576 248, 595 236, 605 224, 600 193, 590 164, 573 151, 544 149, 503 154, 457 166
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">7</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">6</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

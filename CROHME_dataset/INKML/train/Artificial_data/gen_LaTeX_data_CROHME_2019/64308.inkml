@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">s(N-2)</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+123 43, 111 9, 96 1, 70 5, 39 17, 13 47, 1 85, 9 123, 39 146, 123 161, 202 168, 221 176, 214 195, 187 214, 138 233, 70 248, 17 256
+</trace>
+<trace id="1">
+327 9, 327 5, 284 160, 291 213, 295 238, 306 256, 309 252
+</trace>
+<trace id="2">
+445 21, 445 60, 438 80, 438 106, 438 125, 432 145, 425 164, 425 184, 412 203, 412 216, 406 229, 399 242, 399 249, 393 256
+</trace>
+<trace id="3">
+445 41, 458 60, 477 99, 477 119, 484 138, 484 158, 484 171, 490 197, 497 210, 504 216, 504 229, 504 236, 510 229, 510 223, 530 190, 536 171, 543 158, 543 138, 549 119, 556 99, 556 80, 569 47, 569 28, 569 21, 562 8, 562 15
+</trace>
+<trace id="4">
+628 147, 630 147, 636 145, 645 142, 662 136, 688 132, 712 128, 727 136
+</trace>
+<trace id="5">
+812 78, 812 27, 914 27, 939 52, 838 230, 863 256, 914 230, 965 230, 1041 205, 1092 205, 1092 179, 1117 179
+</trace>
+<trace id="6">
+1177 2, 1182 10, 1189 21, 1196 34, 1201 48, 1206 67, 1210 85, 1213 107, 1214 131, 1213 153, 1211 178, 1208 204, 1202 230, 1196 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">s</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\in</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\{</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="105">
+		<annotation type="truth">,</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>

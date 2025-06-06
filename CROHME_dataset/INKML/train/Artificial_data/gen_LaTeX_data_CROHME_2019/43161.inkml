@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\mu(u,s)</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+1 131, 3 130, 3 128, 3 127, 4 128, 4 129, 5 133, 4 138, 6 146, 5 155, 7 167, 8 179, 10 194, 13 206, 17 218, 21 228, 28 238, 34 244, 44 247, 53 248, 64 246, 76 241, 88 234, 100 225, 112 215, 124 201, 135 187, 144 172, 152 156, 159 142, 165 128, 169 116, 172 106, 175 98, 177 91, 178 87, 180 86, 180 88, 181 93, 181 100, 181 108, 182 120, 183 134, 183 150, 184 166, 185 183, 186 199, 186 212, 186 225, 189 236, 189 243, 190 251, 189 253, 190 256, 191 256, 189 254, 188 253
+</trace>
+<trace id="1">
+275 6, 275 1, 273 1, 268 2, 262 7, 251 12, 240 31, 231 59, 234 106, 246 139, 260 158, 275 166, 281 171, 282 169, 282 158
+</trace>
+<trace id="2">
+322 171, 328 169, 341 162, 366 142, 384 112, 399 89, 404 61, 410 36, 410 21, 410 17, 410 19, 408 28, 406 50, 403 81, 404 107, 410 120, 415 121, 423 114, 437 101, 454 81, 465 59, 474 32, 477 14, 477 5, 477 1, 476 5, 477 14, 476 34, 474 65, 477 98, 487 118, 498 127, 509 129, 525 123
+</trace>
+<trace id="3">
+570 154, 570 154, 571 154, 571 154, 571 155, 572 156, 573 158, 572 161, 572 163, 571 166, 568 170, 565 174
+</trace>
+<trace id="4">
+710 39, 687 9, 681 5, 674 3, 668 3, 661 3, 655 3, 647 5, 640 9, 634 14, 627 20, 623 24, 621 31, 617 37, 617 43, 615 50, 615 54, 617 60, 619 65, 623 67, 630 69, 638 71, 644 73, 653 73, 664 75, 674 75, 685 77, 693 79, 704 82, 710 86, 719 88, 727 92, 734 96, 738 101, 742 107, 744 111, 746 118, 749 126, 749 133, 749 139, 746 145, 744 152, 740 156, 736 160, 732 162, 727 166, 721 169, 717 171, 712 171, 706 171, 702 171, 695 169, 691 166, 687 166, 681 164, 678 164, 674 162, 672 162, 670 162
+</trace>
+<trace id="5">
+801 2, 802 1, 804 2, 804 6, 805 15, 809 34, 813 60, 816 85, 816 114, 812 139, 804 157, 797 167, 788 171
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\mu</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

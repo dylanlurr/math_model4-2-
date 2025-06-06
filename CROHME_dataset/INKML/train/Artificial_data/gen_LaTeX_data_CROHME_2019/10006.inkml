@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\mu\Delta t</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+5 256, 38 211, 49 200, 57 185, 64 174, 71 163, 79 148, 86 137, 90 125, 97 114, 101 107, 105 99, 109 96, 112 92, 112 88, 109 88, 105 92, 101 99, 101 103, 101 111, 97 114, 97 118, 101 122, 101 125, 105 125, 109 125, 112 125, 116 125, 120 122, 124 118, 131 114, 138 107, 142 103, 146 96, 150 92, 153 92, 153 88, 153 92, 150 96, 150 99, 153 107, 153 111, 157 114, 161 114
+</trace>
+<trace id="1">
+253 2, 253 1, 253 2, 253 3, 251 8, 250 15, 245 24, 242 34, 236 46, 231 60, 225 73, 219 86, 214 98, 210 108, 206 117, 204 124, 202 130, 201 133, 202 135, 202 135, 204 134, 206 129, 208 124, 212 116
+</trace>
+<trace id="2">
+238 39, 241 31, 244 25, 247 21, 250 18, 253 18, 257 17, 262 19, 268 21, 274 25, 280 30, 288 35, 295 42, 302 51, 310 59, 317 68, 323 75, 329 81, 334 89, 339 97, 342 103, 345 109, 344 115, 342 121, 337 127, 329 134, 318 139, 306 145, 292 151, 278 155, 264 160, 252 164, 241 167, 231 169, 225 171, 219 171, 218 172, 215 171, 216 170, 218 169, 221 167
+</trace>
+<trace id="3">
+387 130, 438 89, 450 82, 461 75, 473 68, 484 61, 491 56, 500 52, 507 49, 514 45, 519 42, 524 42, 528 40, 530 40
+</trace>
+<trace id="4">
+482 3, 484 52, 484 63, 484 77, 484 89, 484 100, 484 112, 484 121, 484 130, 487 139, 489 146, 491 153, 496 160, 498 165, 503 170, 505 172, 512 172, 519 170, 526 167, 535 163, 544 156, 551 146, 563 139, 570 130, 579 123, 581 119
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\mu</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">M</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">/</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

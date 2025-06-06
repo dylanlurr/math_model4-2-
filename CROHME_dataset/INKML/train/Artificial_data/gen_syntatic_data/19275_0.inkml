@@ -1,0 +1,38 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">r \sin \alpha</annotation>
+<annotation type="UI">65_Frank</annotation>
+<trace id="110">
+30 29, 24 53, 24 54, 24 53, 22 52, 21 49, 20 47, 19 44, 17 40, 16 36, 15 33, 13 27, 12 25, 12 22, 11 20, 11 17, 11 16, 10 15, 10 13, 10 12, 11 11, 12 11, 13 11, 16 11, 19 11, 21 11, 24 11, 27 10, 30 11, 33 11, 36 11, 39 12, 41 13, 45 13, 49 15, 52 15, 53 15
+</trace>
+<trace id="211">
+124 27, 124 29, 124 27, 122 27, 118 23, 118 21, 116 21, 108 23, 104 27, 102 29, 100 31, 100 35, 102 39, 104 41, 110 47, 112 49, 114 49, 116 57, 116 61, 110 65, 106 65, 102 68, 98 68, 95 68
+</trace>
+<trace id="212">
+147 35, 149 35, 149 37, 150 44, 150 48, 150 52, 150 56, 150 58, 150 62, 150 60, 150 62
+</trace>
+<trace id="213">
+174 34, 174 36, 176 38, 176 40, 176 52, 176 58, 178 62, 178 60, 178 62, 178 60, 178 58, 180 44, 180 38, 182 34, 184 30, 186 28, 188 28, 190 28, 190 26, 190 28, 196 32, 200 36, 200 40, 202 44, 202 56, 200 58, 200 56, 200 58
+</trace>
+<trace id="214">
+306 24, 304 24, 302 24, 298 26, 294 28, 294 32, 292 34, 290 38, 286 44, 284 48, 282 52, 280 54, 276 58, 272 60, 274 60, 272 60, 267 62, 263 62, 263 64, 263 62, 261 56, 261 52, 261 52, 263 44, 267 40, 272 40, 274 40, 280 42, 284 44, 290 50, 292 50, 298 54, 300 56, 308 52, 312 50, 314 50
+</trace>
+<traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="110"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="213"/>
+		<traceView traceDataRef="212"/>
+		<traceView traceDataRef="211"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="214"/>
+	</traceGroup>
+</traceGroup>
+</ink>

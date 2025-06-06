@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">\Delta f=0</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+5 232, 46 144, 56 120, 66 100, 79 79, 86 62, 93 49, 100 35, 106 25, 110 15, 113 12, 113 8, 117 5, 120 8, 123 12, 123 18, 127 29, 130 42, 130 59, 134 76, 134 96, 137 120, 137 140, 140 164, 140 184, 144 201, 147 215, 147 225, 151 235, 151 242, 151 245, 151 249, 151 252, 154 256, 151 256, 147 256, 144 252, 137 249, 127 249, 120 245, 106 242, 93 242, 76 239, 62 239, 52 239, 42 239, 32 242, 22 242, 18 242, 12 245
+</trace>
+<trace id="1">
+280 256, 280 253, 280 251, 280 243, 280 235, 280 219, 280 209, 280 199, 280 188, 280 174, 280 160, 280 152, 280 138, 283 125, 283 109, 287 97, 289 87, 293 77, 295 62, 299 54, 301 46, 305 40, 309 30, 311 26, 315 20, 317 16, 319 16, 323 14, 327 8, 333 6, 339 4, 341 4, 343 4, 346 4, 348 4, 350 4, 352 4, 352 6, 354 8, 356 8, 358 10, 358 16, 360 18, 360 26, 362 30, 364 34, 364 38, 364 40, 364 42, 364 46, 364 52, 364 56, 364 58, 364 60
+</trace>
+<trace id="2">
+215 136, 217 136, 220 136, 224 136, 230 136, 240 136, 254 136, 274 136, 289 136, 301 136, 307 136, 309 136, 313 136
+</trace>
+<trace id="3">
+426 131, 428 131, 431 131, 433 131, 436 131, 438 133, 441 133, 446 133, 448 133, 451 133, 456 133, 461 133, 463 133, 466 133, 470 131, 475 131, 480 131, 483 131, 488 131, 498 131, 500 131, 503 131, 505 131, 508 131, 510 131, 513 131, 515 131, 518 131
+</trace>
+<trace id="4">
+433 156, 436 156, 438 156, 441 156, 443 156, 446 156, 448 156, 451 156, 453 156, 458 156, 461 156, 466 156, 470 156, 473 156, 480 156, 483 156, 488 156, 490 156, 493 156, 498 156, 503 156, 505 156, 508 156, 510 156, 513 156, 515 156, 518 156, 520 156, 523 156
+</trace>
+<trace id="5">
+630 128, 639 165, 656 202, 698 233, 754 256, 839 230, 895 202, 912 162, 884 75, 799 7, 706 1, 630 61, 588 143, 582 188
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">\Delta</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="1"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">g</annotation>
+		<traceView traceDataRef="4"/>
+	</traceGroup>
+	<traceGroup xml:id="104">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,49 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat><annotation type="truth">e=\cos\alpha</annotation>
+<annotation type="UI">Nakagawa lab. - synthetic data generation</annotation>
+<trace id="0">
+13 200, 49 152, 53 144, 53 140, 53 136, 53 132, 49 132, 41 136, 37 144, 29 152, 21 160, 17 168, 13 180, 9 188, 5 196, 5 208, 5 216, 5 224, 9 232, 9 240, 17 244, 25 248, 33 252, 41 256, 49 256, 61 256, 73 256, 89 256, 101 256, 113 256, 132 256, 136 256
+</trace>
+<trace id="1">
+295 135, 291 133, 286 132, 279 132, 271 130, 249 130, 237 132, 228 132, 222 133, 216 133, 214 133
+</trace>
+<trace id="2">
+279 160, 277 160, 264 160, 253 160, 241 160, 229 160, 217 160, 208 162, 200 162, 197 162
+</trace>
+<trace id="3">
+412 5, 393 2, 386 5, 377 17, 370 33, 362 56, 358 83, 355 114, 357 145, 362 175, 372 205, 388 223, 409 234, 431 236, 459 226
+</trace>
+<trace id="4">
+511 105, 504 145, 506 164, 515 181, 527 196, 544 202, 564 202, 585 196, 606 184, 624 169, 636 150, 645 133, 645 116, 639 100, 627 91, 610 84, 590 81, 570 81, 552 82, 536 86, 529 92, 529 92, 538 98
+</trace>
+<trace id="5">
+734 28, 707 50, 695 67, 687 86, 683 110, 685 134, 690 158, 699 180, 709 198, 720 212, 728 223, 736 231, 738 237, 735 243, 728 247, 719 250, 706 256, 695 256
+</trace>
+<trace id="6">
+928 2, 928 2, 929 6, 928 21, 923 32, 919 50, 912 67, 904 91, 881 141, 869 166, 859 190, 848 209, 839 225, 830 237, 822 243, 818 245, 813 240, 808 229, 805 213, 803 194, 800 171, 798 148, 798 100, 798 81, 803 54, 806 46, 811 44, 820 56, 829 69, 840 84, 852 103, 867 124, 884 147, 902 170, 921 189, 941 206, 956 220, 968 232, 980 241, 988 248, 992 251, 992 251, 994 256
+</trace>
+<traceGroup>
+	<traceGroup xml:id="100">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+	</traceGroup>
+	<traceGroup xml:id="101">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+	</traceGroup>
+	<traceGroup xml:id="102">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+	</traceGroup>
+	<traceGroup xml:id="103">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="6"/>
+	</traceGroup>
+</traceGroup>
+</ink>
